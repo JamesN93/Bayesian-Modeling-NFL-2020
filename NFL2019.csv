@@ -1,0 +1,268 @@
+schedule_date,team_home,score_home,score_away,team_away,stadium_neutral
+9/5/2019,Chicago Bears,3,10,Green Bay Packers,FALSE
+9/8/2019,Arizona Cardinals,27,27,Detroit Lions,FALSE
+9/8/2019,Carolina Panthers,27,30,Los Angeles Rams,FALSE
+9/8/2019,Cleveland Browns,13,43,Tennessee Titans,FALSE
+9/8/2019,Dallas Cowboys,35,17,New York Giants,FALSE
+9/8/2019,Jacksonville Jaguars,26,40,Kansas City Chiefs,FALSE
+9/8/2019,Los Angeles Chargers,30,24,Indianapolis Colts,FALSE
+9/8/2019,Miami Dolphins,10,59,Baltimore Ravens,FALSE
+9/8/2019,Minnesota Vikings,28,12,Atlanta Falcons,FALSE
+9/8/2019,New England Patriots,33,3,Pittsburgh Steelers,FALSE
+9/8/2019,New York Jets,16,17,Buffalo Bills,FALSE
+9/8/2019,Philadelphia Eagles,32,27,Washington Redskins,FALSE
+9/8/2019,Seattle Seahawks,21,20,Cincinnati Bengals,FALSE
+9/8/2019,Tampa Bay Buccaneers,17,31,San Francisco 49ers,FALSE
+9/9/2019,New Orleans Saints,30,28,Houston Texans,FALSE
+9/9/2019,Las Vegas Raiders,24,16,Denver Broncos,FALSE
+9/12/2019,Carolina Panthers,14,20,Tampa Bay Buccaneers,FALSE
+9/15/2019,Atlanta Falcons,24,20,Philadelphia Eagles,FALSE
+9/15/2019,Baltimore Ravens,23,17,Arizona Cardinals,FALSE
+9/15/2019,Cincinnati Bengals,17,41,San Francisco 49ers,FALSE
+9/15/2019,Denver Broncos,14,16,Chicago Bears,FALSE
+9/15/2019,Detroit Lions,13,10,Los Angeles Chargers,FALSE
+9/15/2019,Green Bay Packers,21,16,Minnesota Vikings,FALSE
+9/15/2019,Houston Texans,13,12,Jacksonville Jaguars,FALSE
+9/15/2019,Los Angeles Rams,27,9,New Orleans Saints,FALSE
+9/15/2019,Miami Dolphins,0,43,New England Patriots,FALSE
+9/15/2019,New York Giants,14,28,Buffalo Bills,FALSE
+9/15/2019,Las Vegas Raiders,10,28,Kansas City Chiefs,FALSE
+9/15/2019,Pittsburgh Steelers,26,28,Seattle Seahawks,FALSE
+9/15/2019,Tennessee Titans,17,19,Indianapolis Colts,FALSE
+9/15/2019,Washington Redskins,21,31,Dallas Cowboys,FALSE
+9/16/2019,New York Jets,3,23,Cleveland Browns,FALSE
+9/19/2019,Jacksonville Jaguars,20,7,Tennessee Titans,FALSE
+9/22/2019,Arizona Cardinals,20,38,Carolina Panthers,FALSE
+9/22/2019,Buffalo Bills,21,17,Cincinnati Bengals,FALSE
+9/22/2019,Cleveland Browns,13,20,Los Angeles Rams,FALSE
+9/22/2019,Dallas Cowboys,31,6,Miami Dolphins,FALSE
+9/22/2019,Green Bay Packers,27,16,Denver Broncos,FALSE
+9/22/2019,Indianapolis Colts,27,24,Atlanta Falcons,FALSE
+9/22/2019,Kansas City Chiefs,33,28,Baltimore Ravens,FALSE
+9/22/2019,Los Angeles Chargers,20,27,Houston Texans,FALSE
+9/22/2019,Minnesota Vikings,34,14,Las Vegas Raiders,FALSE
+9/22/2019,New England Patriots,30,14,New York Jets,FALSE
+9/22/2019,Philadelphia Eagles,24,27,Detroit Lions,FALSE
+9/22/2019,San Francisco 49ers,24,20,Pittsburgh Steelers,FALSE
+9/22/2019,Seattle Seahawks,27,33,New Orleans Saints,FALSE
+9/22/2019,Tampa Bay Buccaneers,31,32,New York Giants,FALSE
+9/23/2019,Washington Redskins,15,31,Chicago Bears,FALSE
+9/26/2019,Green Bay Packers,27,34,Philadelphia Eagles,FALSE
+9/29/2019,Arizona Cardinals,10,27,Seattle Seahawks,FALSE
+9/29/2019,Atlanta Falcons,10,24,Tennessee Titans,FALSE
+9/29/2019,Baltimore Ravens,25,40,Cleveland Browns,FALSE
+9/29/2019,Buffalo Bills,10,16,New England Patriots,FALSE
+9/29/2019,Chicago Bears,16,6,Minnesota Vikings,FALSE
+9/29/2019,Denver Broncos,24,26,Jacksonville Jaguars,FALSE
+9/29/2019,Detroit Lions,30,34,Kansas City Chiefs,FALSE
+9/29/2019,Houston Texans,10,16,Carolina Panthers,FALSE
+9/29/2019,Indianapolis Colts,24,31,Las Vegas Raiders,FALSE
+9/29/2019,Los Angeles Rams,40,55,Tampa Bay Buccaneers,FALSE
+9/29/2019,Miami Dolphins,10,30,Los Angeles Chargers,FALSE
+9/29/2019,New Orleans Saints,12,10,Dallas Cowboys,FALSE
+9/29/2019,New York Giants,24,3,Washington Redskins,FALSE
+9/30/2019,Pittsburgh Steelers,27,3,Cincinnati Bengals,FALSE
+10/3/2019,Seattle Seahawks,30,29,Los Angeles Rams,FALSE
+10/6/2019,Carolina Panthers,34,27,Jacksonville Jaguars,FALSE
+10/6/2019,Cincinnati Bengals,23,26,Arizona Cardinals,FALSE
+10/6/2019,Dallas Cowboys,24,34,Green Bay Packers,FALSE
+10/6/2019,Houston Texans,53,32,Atlanta Falcons,FALSE
+10/6/2019,Kansas City Chiefs,13,19,Indianapolis Colts,FALSE
+10/6/2019,Los Angeles Chargers,13,20,Denver Broncos,FALSE
+10/6/2019,New Orleans Saints,31,24,Tampa Bay Buccaneers,FALSE
+10/6/2019,New York Giants,10,28,Minnesota Vikings,FALSE
+10/6/2019,Las Vegas Raiders,24,21,Chicago Bears,TRUE
+10/6/2019,Philadelphia Eagles,31,6,New York Jets,FALSE
+10/6/2019,Pittsburgh Steelers,23,26,Baltimore Ravens,FALSE
+10/6/2019,Tennessee Titans,7,14,Buffalo Bills,FALSE
+10/6/2019,Washington Redskins,7,33,New England Patriots,FALSE
+10/7/2019,San Francisco 49ers,31,3,Cleveland Browns,FALSE
+10/10/2019,New England Patriots,35,14,New York Giants,FALSE
+10/13/2019,Arizona Cardinals,34,33,Atlanta Falcons,FALSE
+10/13/2019,Baltimore Ravens,23,17,Cincinnati Bengals,FALSE
+10/13/2019,Cleveland Browns,28,32,Seattle Seahawks,FALSE
+10/13/2019,Denver Broncos,16,0,Tennessee Titans,FALSE
+10/13/2019,Jacksonville Jaguars,6,13,New Orleans Saints,FALSE
+10/13/2019,Kansas City Chiefs,24,31,Houston Texans,FALSE
+10/13/2019,Los Angeles Chargers,17,24,Pittsburgh Steelers,FALSE
+10/13/2019,Los Angeles Rams,7,20,San Francisco 49ers,FALSE
+10/13/2019,Miami Dolphins,16,17,Washington Redskins,FALSE
+10/13/2019,Minnesota Vikings,38,20,Philadelphia Eagles,FALSE
+10/13/2019,New York Jets,24,22,Dallas Cowboys,FALSE
+10/13/2019,Tampa Bay Buccaneers,26,37,Carolina Panthers,TRUE
+10/14/2019,Green Bay Packers,23,22,Detroit Lions,FALSE
+10/17/2019,Denver Broncos,6,30,Kansas City Chiefs,FALSE
+10/20/2019,Atlanta Falcons,10,37,Los Angeles Rams,FALSE
+10/20/2019,Buffalo Bills,31,21,Miami Dolphins,FALSE
+10/20/2019,Chicago Bears,25,36,New Orleans Saints,FALSE
+10/20/2019,Cincinnati Bengals,17,27,Jacksonville Jaguars,FALSE
+10/20/2019,Dallas Cowboys,37,10,Philadelphia Eagles,FALSE
+10/20/2019,Detroit Lions,30,42,Minnesota Vikings,FALSE
+10/20/2019,Green Bay Packers,42,24,Las Vegas Raiders,FALSE
+10/20/2019,Indianapolis Colts,30,23,Houston Texans,FALSE
+10/20/2019,New York Giants,21,27,Arizona Cardinals,FALSE
+10/20/2019,Seattle Seahawks,16,30,Baltimore Ravens,FALSE
+10/20/2019,Tennessee Titans,23,20,Los Angeles Chargers,FALSE
+10/20/2019,Washington Redskins,0,9,San Francisco 49ers,FALSE
+10/21/2019,New York Jets,0,33,New England Patriots,FALSE
+10/24/2019,Minnesota Vikings,19,9,Washington Redskins,FALSE
+10/27/2019,Atlanta Falcons,20,27,Seattle Seahawks,FALSE
+10/27/2019,Buffalo Bills,13,31,Philadelphia Eagles,FALSE
+10/27/2019,Chicago Bears,16,17,Los Angeles Chargers,FALSE
+10/27/2019,Detroit Lions,31,26,New York Giants,FALSE
+10/27/2019,Houston Texans,27,24,Las Vegas Raiders,FALSE
+10/27/2019,Indianapolis Colts,15,13,Denver Broncos,FALSE
+10/27/2019,Jacksonville Jaguars,29,15,New York Jets,FALSE
+10/27/2019,Kansas City Chiefs,24,31,Green Bay Packers,FALSE
+10/27/2019,Los Angeles Rams,24,10,Cincinnati Bengals,TRUE
+10/27/2019,New England Patriots,27,13,Cleveland Browns,FALSE
+10/27/2019,New Orleans Saints,31,9,Arizona Cardinals,FALSE
+10/27/2019,San Francisco 49ers,51,13,Carolina Panthers,FALSE
+10/27/2019,Tennessee Titans,27,23,Tampa Bay Buccaneers,FALSE
+10/28/2019,Pittsburgh Steelers,27,14,Miami Dolphins,FALSE
+10/31/2019,Arizona Cardinals,25,28,San Francisco 49ers,FALSE
+11/3/2019,Baltimore Ravens,37,20,New England Patriots,FALSE
+11/3/2019,Buffalo Bills,24,9,Washington Redskins,FALSE
+11/3/2019,Carolina Panthers,30,20,Tennessee Titans,FALSE
+11/3/2019,Denver Broncos,24,19,Cleveland Browns,FALSE
+11/3/2019,Jacksonville Jaguars,3,26,Houston Texans,TRUE
+11/3/2019,Kansas City Chiefs,26,23,Minnesota Vikings,FALSE
+11/3/2019,Los Angeles Chargers,26,11,Green Bay Packers,FALSE
+11/3/2019,Miami Dolphins,26,18,New York Jets,FALSE
+11/3/2019,Las Vegas Raiders,31,24,Detroit Lions,FALSE
+11/3/2019,Philadelphia Eagles,22,14,Chicago Bears,FALSE
+11/3/2019,Pittsburgh Steelers,26,24,Indianapolis Colts,FALSE
+11/3/2019,Seattle Seahawks,40,34,Tampa Bay Buccaneers,FALSE
+11/4/2019,New York Giants,18,37,Dallas Cowboys,FALSE
+11/7/2019,Las Vegas Raiders,26,24,Los Angeles Chargers,FALSE
+11/10/2019,Chicago Bears,20,13,Detroit Lions,FALSE
+11/10/2019,Cincinnati Bengals,13,49,Baltimore Ravens,FALSE
+11/10/2019,Cleveland Browns,19,16,Buffalo Bills,FALSE
+11/10/2019,Dallas Cowboys,24,28,Minnesota Vikings,FALSE
+11/10/2019,Green Bay Packers,24,16,Carolina Panthers,FALSE
+11/10/2019,Indianapolis Colts,12,16,Miami Dolphins,FALSE
+11/10/2019,New Orleans Saints,9,26,Atlanta Falcons,FALSE
+11/10/2019,New York Jets,34,27,New York Giants,FALSE
+11/10/2019,Pittsburgh Steelers,17,12,Los Angeles Rams,FALSE
+11/10/2019,Tampa Bay Buccaneers,30,27,Arizona Cardinals,FALSE
+11/10/2019,Tennessee Titans,35,32,Kansas City Chiefs,FALSE
+11/11/2019,San Francisco 49ers,24,27,Seattle Seahawks,FALSE
+11/14/2019,Cleveland Browns,21,7,Pittsburgh Steelers,FALSE
+11/17/2019,Baltimore Ravens,41,7,Houston Texans,FALSE
+11/17/2019,Carolina Panthers,3,29,Atlanta Falcons,FALSE
+11/17/2019,Detroit Lions,27,35,Dallas Cowboys,FALSE
+11/17/2019,Indianapolis Colts,33,13,Jacksonville Jaguars,FALSE
+11/17/2019,Los Angeles Rams,17,7,Chicago Bears,FALSE
+11/17/2019,Miami Dolphins,20,37,Buffalo Bills,FALSE
+11/17/2019,Minnesota Vikings,27,23,Denver Broncos,FALSE
+11/17/2019,Las Vegas Raiders,17,10,Cincinnati Bengals,FALSE
+11/17/2019,Philadelphia Eagles,10,17,New England Patriots,FALSE
+11/17/2019,San Francisco 49ers,36,26,Arizona Cardinals,FALSE
+11/17/2019,Tampa Bay Buccaneers,17,34,New Orleans Saints,FALSE
+11/17/2019,Washington Redskins,17,34,New York Jets,FALSE
+11/18/2019,Los Angeles Chargers,17,24,Kansas City Chiefs,TRUE
+11/21/2019,Houston Texans,20,17,Indianapolis Colts,FALSE
+11/24/2019,Atlanta Falcons,22,35,Tampa Bay Buccaneers,FALSE
+11/24/2019,Buffalo Bills,20,3,Denver Broncos,FALSE
+11/24/2019,Chicago Bears,19,14,New York Giants,FALSE
+11/24/2019,Cincinnati Bengals,10,16,Pittsburgh Steelers,FALSE
+11/24/2019,Cleveland Browns,41,24,Miami Dolphins,FALSE
+11/24/2019,New England Patriots,13,9,Dallas Cowboys,FALSE
+11/24/2019,New Orleans Saints,34,31,Carolina Panthers,FALSE
+11/24/2019,New York Jets,34,3,Las Vegas Raiders,FALSE
+11/24/2019,Philadelphia Eagles,9,17,Seattle Seahawks,FALSE
+11/24/2019,San Francisco 49ers,37,8,Green Bay Packers,FALSE
+11/24/2019,Tennessee Titans,42,20,Jacksonville Jaguars,FALSE
+11/24/2019,Washington Redskins,19,16,Detroit Lions,FALSE
+11/25/2019,Los Angeles Rams,6,45,Baltimore Ravens,FALSE
+11/28/2019,Atlanta Falcons,18,26,New Orleans Saints,FALSE
+11/28/2019,Dallas Cowboys,15,26,Buffalo Bills,FALSE
+11/28/2019,Detroit Lions,20,24,Chicago Bears,FALSE
+12/1/2019,Arizona Cardinals,7,34,Los Angeles Rams,FALSE
+12/1/2019,Baltimore Ravens,20,17,San Francisco 49ers,FALSE
+12/1/2019,Carolina Panthers,21,29,Washington Redskins,FALSE
+12/1/2019,Cincinnati Bengals,22,6,New York Jets,FALSE
+12/1/2019,Denver Broncos,23,20,Los Angeles Chargers,FALSE
+12/1/2019,Houston Texans,28,22,New England Patriots,FALSE
+12/1/2019,Indianapolis Colts,17,31,Tennessee Titans,FALSE
+12/1/2019,Jacksonville Jaguars,11,28,Tampa Bay Buccaneers,FALSE
+12/1/2019,Kansas City Chiefs,40,9,Las Vegas Raiders,FALSE
+12/1/2019,Miami Dolphins,37,31,Philadelphia Eagles,FALSE
+12/1/2019,New York Giants,13,31,Green Bay Packers,FALSE
+12/1/2019,Pittsburgh Steelers,20,13,Cleveland Browns,FALSE
+12/2/2019,Seattle Seahawks,37,30,Minnesota Vikings,FALSE
+12/5/2019,Chicago Bears,31,24,Dallas Cowboys,FALSE
+12/8/2019,Arizona Cardinals,17,23,Pittsburgh Steelers,FALSE
+12/8/2019,Atlanta Falcons,40,20,Carolina Panthers,FALSE
+12/8/2019,Buffalo Bills,17,24,Baltimore Ravens,FALSE
+12/8/2019,Cleveland Browns,27,19,Cincinnati Bengals,FALSE
+12/8/2019,Green Bay Packers,20,15,Washington Redskins,FALSE
+12/8/2019,Houston Texans,24,38,Denver Broncos,FALSE
+12/8/2019,Jacksonville Jaguars,10,45,Los Angeles Chargers,FALSE
+12/8/2019,Los Angeles Rams,28,12,Seattle Seahawks,FALSE
+12/8/2019,Minnesota Vikings,20,7,Detroit Lions,FALSE
+12/8/2019,New England Patriots,16,23,Kansas City Chiefs,FALSE
+12/8/2019,New Orleans Saints,46,48,San Francisco 49ers,FALSE
+12/8/2019,New York Jets,22,21,Miami Dolphins,FALSE
+12/8/2019,Las Vegas Raiders,21,42,Tennessee Titans,FALSE
+12/8/2019,Tampa Bay Buccaneers,38,35,Indianapolis Colts,FALSE
+12/9/2019,Philadelphia Eagles,23,17,New York Giants,FALSE
+12/12/2019,Baltimore Ravens,42,21,New York Jets,FALSE
+12/15/2019,Arizona Cardinals,38,24,Cleveland Browns,FALSE
+12/15/2019,Carolina Panthers,24,30,Seattle Seahawks,FALSE
+12/15/2019,Cincinnati Bengals,13,34,New England Patriots,FALSE
+12/15/2019,Dallas Cowboys,44,21,Los Angeles Rams,FALSE
+12/15/2019,Detroit Lions,17,38,Tampa Bay Buccaneers,FALSE
+12/15/2019,Green Bay Packers,21,13,Chicago Bears,FALSE
+12/15/2019,Kansas City Chiefs,23,3,Denver Broncos,FALSE
+12/15/2019,Los Angeles Chargers,10,39,Minnesota Vikings,FALSE
+12/15/2019,New York Giants,36,20,Miami Dolphins,FALSE
+12/15/2019,Las Vegas Raiders,16,20,Jacksonville Jaguars,FALSE
+12/15/2019,Pittsburgh Steelers,10,17,Buffalo Bills,FALSE
+12/15/2019,San Francisco 49ers,22,29,Atlanta Falcons,FALSE
+12/15/2019,Tennessee Titans,21,24,Houston Texans,FALSE
+12/15/2019,Washington Redskins,27,37,Philadelphia Eagles,FALSE
+12/16/2019,New Orleans Saints,34,7,Indianapolis Colts,FALSE
+12/21/2019,New England Patriots,24,17,Buffalo Bills,FALSE
+12/21/2019,San Francisco 49ers,34,31,Los Angeles Rams,FALSE
+12/21/2019,Tampa Bay Buccaneers,20,23,Houston Texans,FALSE
+12/22/2019,Atlanta Falcons,24,12,Jacksonville Jaguars,FALSE
+12/22/2019,Chicago Bears,3,26,Kansas City Chiefs,FALSE
+12/22/2019,Cleveland Browns,15,31,Baltimore Ravens,FALSE
+12/22/2019,Denver Broncos,27,17,Detroit Lions,FALSE
+12/22/2019,Indianapolis Colts,38,6,Carolina Panthers,FALSE
+12/22/2019,Los Angeles Chargers,17,24,Las Vegas Raiders,FALSE
+12/22/2019,Miami Dolphins,38,35,Cincinnati Bengals,FALSE
+12/22/2019,New York Jets,16,10,Pittsburgh Steelers,FALSE
+12/22/2019,Philadelphia Eagles,17,9,Dallas Cowboys,FALSE
+12/22/2019,Seattle Seahawks,13,27,Arizona Cardinals,FALSE
+12/22/2019,Tennessee Titans,28,38,New Orleans Saints,FALSE
+12/22/2019,Washington Redskins,35,41,New York Giants,FALSE
+12/23/2019,Minnesota Vikings,10,23,Green Bay Packers,FALSE
+12/29/2019,Baltimore Ravens,28,10,Pittsburgh Steelers,FALSE
+12/29/2019,Buffalo Bills,6,13,New York Jets,FALSE
+12/29/2019,Carolina Panthers,10,42,New Orleans Saints,FALSE
+12/29/2019,Cincinnati Bengals,33,23,Cleveland Browns,FALSE
+12/29/2019,Dallas Cowboys,47,16,Washington Redskins,FALSE
+12/29/2019,Denver Broncos,16,15,Las Vegas Raiders,FALSE
+12/29/2019,Detroit Lions,20,23,Green Bay Packers,FALSE
+12/29/2019,Houston Texans,14,35,Tennessee Titans,FALSE
+12/29/2019,Jacksonville Jaguars,38,20,Indianapolis Colts,FALSE
+12/29/2019,Kansas City Chiefs,31,21,Los Angeles Chargers,FALSE
+12/29/2019,Los Angeles Rams,31,24,Arizona Cardinals,FALSE
+12/29/2019,Minnesota Vikings,19,21,Chicago Bears,FALSE
+12/29/2019,New England Patriots,24,27,Miami Dolphins,FALSE
+12/29/2019,New York Giants,17,34,Philadelphia Eagles,FALSE
+12/29/2019,Seattle Seahawks,21,26,San Francisco 49ers,FALSE
+12/29/2019,Tampa Bay Buccaneers,22,28,Atlanta Falcons,FALSE
+1/4/2020,Houston Texans,22,19,Buffalo Bills,FALSE
+1/4/2020,New England Patriots,13,20,Tennessee Titans,FALSE
+1/5/2020,New Orleans Saints,20,26,Minnesota Vikings,FALSE
+1/5/2020,Philadelphia Eagles,9,17,Seattle Seahawks,FALSE
+1/11/2020,Baltimore Ravens,12,28,Tennessee Titans,FALSE
+1/11/2020,San Francisco 49ers,27,10,Minnesota Vikings,FALSE
+1/12/2020,Green Bay Packers,28,23,Seattle Seahawks,FALSE
+1/12/2020,Kansas City Chiefs,51,31,Houston Texans,FALSE
+1/19/2020,Kansas City Chiefs,35,24,Tennessee Titans,FALSE
+1/19/2020,San Francisco 49ers,37,20,Green Bay Packers,FALSE
+2/2/2020,Kansas City Chiefs,31,20,San Francisco 49ers,TRUE

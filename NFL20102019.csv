@@ -1,0 +1,2671 @@
+schedule_season,team_home,score_home,score_away,team_away,stadium_neutral
+2010,New Orleans Saints,14,9,Minnesota Vikings,FALSE
+2010,Buffalo Bills,10,15,Miami Dolphins,FALSE
+2010,Chicago Bears,19,14,Detroit Lions,FALSE
+2010,Houston Texans,34,24,Indianapolis Colts,FALSE
+2010,Jacksonville Jaguars,24,17,Denver Broncos,FALSE
+2010,New England Patriots,38,24,Cincinnati Bengals,FALSE
+2010,New York Giants,31,18,Carolina Panthers,FALSE
+2010,Philadelphia Eagles,20,27,Green Bay Packers,FALSE
+2010,Pittsburgh Steelers,15,9,Atlanta Falcons,FALSE
+2010,Seattle Seahawks,31,6,San Francisco 49ers,FALSE
+2010,Los Angeles Rams,13,17,Arizona Cardinals,FALSE
+2010,Tampa Bay Buccaneers,17,14,Cleveland Browns,FALSE
+2010,Tennessee Titans,38,13,Las Vegas Raiders,FALSE
+2010,Washington Redskins,13,7,Dallas Cowboys,FALSE
+2010,Kansas City Chiefs,21,14,Los Angeles Chargers,FALSE
+2010,New York Jets,9,10,Baltimore Ravens,FALSE
+2010,Atlanta Falcons,41,7,Arizona Cardinals,FALSE
+2010,Carolina Panthers,7,20,Tampa Bay Buccaneers,FALSE
+2010,Cincinnati Bengals,15,10,Baltimore Ravens,FALSE
+2010,Cleveland Browns,14,16,Kansas City Chiefs,FALSE
+2010,Dallas Cowboys,20,27,Chicago Bears,FALSE
+2010,Denver Broncos,31,14,Seattle Seahawks,FALSE
+2010,Detroit Lions,32,35,Philadelphia Eagles,FALSE
+2010,Green Bay Packers,34,7,Buffalo Bills,FALSE
+2010,Indianapolis Colts,38,14,New York Giants,FALSE
+2010,Minnesota Vikings,10,14,Miami Dolphins,FALSE
+2010,New York Jets,28,14,New England Patriots,FALSE
+2010,Las Vegas Raiders,16,14,Los Angeles Rams,FALSE
+2010,Los Angeles Chargers,38,13,Jacksonville Jaguars,FALSE
+2010,Tennessee Titans,11,19,Pittsburgh Steelers,FALSE
+2010,Washington Redskins,27,30,Houston Texans,FALSE
+2010,San Francisco 49ers,22,25,New Orleans Saints,FALSE
+2010,Arizona Cardinals,24,23,Las Vegas Raiders,FALSE
+2010,Baltimore Ravens,24,17,Cleveland Browns,FALSE
+2010,Carolina Panthers,7,20,Cincinnati Bengals,FALSE
+2010,Denver Broncos,13,27,Indianapolis Colts,FALSE
+2010,Houston Texans,13,27,Dallas Cowboys,FALSE
+2010,Jacksonville Jaguars,3,28,Philadelphia Eagles,FALSE
+2010,Kansas City Chiefs,31,10,San Francisco 49ers,FALSE
+2010,Miami Dolphins,23,31,New York Jets,FALSE
+2010,Minnesota Vikings,24,10,Detroit Lions,FALSE
+2010,New England Patriots,38,30,Buffalo Bills,FALSE
+2010,New Orleans Saints,24,27,Atlanta Falcons,FALSE
+2010,New York Giants,10,29,Tennessee Titans,FALSE
+2010,Seattle Seahawks,27,20,Los Angeles Chargers,FALSE
+2010,Los Angeles Rams,30,16,Washington Redskins,FALSE
+2010,Tampa Bay Buccaneers,13,38,Pittsburgh Steelers,FALSE
+2010,Chicago Bears,20,17,Green Bay Packers,FALSE
+2010,Atlanta Falcons,16,14,San Francisco 49ers,FALSE
+2010,Buffalo Bills,14,38,New York Jets,FALSE
+2010,Cleveland Browns,23,20,Cincinnati Bengals,FALSE
+2010,Green Bay Packers,28,26,Detroit Lions,FALSE
+2010,Jacksonville Jaguars,31,28,Indianapolis Colts,FALSE
+2010,New Orleans Saints,16,14,Carolina Panthers,FALSE
+2010,New York Giants,17,3,Chicago Bears,FALSE
+2010,Las Vegas Raiders,24,31,Houston Texans,FALSE
+2010,Philadelphia Eagles,12,17,Washington Redskins,FALSE
+2010,Pittsburgh Steelers,14,17,Baltimore Ravens,FALSE
+2010,Los Angeles Chargers,41,10,Arizona Cardinals,FALSE
+2010,Los Angeles Rams,20,3,Seattle Seahawks,FALSE
+2010,Tennessee Titans,20,26,Denver Broncos,FALSE
+2010,Miami Dolphins,14,41,New England Patriots,FALSE
+2010,Arizona Cardinals,30,20,New Orleans Saints,FALSE
+2010,Baltimore Ravens,31,17,Denver Broncos,FALSE
+2010,Buffalo Bills,26,36,Jacksonville Jaguars,FALSE
+2010,Carolina Panthers,6,23,Chicago Bears,FALSE
+2010,Cincinnati Bengals,21,24,Tampa Bay Buccaneers,FALSE
+2010,Cleveland Browns,10,20,Atlanta Falcons,FALSE
+2010,Dallas Cowboys,27,34,Tennessee Titans,FALSE
+2010,Detroit Lions,44,6,Los Angeles Rams,FALSE
+2010,Houston Texans,10,34,New York Giants,FALSE
+2010,Indianapolis Colts,19,9,Kansas City Chiefs,FALSE
+2010,Las Vegas Raiders,35,27,Los Angeles Chargers,FALSE
+2010,San Francisco 49ers,24,27,Philadelphia Eagles,FALSE
+2010,Washington Redskins,16,13,Green Bay Packers,FALSE
+2010,New York Jets,29,20,Minnesota Vikings,FALSE
+2010,Chicago Bears,20,23,Seattle Seahawks,FALSE
+2010,Denver Broncos,20,24,New York Jets,FALSE
+2010,Green Bay Packers,20,23,Miami Dolphins,FALSE
+2010,Houston Texans,35,31,Kansas City Chiefs,FALSE
+2010,Minnesota Vikings,24,21,Dallas Cowboys,FALSE
+2010,New England Patriots,23,20,Baltimore Ravens,FALSE
+2010,New York Giants,28,20,Detroit Lions,FALSE
+2010,Philadelphia Eagles,31,17,Atlanta Falcons,FALSE
+2010,Pittsburgh Steelers,28,10,Cleveland Browns,FALSE
+2010,San Francisco 49ers,17,9,Las Vegas Raiders,FALSE
+2010,Los Angeles Rams,20,17,Los Angeles Chargers,FALSE
+2010,Tampa Bay Buccaneers,6,31,New Orleans Saints,FALSE
+2010,Washington Redskins,24,27,Indianapolis Colts,FALSE
+2010,Jacksonville Jaguars,3,30,Tennessee Titans,FALSE
+2010,Atlanta Falcons,39,32,Cincinnati Bengals,FALSE
+2010,Baltimore Ravens,37,34,Buffalo Bills,FALSE
+2010,Carolina Panthers,23,20,San Francisco 49ers,FALSE
+2010,Chicago Bears,14,17,Washington Redskins,FALSE
+2010,Denver Broncos,14,59,Las Vegas Raiders,FALSE
+2010,Green Bay Packers,28,24,Minnesota Vikings,FALSE
+2010,Kansas City Chiefs,42,20,Jacksonville Jaguars,FALSE
+2010,Miami Dolphins,22,23,Pittsburgh Steelers,FALSE
+2010,New Orleans Saints,17,30,Cleveland Browns,FALSE
+2010,Los Angeles Chargers,20,23,New England Patriots,FALSE
+2010,Seattle Seahawks,22,10,Arizona Cardinals,FALSE
+2010,Tampa Bay Buccaneers,18,17,Los Angeles Rams,FALSE
+2010,Tennessee Titans,37,19,Philadelphia Eagles,FALSE
+2010,Dallas Cowboys,35,41,New York Giants,FALSE
+2010,Arizona Cardinals,35,38,Tampa Bay Buccaneers,FALSE
+2010,Cincinnati Bengals,14,22,Miami Dolphins,FALSE
+2010,Dallas Cowboys,17,35,Jacksonville Jaguars,FALSE
+2010,Detroit Lions,37,25,Washington Redskins,FALSE
+2010,Kansas City Chiefs,13,10,Buffalo Bills,FALSE
+2010,New England Patriots,28,18,Minnesota Vikings,FALSE
+2010,New Orleans Saints,20,10,Pittsburgh Steelers,FALSE
+2010,New York Jets,0,9,Green Bay Packers,FALSE
+2010,Las Vegas Raiders,33,3,Seattle Seahawks,FALSE
+2010,Los Angeles Chargers,33,25,Tennessee Titans,FALSE
+2010,San Francisco 49ers,24,16,Denver Broncos,TRUE
+2010,Los Angeles Rams,20,10,Carolina Panthers,FALSE
+2010,Indianapolis Colts,30,17,Houston Texans,FALSE
+2010,Atlanta Falcons,27,21,Tampa Bay Buccaneers,FALSE
+2010,Baltimore Ravens,26,10,Miami Dolphins,FALSE
+2010,Buffalo Bills,19,22,Chicago Bears,TRUE
+2010,Carolina Panthers,3,34,New Orleans Saints,FALSE
+2010,Cleveland Browns,34,14,New England Patriots,FALSE
+2010,Detroit Lions,20,23,New York Jets,FALSE
+2010,Green Bay Packers,45,7,Dallas Cowboys,FALSE
+2010,Houston Texans,23,29,Los Angeles Chargers,FALSE
+2010,Minnesota Vikings,27,24,Arizona Cardinals,FALSE
+2010,Las Vegas Raiders,23,20,Kansas City Chiefs,FALSE
+2010,Philadelphia Eagles,26,24,Indianapolis Colts,FALSE
+2010,Seattle Seahawks,7,41,New York Giants,FALSE
+2010,Cincinnati Bengals,21,27,Pittsburgh Steelers,FALSE
+2010,Atlanta Falcons,26,21,Baltimore Ravens,FALSE
+2010,Arizona Cardinals,18,36,Seattle Seahawks,FALSE
+2010,Buffalo Bills,14,12,Detroit Lions,FALSE
+2010,Chicago Bears,27,13,Minnesota Vikings,FALSE
+2010,Cleveland Browns,20,26,New York Jets,FALSE
+2010,Denver Broncos,49,29,Kansas City Chiefs,FALSE
+2010,Indianapolis Colts,23,17,Cincinnati Bengals,FALSE
+2010,Jacksonville Jaguars,31,24,Houston Texans,FALSE
+2010,Miami Dolphins,29,17,Tennessee Titans,FALSE
+2010,New York Giants,20,33,Dallas Cowboys,FALSE
+2010,Pittsburgh Steelers,26,39,New England Patriots,FALSE
+2010,San Francisco 49ers,23,20,Los Angeles Rams,FALSE
+2010,Tampa Bay Buccaneers,31,16,Carolina Panthers,FALSE
+2010,Washington Redskins,28,59,Philadelphia Eagles,FALSE
+2010,Miami Dolphins,0,16,Chicago Bears,FALSE
+2010,Carolina Panthers,13,37,Baltimore Ravens,FALSE
+2010,Cincinnati Bengals,31,49,Buffalo Bills,FALSE
+2010,Dallas Cowboys,35,19,Detroit Lions,FALSE
+2010,Jacksonville Jaguars,24,20,Cleveland Browns,FALSE
+2010,Kansas City Chiefs,31,13,Arizona Cardinals,FALSE
+2010,Minnesota Vikings,3,31,Green Bay Packers,FALSE
+2010,New England Patriots,31,28,Indianapolis Colts,FALSE
+2010,New Orleans Saints,34,19,Seattle Seahawks,FALSE
+2010,New York Jets,30,27,Houston Texans,FALSE
+2010,Philadelphia Eagles,27,17,New York Giants,FALSE
+2010,Pittsburgh Steelers,35,3,Las Vegas Raiders,FALSE
+2010,San Francisco 49ers,0,21,Tampa Bay Buccaneers,FALSE
+2010,Los Angeles Rams,17,34,Atlanta Falcons,FALSE
+2010,Tennessee Titans,16,19,Washington Redskins,FALSE
+2010,Los Angeles Chargers,35,14,Denver Broncos,FALSE
+2010,Dallas Cowboys,27,30,New Orleans Saints,FALSE
+2010,Detroit Lions,24,45,New England Patriots,FALSE
+2010,New York Jets,26,10,Cincinnati Bengals,FALSE
+2010,Atlanta Falcons,20,17,Green Bay Packers,FALSE
+2010,Baltimore Ravens,17,10,Tampa Bay Buccaneers,FALSE
+2010,Buffalo Bills,16,19,Pittsburgh Steelers,FALSE
+2010,Chicago Bears,31,26,Philadelphia Eagles,FALSE
+2010,Cleveland Browns,24,23,Carolina Panthers,FALSE
+2010,Denver Broncos,33,36,Los Angeles Rams,FALSE
+2010,Houston Texans,20,0,Tennessee Titans,FALSE
+2010,Indianapolis Colts,14,36,Los Angeles Chargers,FALSE
+2010,New York Giants,24,20,Jacksonville Jaguars,FALSE
+2010,Las Vegas Raiders,17,33,Miami Dolphins,FALSE
+2010,Seattle Seahawks,24,42,Kansas City Chiefs,FALSE
+2010,Washington Redskins,13,17,Minnesota Vikings,FALSE
+2010,Arizona Cardinals,6,27,San Francisco 49ers,FALSE
+2010,Philadelphia Eagles,34,24,Houston Texans,FALSE
+2010,Arizona Cardinals,6,19,Los Angeles Rams,FALSE
+2010,Baltimore Ravens,10,13,Pittsburgh Steelers,FALSE
+2010,Cincinnati Bengals,30,34,New Orleans Saints,FALSE
+2010,Detroit Lions,20,24,Chicago Bears,FALSE
+2010,Green Bay Packers,34,16,San Francisco 49ers,FALSE
+2010,Indianapolis Colts,35,38,Dallas Cowboys,FALSE
+2010,Kansas City Chiefs,10,6,Denver Broncos,FALSE
+2010,Miami Dolphins,10,13,Cleveland Browns,FALSE
+2010,Minnesota Vikings,38,14,Buffalo Bills,FALSE
+2010,New York Giants,31,7,Washington Redskins,FALSE
+2010,Los Angeles Chargers,13,28,Las Vegas Raiders,FALSE
+2010,Seattle Seahawks,31,14,Carolina Panthers,FALSE
+2010,Tampa Bay Buccaneers,24,28,Atlanta Falcons,FALSE
+2010,Tennessee Titans,6,17,Jacksonville Jaguars,FALSE
+2010,New England Patriots,45,3,New York Jets,FALSE
+2010,Tennessee Titans,28,30,Indianapolis Colts,FALSE
+2010,Arizona Cardinals,43,13,Denver Broncos,FALSE
+2010,Buffalo Bills,13,6,Cleveland Browns,FALSE
+2010,Carolina Panthers,10,31,Atlanta Falcons,FALSE
+2010,Chicago Bears,7,36,New England Patriots,FALSE
+2010,Dallas Cowboys,27,30,Philadelphia Eagles,FALSE
+2010,Detroit Lions,7,3,Green Bay Packers,FALSE
+2010,Jacksonville Jaguars,38,31,Las Vegas Raiders,FALSE
+2010,New Orleans Saints,31,13,Los Angeles Rams,FALSE
+2010,New York Jets,6,10,Miami Dolphins,FALSE
+2010,Pittsburgh Steelers,23,7,Cincinnati Bengals,FALSE
+2010,Los Angeles Chargers,31,0,Kansas City Chiefs,FALSE
+2010,San Francisco 49ers,40,21,Seattle Seahawks,FALSE
+2010,Washington Redskins,16,17,Tampa Bay Buccaneers,FALSE
+2010,Houston Texans,28,34,Baltimore Ravens,FALSE
+2010,Minnesota Vikings,3,21,New York Giants,TRUE
+2010,Los Angeles Chargers,34,7,San Francisco 49ers,FALSE
+2010,Baltimore Ravens,30,24,New Orleans Saints,FALSE
+2010,Carolina Panthers,19,12,Arizona Cardinals,FALSE
+2010,Cincinnati Bengals,19,17,Cleveland Browns,FALSE
+2010,Dallas Cowboys,33,30,Washington Redskins,FALSE
+2010,Indianapolis Colts,34,24,Jacksonville Jaguars,FALSE
+2010,Miami Dolphins,14,17,Buffalo Bills,FALSE
+2010,New England Patriots,31,27,Green Bay Packers,FALSE
+2010,New York Giants,31,38,Philadelphia Eagles,FALSE
+2010,Las Vegas Raiders,39,23,Denver Broncos,FALSE
+2010,Pittsburgh Steelers,17,22,New York Jets,FALSE
+2010,Seattle Seahawks,18,34,Atlanta Falcons,FALSE
+2010,Los Angeles Rams,13,27,Kansas City Chiefs,FALSE
+2010,Tampa Bay Buccaneers,20,23,Detroit Lions,FALSE
+2010,Tennessee Titans,31,17,Houston Texans,FALSE
+2010,Minnesota Vikings,14,40,Chicago Bears,FALSE
+2010,Pittsburgh Steelers,27,3,Carolina Panthers,FALSE
+2010,Arizona Cardinals,27,26,Dallas Cowboys,FALSE
+2010,Buffalo Bills,3,34,New England Patriots,FALSE
+2010,Chicago Bears,38,34,New York Jets,FALSE
+2010,Cincinnati Bengals,34,20,Los Angeles Chargers,FALSE
+2010,Cleveland Browns,10,20,Baltimore Ravens,FALSE
+2010,Denver Broncos,24,23,Houston Texans,FALSE
+2010,Green Bay Packers,45,17,New York Giants,FALSE
+2010,Jacksonville Jaguars,17,20,Washington Redskins,FALSE
+2010,Kansas City Chiefs,34,14,Tennessee Titans,FALSE
+2010,Miami Dolphins,27,34,Detroit Lions,FALSE
+2010,Las Vegas Raiders,26,31,Indianapolis Colts,FALSE
+2010,Los Angeles Rams,25,17,San Francisco 49ers,FALSE
+2010,Tampa Bay Buccaneers,38,15,Seattle Seahawks,FALSE
+2010,Atlanta Falcons,14,17,New Orleans Saints,FALSE
+2010,Philadelphia Eagles,14,24,Minnesota Vikings,FALSE
+2010,Atlanta Falcons,31,10,Carolina Panthers,FALSE
+2010,Baltimore Ravens,13,7,Cincinnati Bengals,FALSE
+2010,Cleveland Browns,9,41,Pittsburgh Steelers,FALSE
+2010,Denver Broncos,28,33,Los Angeles Chargers,FALSE
+2010,Detroit Lions,20,13,Minnesota Vikings,FALSE
+2010,Green Bay Packers,10,3,Chicago Bears,FALSE
+2010,Houston Texans,34,17,Jacksonville Jaguars,FALSE
+2010,Indianapolis Colts,23,20,Tennessee Titans,FALSE
+2010,Kansas City Chiefs,10,31,Las Vegas Raiders,FALSE
+2010,New England Patriots,38,7,Miami Dolphins,FALSE
+2010,New Orleans Saints,13,23,Tampa Bay Buccaneers,FALSE
+2010,New York Jets,38,7,Buffalo Bills,FALSE
+2010,Philadelphia Eagles,13,14,Dallas Cowboys,FALSE
+2010,San Francisco 49ers,38,7,Arizona Cardinals,FALSE
+2010,Seattle Seahawks,16,6,Los Angeles Rams,FALSE
+2010,Washington Redskins,14,17,New York Giants,FALSE
+2010,Indianapolis Colts,16,17,New York Jets,FALSE
+2010,Seattle Seahawks,41,36,New Orleans Saints,FALSE
+2010,Kansas City Chiefs,7,30,Baltimore Ravens,FALSE
+2010,Philadelphia Eagles,16,21,Green Bay Packers,FALSE
+2010,Atlanta Falcons,21,48,Green Bay Packers,FALSE
+2010,Pittsburgh Steelers,31,24,Baltimore Ravens,FALSE
+2010,Chicago Bears,35,24,Seattle Seahawks,FALSE
+2010,New England Patriots,21,28,New York Jets,FALSE
+2010,Chicago Bears,14,21,Green Bay Packers,FALSE
+2010,Pittsburgh Steelers,24,19,New York Jets,FALSE
+2010,Green Bay Packers,31,25,Pittsburgh Steelers,TRUE
+2011,Green Bay Packers,42,34,New Orleans Saints,FALSE
+2011,Arizona Cardinals,28,21,Carolina Panthers,FALSE
+2011,Baltimore Ravens,35,7,Pittsburgh Steelers,FALSE
+2011,Chicago Bears,30,12,Atlanta Falcons,FALSE
+2011,Cleveland Browns,17,27,Cincinnati Bengals,FALSE
+2011,Houston Texans,34,7,Indianapolis Colts,FALSE
+2011,Jacksonville Jaguars,16,14,Tennessee Titans,FALSE
+2011,Kansas City Chiefs,7,41,Buffalo Bills,FALSE
+2011,New York Jets,27,24,Dallas Cowboys,FALSE
+2011,Los Angeles Chargers,24,17,Minnesota Vikings,FALSE
+2011,San Francisco 49ers,33,17,Seattle Seahawks,FALSE
+2011,Los Angeles Rams,13,31,Philadelphia Eagles,FALSE
+2011,Tampa Bay Buccaneers,20,27,Detroit Lions,FALSE
+2011,Washington Redskins,28,14,New York Giants,FALSE
+2011,Denver Broncos,20,23,Las Vegas Raiders,FALSE
+2011,Miami Dolphins,24,38,New England Patriots,FALSE
+2011,Atlanta Falcons,35,31,Philadelphia Eagles,FALSE
+2011,Buffalo Bills,38,35,Las Vegas Raiders,FALSE
+2011,Carolina Panthers,23,30,Green Bay Packers,FALSE
+2011,Denver Broncos,24,22,Cincinnati Bengals,FALSE
+2011,Detroit Lions,48,3,Kansas City Chiefs,FALSE
+2011,Indianapolis Colts,19,27,Cleveland Browns,FALSE
+2011,Miami Dolphins,13,23,Houston Texans,FALSE
+2011,Minnesota Vikings,20,24,Tampa Bay Buccaneers,FALSE
+2011,New England Patriots,35,21,Los Angeles Chargers,FALSE
+2011,New Orleans Saints,30,13,Chicago Bears,FALSE
+2011,New York Jets,32,3,Jacksonville Jaguars,FALSE
+2011,Pittsburgh Steelers,24,0,Seattle Seahawks,FALSE
+2011,San Francisco 49ers,24,27,Dallas Cowboys,FALSE
+2011,Tennessee Titans,26,13,Baltimore Ravens,FALSE
+2011,Washington Redskins,22,21,Arizona Cardinals,FALSE
+2011,New York Giants,28,16,Los Angeles Rams,FALSE
+2011,Buffalo Bills,34,31,New England Patriots,FALSE
+2011,Carolina Panthers,16,10,Jacksonville Jaguars,FALSE
+2011,Chicago Bears,17,27,Green Bay Packers,FALSE
+2011,Cincinnati Bengals,8,13,San Francisco 49ers,FALSE
+2011,Cleveland Browns,17,16,Miami Dolphins,FALSE
+2011,Indianapolis Colts,20,23,Pittsburgh Steelers,FALSE
+2011,Minnesota Vikings,23,26,Detroit Lions,FALSE
+2011,New Orleans Saints,40,33,Houston Texans,FALSE
+2011,Las Vegas Raiders,34,24,New York Jets,FALSE
+2011,Philadelphia Eagles,16,29,New York Giants,FALSE
+2011,Los Angeles Chargers,20,17,Kansas City Chiefs,FALSE
+2011,Seattle Seahawks,13,10,Arizona Cardinals,FALSE
+2011,Los Angeles Rams,7,37,Baltimore Ravens,FALSE
+2011,Tampa Bay Buccaneers,16,13,Atlanta Falcons,FALSE
+2011,Tennessee Titans,17,14,Denver Broncos,FALSE
+2011,Dallas Cowboys,18,16,Washington Redskins,FALSE
+2011,Arizona Cardinals,27,31,New York Giants,FALSE
+2011,Baltimore Ravens,34,17,New York Jets,FALSE
+2011,Chicago Bears,34,29,Carolina Panthers,FALSE
+2011,Cincinnati Bengals,23,20,Buffalo Bills,FALSE
+2011,Cleveland Browns,13,31,Tennessee Titans,FALSE
+2011,Dallas Cowboys,30,34,Detroit Lions,FALSE
+2011,Green Bay Packers,49,23,Denver Broncos,FALSE
+2011,Houston Texans,17,10,Pittsburgh Steelers,FALSE
+2011,Jacksonville Jaguars,10,23,New Orleans Saints,FALSE
+2011,Kansas City Chiefs,22,17,Minnesota Vikings,FALSE
+2011,Las Vegas Raiders,19,31,New England Patriots,FALSE
+2011,Philadelphia Eagles,23,24,San Francisco 49ers,FALSE
+2011,Los Angeles Chargers,26,16,Miami Dolphins,FALSE
+2011,Seattle Seahawks,28,30,Atlanta Falcons,FALSE
+2011,Los Angeles Rams,10,17,Washington Redskins,FALSE
+2011,Tampa Bay Buccaneers,24,17,Indianapolis Colts,FALSE
+2011,Atlanta Falcons,14,25,Green Bay Packers,FALSE
+2011,Buffalo Bills,31,24,Philadelphia Eagles,FALSE
+2011,Carolina Panthers,27,30,New Orleans Saints,FALSE
+2011,Denver Broncos,24,29,Los Angeles Chargers,FALSE
+2011,Houston Texans,20,25,Las Vegas Raiders,FALSE
+2011,Indianapolis Colts,24,28,Kansas City Chiefs,FALSE
+2011,Jacksonville Jaguars,20,30,Cincinnati Bengals,FALSE
+2011,Minnesota Vikings,34,10,Arizona Cardinals,FALSE
+2011,New England Patriots,30,21,New York Jets,FALSE
+2011,New York Giants,25,36,Seattle Seahawks,FALSE
+2011,Pittsburgh Steelers,38,17,Tennessee Titans,FALSE
+2011,San Francisco 49ers,48,3,Tampa Bay Buccaneers,FALSE
+2011,Detroit Lions,24,13,Chicago Bears,FALSE
+2011,Atlanta Falcons,31,17,Carolina Panthers,FALSE
+2011,Baltimore Ravens,29,14,Houston Texans,FALSE
+2011,Chicago Bears,39,10,Minnesota Vikings,FALSE
+2011,Cincinnati Bengals,27,17,Indianapolis Colts,FALSE
+2011,Detroit Lions,19,25,San Francisco 49ers,FALSE
+2011,Green Bay Packers,24,3,Los Angeles Rams,FALSE
+2011,New England Patriots,20,16,Dallas Cowboys,FALSE
+2011,New York Giants,27,24,Buffalo Bills,FALSE
+2011,Las Vegas Raiders,24,17,Cleveland Browns,FALSE
+2011,Pittsburgh Steelers,17,13,Jacksonville Jaguars,FALSE
+2011,Tampa Bay Buccaneers,26,20,New Orleans Saints,FALSE
+2011,Washington Redskins,13,20,Philadelphia Eagles,FALSE
+2011,New York Jets,24,6,Miami Dolphins,FALSE
+2011,Arizona Cardinals,20,32,Pittsburgh Steelers,FALSE
+2011,Carolina Panthers,33,20,Washington Redskins,FALSE
+2011,Cleveland Browns,6,3,Seattle Seahawks,FALSE
+2011,Dallas Cowboys,34,7,Los Angeles Rams,FALSE
+2011,Detroit Lions,16,23,Atlanta Falcons,FALSE
+2011,Miami Dolphins,15,18,Denver Broncos,FALSE
+2011,Minnesota Vikings,27,33,Green Bay Packers,FALSE
+2011,New Orleans Saints,62,7,Indianapolis Colts,FALSE
+2011,New York Jets,27,21,Los Angeles Chargers,FALSE
+2011,Las Vegas Raiders,0,28,Kansas City Chiefs,FALSE
+2011,Tampa Bay Buccaneers,18,24,Chicago Bears,TRUE
+2011,Tennessee Titans,7,41,Houston Texans,FALSE
+2011,Jacksonville Jaguars,12,7,Baltimore Ravens,FALSE
+2011,Baltimore Ravens,30,27,Arizona Cardinals,FALSE
+2011,Buffalo Bills,23,0,Washington Redskins,TRUE
+2011,Carolina Panthers,21,24,Minnesota Vikings,FALSE
+2011,Denver Broncos,10,45,Detroit Lions,FALSE
+2011,Houston Texans,24,14,Jacksonville Jaguars,FALSE
+2011,New York Giants,20,17,Miami Dolphins,FALSE
+2011,Philadelphia Eagles,34,7,Dallas Cowboys,FALSE
+2011,Pittsburgh Steelers,25,17,New England Patriots,FALSE
+2011,San Francisco 49ers,20,10,Cleveland Browns,FALSE
+2011,Seattle Seahawks,12,34,Cincinnati Bengals,FALSE
+2011,Los Angeles Rams,31,21,New Orleans Saints,FALSE
+2011,Tennessee Titans,27,10,Indianapolis Colts,FALSE
+2011,Kansas City Chiefs,23,20,Los Angeles Chargers,FALSE
+2011,Arizona Cardinals,19,13,Los Angeles Rams,FALSE
+2011,Buffalo Bills,11,27,New York Jets,FALSE
+2011,Dallas Cowboys,23,13,Seattle Seahawks,FALSE
+2011,Houston Texans,30,12,Cleveland Browns,FALSE
+2011,Indianapolis Colts,7,31,Atlanta Falcons,FALSE
+2011,Kansas City Chiefs,3,31,Miami Dolphins,FALSE
+2011,New England Patriots,20,24,New York Giants,FALSE
+2011,New Orleans Saints,27,16,Tampa Bay Buccaneers,FALSE
+2011,Las Vegas Raiders,24,38,Denver Broncos,FALSE
+2011,Pittsburgh Steelers,20,23,Baltimore Ravens,FALSE
+2011,Los Angeles Chargers,38,45,Green Bay Packers,FALSE
+2011,Tennessee Titans,17,24,Cincinnati Bengals,FALSE
+2011,Washington Redskins,11,19,San Francisco 49ers,FALSE
+2011,Philadelphia Eagles,24,30,Chicago Bears,FALSE
+2011,Los Angeles Chargers,17,24,Las Vegas Raiders,FALSE
+2011,Atlanta Falcons,23,26,New Orleans Saints,FALSE
+2011,Carolina Panthers,3,30,Tennessee Titans,FALSE
+2011,Chicago Bears,37,13,Detroit Lions,FALSE
+2011,Cincinnati Bengals,17,24,Pittsburgh Steelers,FALSE
+2011,Cleveland Browns,12,13,Los Angeles Rams,FALSE
+2011,Dallas Cowboys,44,7,Buffalo Bills,FALSE
+2011,Indianapolis Colts,3,17,Jacksonville Jaguars,FALSE
+2011,Kansas City Chiefs,10,17,Denver Broncos,FALSE
+2011,Miami Dolphins,20,9,Washington Redskins,FALSE
+2011,New York Jets,16,37,New England Patriots,FALSE
+2011,Philadelphia Eagles,17,21,Arizona Cardinals,FALSE
+2011,San Francisco 49ers,27,20,New York Giants,FALSE
+2011,Seattle Seahawks,22,17,Baltimore Ravens,FALSE
+2011,Tampa Bay Buccaneers,9,37,Houston Texans,FALSE
+2011,Green Bay Packers,45,7,Minnesota Vikings,FALSE
+2011,Denver Broncos,17,13,New York Jets,FALSE
+2011,Atlanta Falcons,23,17,Tennessee Titans,FALSE
+2011,Baltimore Ravens,31,24,Cincinnati Bengals,FALSE
+2011,Chicago Bears,31,20,Los Angeles Chargers,FALSE
+2011,Cleveland Browns,14,10,Jacksonville Jaguars,FALSE
+2011,Detroit Lions,49,35,Carolina Panthers,FALSE
+2011,Green Bay Packers,35,26,Tampa Bay Buccaneers,FALSE
+2011,Miami Dolphins,35,8,Buffalo Bills,FALSE
+2011,Minnesota Vikings,21,27,Las Vegas Raiders,FALSE
+2011,New York Giants,10,17,Philadelphia Eagles,FALSE
+2011,San Francisco 49ers,23,7,Arizona Cardinals,FALSE
+2011,Los Angeles Rams,7,24,Seattle Seahawks,FALSE
+2011,Washington Redskins,24,27,Dallas Cowboys,FALSE
+2011,New England Patriots,34,3,Kansas City Chiefs,FALSE
+2011,Baltimore Ravens,16,6,San Francisco 49ers,FALSE
+2011,Dallas Cowboys,20,19,Miami Dolphins,FALSE
+2011,Detroit Lions,15,27,Green Bay Packers,FALSE
+2011,Atlanta Falcons,24,14,Minnesota Vikings,FALSE
+2011,Cincinnati Bengals,23,20,Cleveland Browns,FALSE
+2011,Indianapolis Colts,19,27,Carolina Panthers,FALSE
+2011,Jacksonville Jaguars,13,20,Houston Texans,FALSE
+2011,Kansas City Chiefs,9,13,Pittsburgh Steelers,FALSE
+2011,New York Jets,28,24,Buffalo Bills,FALSE
+2011,Las Vegas Raiders,25,20,Chicago Bears,FALSE
+2011,Philadelphia Eagles,20,38,New England Patriots,FALSE
+2011,Los Angeles Chargers,13,16,Denver Broncos,FALSE
+2011,Seattle Seahawks,17,23,Washington Redskins,FALSE
+2011,Los Angeles Rams,20,23,Arizona Cardinals,FALSE
+2011,Tennessee Titans,23,17,Tampa Bay Buccaneers,FALSE
+2011,New Orleans Saints,49,24,New York Giants,FALSE
+2011,Seattle Seahawks,31,14,Philadelphia Eagles,FALSE
+2011,Arizona Cardinals,19,13,Dallas Cowboys,FALSE
+2011,Buffalo Bills,17,23,Tennessee Titans,FALSE
+2011,Chicago Bears,3,10,Kansas City Chiefs,FALSE
+2011,Cleveland Browns,10,24,Baltimore Ravens,FALSE
+2011,Houston Texans,17,10,Atlanta Falcons,FALSE
+2011,Miami Dolphins,34,14,Las Vegas Raiders,FALSE
+2011,Minnesota Vikings,32,35,Denver Broncos,FALSE
+2011,New England Patriots,31,24,Indianapolis Colts,FALSE
+2011,New Orleans Saints,31,17,Detroit Lions,FALSE
+2011,New York Giants,35,38,Green Bay Packers,FALSE
+2011,Pittsburgh Steelers,35,7,Cincinnati Bengals,FALSE
+2011,San Francisco 49ers,26,0,Los Angeles Rams,FALSE
+2011,Tampa Bay Buccaneers,19,38,Carolina Panthers,FALSE
+2011,Washington Redskins,19,34,New York Jets,FALSE
+2011,Jacksonville Jaguars,14,38,Los Angeles Chargers,FALSE
+2011,Pittsburgh Steelers,14,3,Cleveland Browns,FALSE
+2011,Arizona Cardinals,21,19,San Francisco 49ers,FALSE
+2011,Baltimore Ravens,24,10,Indianapolis Colts,FALSE
+2011,Carolina Panthers,23,31,Atlanta Falcons,FALSE
+2011,Cincinnati Bengals,19,20,Houston Texans,FALSE
+2011,Dallas Cowboys,34,37,New York Giants,FALSE
+2011,Denver Broncos,13,10,Chicago Bears,FALSE
+2011,Detroit Lions,34,28,Minnesota Vikings,FALSE
+2011,Green Bay Packers,46,16,Las Vegas Raiders,FALSE
+2011,Jacksonville Jaguars,41,14,Tampa Bay Buccaneers,FALSE
+2011,Miami Dolphins,10,26,Philadelphia Eagles,FALSE
+2011,New York Jets,37,10,Kansas City Chiefs,FALSE
+2011,Los Angeles Chargers,37,10,Buffalo Bills,FALSE
+2011,Tennessee Titans,17,22,New Orleans Saints,FALSE
+2011,Washington Redskins,27,34,New England Patriots,FALSE
+2011,Seattle Seahawks,30,13,Los Angeles Rams,FALSE
+2011,Atlanta Falcons,41,14,Jacksonville Jaguars,FALSE
+2011,Tampa Bay Buccaneers,15,31,Dallas Cowboys,FALSE
+2011,Arizona Cardinals,20,17,Cleveland Browns,FALSE
+2011,Buffalo Bills,23,30,Miami Dolphins,FALSE
+2011,Chicago Bears,14,38,Seattle Seahawks,FALSE
+2011,Denver Broncos,23,41,New England Patriots,FALSE
+2011,Houston Texans,13,28,Carolina Panthers,FALSE
+2011,Indianapolis Colts,27,13,Tennessee Titans,FALSE
+2011,Kansas City Chiefs,19,14,Green Bay Packers,FALSE
+2011,Minnesota Vikings,20,42,New Orleans Saints,FALSE
+2011,New York Giants,10,23,Washington Redskins,FALSE
+2011,Las Vegas Raiders,27,28,Detroit Lions,FALSE
+2011,Philadelphia Eagles,45,19,New York Jets,FALSE
+2011,Los Angeles Chargers,34,14,Baltimore Ravens,FALSE
+2011,Los Angeles Rams,13,20,Cincinnati Bengals,FALSE
+2011,San Francisco 49ers,20,3,Pittsburgh Steelers,FALSE
+2011,Indianapolis Colts,19,16,Houston Texans,FALSE
+2011,Baltimore Ravens,20,14,Cleveland Browns,FALSE
+2011,Buffalo Bills,40,14,Denver Broncos,FALSE
+2011,Carolina Panthers,48,16,Tampa Bay Buccaneers,FALSE
+2011,Cincinnati Bengals,23,16,Arizona Cardinals,FALSE
+2011,Dallas Cowboys,7,20,Philadelphia Eagles,FALSE
+2011,Detroit Lions,38,10,Los Angeles Chargers,FALSE
+2011,Kansas City Chiefs,13,16,Las Vegas Raiders,FALSE
+2011,New England Patriots,27,24,Miami Dolphins,FALSE
+2011,New York Jets,14,29,New York Giants,FALSE
+2011,Pittsburgh Steelers,27,0,Los Angeles Rams,FALSE
+2011,Seattle Seahawks,17,19,San Francisco 49ers,FALSE
+2011,Tennessee Titans,23,17,Jacksonville Jaguars,FALSE
+2011,Washington Redskins,26,33,Minnesota Vikings,FALSE
+2011,Green Bay Packers,35,21,Chicago Bears,FALSE
+2011,New Orleans Saints,45,16,Atlanta Falcons,FALSE
+2011,Arizona Cardinals,23,20,Seattle Seahawks,FALSE
+2011,Atlanta Falcons,45,24,Tampa Bay Buccaneers,FALSE
+2011,Cincinnati Bengals,16,24,Baltimore Ravens,FALSE
+2011,Cleveland Browns,9,13,Pittsburgh Steelers,FALSE
+2011,Denver Broncos,3,7,Kansas City Chiefs,FALSE
+2011,Green Bay Packers,45,41,Detroit Lions,FALSE
+2011,Houston Texans,22,23,Tennessee Titans,FALSE
+2011,Jacksonville Jaguars,19,13,Indianapolis Colts,FALSE
+2011,Miami Dolphins,19,17,New York Jets,FALSE
+2011,Minnesota Vikings,13,17,Chicago Bears,FALSE
+2011,New England Patriots,49,21,Buffalo Bills,FALSE
+2011,New Orleans Saints,45,17,Carolina Panthers,FALSE
+2011,New York Giants,31,14,Dallas Cowboys,FALSE
+2011,Las Vegas Raiders,26,38,Los Angeles Chargers,FALSE
+2011,Philadelphia Eagles,34,10,Washington Redskins,FALSE
+2011,Los Angeles Rams,27,34,San Francisco 49ers,FALSE
+2011,Houston Texans,31,10,Cincinnati Bengals,FALSE
+2011,New Orleans Saints,45,28,Detroit Lions,FALSE
+2011,Denver Broncos,29,23,Pittsburgh Steelers,FALSE
+2011,New York Giants,24,2,Atlanta Falcons,FALSE
+2011,New England Patriots,45,10,Denver Broncos,FALSE
+2011,San Francisco 49ers,36,32,New Orleans Saints,FALSE
+2011,Baltimore Ravens,20,13,Houston Texans,FALSE
+2011,Green Bay Packers,20,37,New York Giants,FALSE
+2011,New England Patriots,23,20,Baltimore Ravens,FALSE
+2011,San Francisco 49ers,17,20,New York Giants,FALSE
+2011,New England Patriots,17,21,New York Giants,TRUE
+2012,New York Giants,17,24,Dallas Cowboys,FALSE
+2012,Arizona Cardinals,20,16,Seattle Seahawks,FALSE
+2012,Chicago Bears,41,21,Indianapolis Colts,FALSE
+2012,Cleveland Browns,16,17,Philadelphia Eagles,FALSE
+2012,Denver Broncos,31,19,Pittsburgh Steelers,FALSE
+2012,Detroit Lions,27,23,Los Angeles Rams,FALSE
+2012,Green Bay Packers,22,30,San Francisco 49ers,FALSE
+2012,Houston Texans,30,10,Miami Dolphins,FALSE
+2012,Kansas City Chiefs,24,40,Atlanta Falcons,FALSE
+2012,Minnesota Vikings,26,23,Jacksonville Jaguars,FALSE
+2012,New Orleans Saints,32,40,Washington Redskins,FALSE
+2012,New York Jets,48,28,Buffalo Bills,FALSE
+2012,Tampa Bay Buccaneers,16,10,Carolina Panthers,FALSE
+2012,Tennessee Titans,13,34,New England Patriots,FALSE
+2012,Baltimore Ravens,44,13,Cincinnati Bengals,FALSE
+2012,Las Vegas Raiders,14,22,Los Angeles Chargers,FALSE
+2012,Green Bay Packers,23,10,Chicago Bears,FALSE
+2012,Buffalo Bills,35,17,Kansas City Chiefs,FALSE
+2012,Carolina Panthers,35,27,New Orleans Saints,FALSE
+2012,Cincinnati Bengals,34,27,Cleveland Browns,FALSE
+2012,Indianapolis Colts,23,20,Minnesota Vikings,FALSE
+2012,Jacksonville Jaguars,7,27,Houston Texans,FALSE
+2012,Miami Dolphins,35,13,Las Vegas Raiders,FALSE
+2012,New England Patriots,18,20,Arizona Cardinals,FALSE
+2012,New York Giants,41,34,Tampa Bay Buccaneers,FALSE
+2012,Philadelphia Eagles,24,23,Baltimore Ravens,FALSE
+2012,Pittsburgh Steelers,27,10,New York Jets,FALSE
+2012,Los Angeles Chargers,38,10,Tennessee Titans,FALSE
+2012,San Francisco 49ers,27,19,Detroit Lions,FALSE
+2012,Seattle Seahawks,27,7,Dallas Cowboys,FALSE
+2012,Los Angeles Rams,31,28,Washington Redskins,FALSE
+2012,Atlanta Falcons,27,21,Denver Broncos,FALSE
+2012,Carolina Panthers,7,36,New York Giants,FALSE
+2012,Arizona Cardinals,27,6,Philadelphia Eagles,FALSE
+2012,Baltimore Ravens,31,30,New England Patriots,FALSE
+2012,Chicago Bears,23,6,Los Angeles Rams,FALSE
+2012,Cleveland Browns,14,24,Buffalo Bills,FALSE
+2012,Dallas Cowboys,16,10,Tampa Bay Buccaneers,FALSE
+2012,Denver Broncos,25,31,Houston Texans,FALSE
+2012,Indianapolis Colts,17,22,Jacksonville Jaguars,FALSE
+2012,Miami Dolphins,20,23,New York Jets,FALSE
+2012,Minnesota Vikings,24,13,San Francisco 49ers,FALSE
+2012,New Orleans Saints,24,27,Kansas City Chiefs,FALSE
+2012,Las Vegas Raiders,34,31,Pittsburgh Steelers,FALSE
+2012,Los Angeles Chargers,3,27,Atlanta Falcons,FALSE
+2012,Tennessee Titans,44,41,Detroit Lions,FALSE
+2012,Washington Redskins,31,38,Cincinnati Bengals,FALSE
+2012,Seattle Seahawks,14,12,Green Bay Packers,FALSE
+2012,Baltimore Ravens,23,16,Cleveland Browns,FALSE
+2012,Arizona Cardinals,24,21,Miami Dolphins,FALSE
+2012,Atlanta Falcons,30,28,Carolina Panthers,FALSE
+2012,Buffalo Bills,28,52,New England Patriots,FALSE
+2012,Denver Broncos,37,6,Las Vegas Raiders,FALSE
+2012,Detroit Lions,13,20,Minnesota Vikings,FALSE
+2012,Green Bay Packers,28,27,New Orleans Saints,FALSE
+2012,Houston Texans,38,14,Tennessee Titans,FALSE
+2012,Jacksonville Jaguars,10,27,Cincinnati Bengals,FALSE
+2012,Kansas City Chiefs,20,37,Los Angeles Chargers,FALSE
+2012,New York Jets,0,34,San Francisco 49ers,FALSE
+2012,Philadelphia Eagles,19,17,New York Giants,FALSE
+2012,Los Angeles Rams,19,13,Seattle Seahawks,FALSE
+2012,Tampa Bay Buccaneers,22,24,Washington Redskins,FALSE
+2012,Dallas Cowboys,18,34,Chicago Bears,FALSE
+2012,Los Angeles Rams,17,3,Arizona Cardinals,FALSE
+2012,Carolina Panthers,12,16,Seattle Seahawks,FALSE
+2012,Cincinnati Bengals,13,17,Miami Dolphins,FALSE
+2012,Indianapolis Colts,30,27,Green Bay Packers,FALSE
+2012,Jacksonville Jaguars,3,41,Chicago Bears,FALSE
+2012,Kansas City Chiefs,6,9,Baltimore Ravens,FALSE
+2012,Minnesota Vikings,30,7,Tennessee Titans,FALSE
+2012,New England Patriots,31,21,Denver Broncos,FALSE
+2012,New Orleans Saints,31,24,Los Angeles Chargers,FALSE
+2012,New York Giants,41,27,Cleveland Browns,FALSE
+2012,Pittsburgh Steelers,16,14,Philadelphia Eagles,FALSE
+2012,San Francisco 49ers,45,3,Buffalo Bills,FALSE
+2012,Washington Redskins,17,24,Atlanta Falcons,FALSE
+2012,New York Jets,17,23,Houston Texans,FALSE
+2012,Tennessee Titans,26,23,Pittsburgh Steelers,FALSE
+2012,Arizona Cardinals,16,19,Buffalo Bills,FALSE
+2012,Atlanta Falcons,23,20,Las Vegas Raiders,FALSE
+2012,Baltimore Ravens,31,29,Dallas Cowboys,FALSE
+2012,Cleveland Browns,34,24,Cincinnati Bengals,FALSE
+2012,Houston Texans,24,42,Green Bay Packers,FALSE
+2012,Miami Dolphins,17,14,Los Angeles Rams,FALSE
+2012,New York Jets,35,9,Indianapolis Colts,FALSE
+2012,Philadelphia Eagles,23,26,Detroit Lions,FALSE
+2012,San Francisco 49ers,3,26,New York Giants,FALSE
+2012,Seattle Seahawks,24,23,New England Patriots,FALSE
+2012,Tampa Bay Buccaneers,38,10,Kansas City Chiefs,FALSE
+2012,Washington Redskins,38,26,Minnesota Vikings,FALSE
+2012,Los Angeles Chargers,24,35,Denver Broncos,FALSE
+2012,San Francisco 49ers,13,6,Seattle Seahawks,FALSE
+2012,Buffalo Bills,34,35,Tennessee Titans,FALSE
+2012,Carolina Panthers,14,19,Dallas Cowboys,FALSE
+2012,Cincinnati Bengals,17,24,Pittsburgh Steelers,FALSE
+2012,Houston Texans,43,13,Baltimore Ravens,FALSE
+2012,Indianapolis Colts,17,13,Cleveland Browns,FALSE
+2012,Minnesota Vikings,21,14,Arizona Cardinals,FALSE
+2012,New England Patriots,29,26,New York Jets,FALSE
+2012,New York Giants,27,23,Washington Redskins,FALSE
+2012,Las Vegas Raiders,26,23,Jacksonville Jaguars,FALSE
+2012,Los Angeles Rams,20,30,Green Bay Packers,FALSE
+2012,Tampa Bay Buccaneers,28,35,New Orleans Saints,FALSE
+2012,Chicago Bears,13,7,Detroit Lions,FALSE
+2012,Minnesota Vikings,17,36,Tampa Bay Buccaneers,FALSE
+2012,Chicago Bears,23,22,Carolina Panthers,FALSE
+2012,Cleveland Browns,7,6,Los Angeles Chargers,FALSE
+2012,Dallas Cowboys,24,29,New York Giants,FALSE
+2012,Denver Broncos,34,14,New Orleans Saints,FALSE
+2012,Detroit Lions,28,24,Seattle Seahawks,FALSE
+2012,Green Bay Packers,24,15,Jacksonville Jaguars,FALSE
+2012,Kansas City Chiefs,16,26,Las Vegas Raiders,FALSE
+2012,New York Jets,9,30,Miami Dolphins,FALSE
+2012,Philadelphia Eagles,17,30,Atlanta Falcons,FALSE
+2012,Pittsburgh Steelers,27,12,Washington Redskins,FALSE
+2012,Los Angeles Rams,7,45,New England Patriots,TRUE
+2012,Tennessee Titans,13,19,Indianapolis Colts,FALSE
+2012,Arizona Cardinals,3,24,San Francisco 49ers,FALSE
+2012,Los Angeles Chargers,31,13,Kansas City Chiefs,FALSE
+2012,Atlanta Falcons,19,13,Dallas Cowboys,FALSE
+2012,Cincinnati Bengals,23,31,Denver Broncos,FALSE
+2012,Cleveland Browns,15,25,Baltimore Ravens,FALSE
+2012,Green Bay Packers,31,17,Arizona Cardinals,FALSE
+2012,Houston Texans,21,9,Buffalo Bills,FALSE
+2012,Indianapolis Colts,23,20,Miami Dolphins,FALSE
+2012,Jacksonville Jaguars,14,31,Detroit Lions,FALSE
+2012,New York Giants,20,24,Pittsburgh Steelers,FALSE
+2012,Las Vegas Raiders,32,42,Tampa Bay Buccaneers,FALSE
+2012,Seattle Seahawks,30,20,Minnesota Vikings,FALSE
+2012,Tennessee Titans,20,51,Chicago Bears,FALSE
+2012,Washington Redskins,13,21,Carolina Panthers,FALSE
+2012,New Orleans Saints,28,13,Philadelphia Eagles,FALSE
+2012,Jacksonville Jaguars,10,27,Indianapolis Colts,FALSE
+2012,Baltimore Ravens,55,20,Las Vegas Raiders,FALSE
+2012,Carolina Panthers,14,36,Denver Broncos,FALSE
+2012,Chicago Bears,6,13,Houston Texans,FALSE
+2012,Cincinnati Bengals,31,13,New York Giants,FALSE
+2012,Miami Dolphins,3,37,Tennessee Titans,FALSE
+2012,Minnesota Vikings,34,24,Detroit Lions,FALSE
+2012,New England Patriots,37,31,Buffalo Bills,FALSE
+2012,New Orleans Saints,31,27,Atlanta Falcons,FALSE
+2012,Philadelphia Eagles,23,38,Dallas Cowboys,FALSE
+2012,San Francisco 49ers,24,24,Los Angeles Rams,FALSE
+2012,Seattle Seahawks,28,7,New York Jets,FALSE
+2012,Tampa Bay Buccaneers,34,24,Los Angeles Chargers,FALSE
+2012,Pittsburgh Steelers,16,13,Kansas City Chiefs,FALSE
+2012,Buffalo Bills,19,14,Miami Dolphins,FALSE
+2012,Atlanta Falcons,23,19,Arizona Cardinals,FALSE
+2012,Carolina Panthers,21,27,Tampa Bay Buccaneers,FALSE
+2012,Dallas Cowboys,23,20,Cleveland Browns,FALSE
+2012,Denver Broncos,30,23,Los Angeles Chargers,FALSE
+2012,Detroit Lions,20,24,Green Bay Packers,FALSE
+2012,Houston Texans,43,37,Jacksonville Jaguars,FALSE
+2012,Kansas City Chiefs,6,28,Cincinnati Bengals,FALSE
+2012,New England Patriots,59,24,Indianapolis Colts,FALSE
+2012,Las Vegas Raiders,17,38,New Orleans Saints,FALSE
+2012,Pittsburgh Steelers,10,13,Baltimore Ravens,FALSE
+2012,Los Angeles Rams,13,27,New York Jets,FALSE
+2012,Washington Redskins,31,6,Philadelphia Eagles,FALSE
+2012,San Francisco 49ers,32,7,Chicago Bears,FALSE
+2012,Dallas Cowboys,31,38,Washington Redskins,FALSE
+2012,Detroit Lions,31,34,Houston Texans,FALSE
+2012,New York Jets,19,49,New England Patriots,FALSE
+2012,Arizona Cardinals,17,31,Los Angeles Rams,FALSE
+2012,Chicago Bears,28,10,Minnesota Vikings,FALSE
+2012,Cincinnati Bengals,34,10,Las Vegas Raiders,FALSE
+2012,Cleveland Browns,20,14,Pittsburgh Steelers,FALSE
+2012,Indianapolis Colts,20,13,Buffalo Bills,FALSE
+2012,Jacksonville Jaguars,24,19,Tennessee Titans,FALSE
+2012,Kansas City Chiefs,9,17,Denver Broncos,FALSE
+2012,Miami Dolphins,24,21,Seattle Seahawks,FALSE
+2012,New Orleans Saints,21,31,San Francisco 49ers,FALSE
+2012,New York Giants,38,10,Green Bay Packers,FALSE
+2012,Los Angeles Chargers,13,16,Baltimore Ravens,FALSE
+2012,Tampa Bay Buccaneers,23,24,Atlanta Falcons,FALSE
+2012,Philadelphia Eagles,22,30,Carolina Panthers,FALSE
+2012,Atlanta Falcons,23,13,New Orleans Saints,FALSE
+2012,Baltimore Ravens,20,23,Pittsburgh Steelers,FALSE
+2012,Buffalo Bills,34,18,Jacksonville Jaguars,FALSE
+2012,Chicago Bears,17,23,Seattle Seahawks,FALSE
+2012,Dallas Cowboys,38,33,Philadelphia Eagles,FALSE
+2012,Denver Broncos,31,23,Tampa Bay Buccaneers,FALSE
+2012,Detroit Lions,33,35,Indianapolis Colts,FALSE
+2012,Green Bay Packers,23,14,Minnesota Vikings,FALSE
+2012,Kansas City Chiefs,27,21,Carolina Panthers,FALSE
+2012,Miami Dolphins,16,23,New England Patriots,FALSE
+2012,New York Jets,7,6,Arizona Cardinals,FALSE
+2012,Las Vegas Raiders,17,20,Cleveland Browns,FALSE
+2012,Los Angeles Chargers,13,20,Cincinnati Bengals,FALSE
+2012,Los Angeles Rams,16,13,San Francisco 49ers,FALSE
+2012,Tennessee Titans,10,24,Houston Texans,FALSE
+2012,Washington Redskins,17,16,New York Giants,FALSE
+2012,Las Vegas Raiders,13,26,Denver Broncos,FALSE
+2012,Buffalo Bills,12,15,Los Angeles Rams,FALSE
+2012,Carolina Panthers,30,20,Atlanta Falcons,FALSE
+2012,Cincinnati Bengals,19,20,Dallas Cowboys,FALSE
+2012,Cleveland Browns,30,7,Kansas City Chiefs,FALSE
+2012,Green Bay Packers,27,20,Detroit Lions,FALSE
+2012,Indianapolis Colts,27,23,Tennessee Titans,FALSE
+2012,Jacksonville Jaguars,10,17,New York Jets,FALSE
+2012,Minnesota Vikings,21,14,Chicago Bears,FALSE
+2012,New York Giants,52,27,New Orleans Saints,FALSE
+2012,Pittsburgh Steelers,24,34,Los Angeles Chargers,FALSE
+2012,San Francisco 49ers,27,13,Miami Dolphins,FALSE
+2012,Seattle Seahawks,58,0,Arizona Cardinals,FALSE
+2012,Tampa Bay Buccaneers,21,23,Philadelphia Eagles,FALSE
+2012,Washington Redskins,31,28,Baltimore Ravens,FALSE
+2012,New England Patriots,42,14,Houston Texans,FALSE
+2012,Philadelphia Eagles,13,34,Cincinnati Bengals,FALSE
+2012,Arizona Cardinals,38,10,Detroit Lions,FALSE
+2012,Atlanta Falcons,34,0,New York Giants,FALSE
+2012,Baltimore Ravens,17,34,Denver Broncos,FALSE
+2012,Buffalo Bills,17,50,Seattle Seahawks,TRUE
+2012,Chicago Bears,13,21,Green Bay Packers,FALSE
+2012,Cleveland Browns,21,38,Washington Redskins,FALSE
+2012,Dallas Cowboys,27,24,Pittsburgh Steelers,FALSE
+2012,Houston Texans,29,17,Indianapolis Colts,FALSE
+2012,Miami Dolphins,24,3,Jacksonville Jaguars,FALSE
+2012,New England Patriots,34,41,San Francisco 49ers,FALSE
+2012,New Orleans Saints,41,0,Tampa Bay Buccaneers,FALSE
+2012,Las Vegas Raiders,15,0,Kansas City Chiefs,FALSE
+2012,Los Angeles Chargers,7,31,Carolina Panthers,FALSE
+2012,Los Angeles Rams,22,36,Minnesota Vikings,FALSE
+2012,Tennessee Titans,14,10,New York Jets,FALSE
+2012,Detroit Lions,18,31,Atlanta Falcons,FALSE
+2012,Arizona Cardinals,13,28,Chicago Bears,FALSE
+2012,Baltimore Ravens,33,14,New York Giants,FALSE
+2012,Carolina Panthers,17,6,Las Vegas Raiders,FALSE
+2012,Dallas Cowboys,31,34,New Orleans Saints,FALSE
+2012,Denver Broncos,34,12,Cleveland Browns,FALSE
+2012,Green Bay Packers,55,7,Tennessee Titans,FALSE
+2012,Houston Texans,6,23,Minnesota Vikings,FALSE
+2012,Jacksonville Jaguars,16,23,New England Patriots,FALSE
+2012,Kansas City Chiefs,13,20,Indianapolis Colts,FALSE
+2012,Miami Dolphins,24,10,Buffalo Bills,FALSE
+2012,New York Jets,17,27,Los Angeles Chargers,FALSE
+2012,Philadelphia Eagles,20,27,Washington Redskins,FALSE
+2012,Pittsburgh Steelers,10,13,Cincinnati Bengals,FALSE
+2012,Seattle Seahawks,42,13,San Francisco 49ers,FALSE
+2012,Tampa Bay Buccaneers,13,28,Los Angeles Rams,FALSE
+2012,Atlanta Falcons,17,22,Tampa Bay Buccaneers,FALSE
+2012,Buffalo Bills,28,9,New York Jets,FALSE
+2012,Cincinnati Bengals,23,17,Baltimore Ravens,FALSE
+2012,Denver Broncos,38,3,Kansas City Chiefs,FALSE
+2012,Detroit Lions,24,26,Chicago Bears,FALSE
+2012,Indianapolis Colts,28,16,Houston Texans,FALSE
+2012,Minnesota Vikings,37,34,Green Bay Packers,FALSE
+2012,New England Patriots,28,0,Miami Dolphins,FALSE
+2012,New Orleans Saints,38,44,Carolina Panthers,FALSE
+2012,New York Giants,42,7,Philadelphia Eagles,FALSE
+2012,Pittsburgh Steelers,24,10,Cleveland Browns,FALSE
+2012,Los Angeles Chargers,24,21,Las Vegas Raiders,FALSE
+2012,San Francisco 49ers,27,13,Arizona Cardinals,FALSE
+2012,Seattle Seahawks,20,13,Los Angeles Rams,FALSE
+2012,Tennessee Titans,38,20,Jacksonville Jaguars,FALSE
+2012,Washington Redskins,28,18,Dallas Cowboys,FALSE
+2012,Green Bay Packers,24,10,Minnesota Vikings,FALSE
+2012,Houston Texans,19,13,Cincinnati Bengals,FALSE
+2012,Baltimore Ravens,24,9,Indianapolis Colts,FALSE
+2012,Washington Redskins,14,24,Seattle Seahawks,FALSE
+2012,Denver Broncos,35,38,Baltimore Ravens,FALSE
+2012,San Francisco 49ers,45,31,Green Bay Packers,FALSE
+2012,Atlanta Falcons,30,28,Seattle Seahawks,FALSE
+2012,New England Patriots,41,28,Houston Texans,FALSE
+2012,Atlanta Falcons,24,28,San Francisco 49ers,FALSE
+2012,New England Patriots,13,28,Baltimore Ravens,FALSE
+2012,San Francisco 49ers,31,34,Baltimore Ravens,TRUE
+2013,Denver Broncos,49,27,Baltimore Ravens,FALSE
+2013,Buffalo Bills,21,23,New England Patriots,FALSE
+2013,Carolina Panthers,7,12,Seattle Seahawks,FALSE
+2013,Chicago Bears,24,21,Cincinnati Bengals,FALSE
+2013,Cleveland Browns,10,23,Miami Dolphins,FALSE
+2013,Dallas Cowboys,36,31,New York Giants,FALSE
+2013,Detroit Lions,34,24,Minnesota Vikings,FALSE
+2013,Indianapolis Colts,21,17,Las Vegas Raiders,FALSE
+2013,Jacksonville Jaguars,2,28,Kansas City Chiefs,FALSE
+2013,New Orleans Saints,23,17,Atlanta Falcons,FALSE
+2013,New York Jets,18,17,Tampa Bay Buccaneers,FALSE
+2013,Pittsburgh Steelers,9,16,Tennessee Titans,FALSE
+2013,San Francisco 49ers,34,28,Green Bay Packers,FALSE
+2013,Los Angeles Rams,27,24,Arizona Cardinals,FALSE
+2013,Los Angeles Chargers,28,31,Houston Texans,FALSE
+2013,Washington Redskins,27,33,Philadelphia Eagles,FALSE
+2013,New England Patriots,13,10,New York Jets,FALSE
+2013,Arizona Cardinals,25,21,Detroit Lions,FALSE
+2013,Atlanta Falcons,31,24,Los Angeles Rams,FALSE
+2013,Baltimore Ravens,14,6,Cleveland Browns,FALSE
+2013,Buffalo Bills,24,23,Carolina Panthers,FALSE
+2013,Chicago Bears,31,30,Minnesota Vikings,FALSE
+2013,Green Bay Packers,38,20,Washington Redskins,FALSE
+2013,Houston Texans,30,24,Tennessee Titans,FALSE
+2013,Indianapolis Colts,20,24,Miami Dolphins,FALSE
+2013,Kansas City Chiefs,17,16,Dallas Cowboys,FALSE
+2013,New York Giants,23,41,Denver Broncos,FALSE
+2013,Las Vegas Raiders,19,9,Jacksonville Jaguars,FALSE
+2013,Philadelphia Eagles,30,33,Los Angeles Chargers,FALSE
+2013,Seattle Seahawks,29,3,San Francisco 49ers,FALSE
+2013,Tampa Bay Buccaneers,14,16,New Orleans Saints,FALSE
+2013,Cincinnati Bengals,20,10,Pittsburgh Steelers,FALSE
+2013,Philadelphia Eagles,16,26,Kansas City Chiefs,FALSE
+2013,Baltimore Ravens,30,9,Houston Texans,FALSE
+2013,Carolina Panthers,38,0,New York Giants,FALSE
+2013,Cincinnati Bengals,34,30,Green Bay Packers,FALSE
+2013,Dallas Cowboys,31,7,Los Angeles Rams,FALSE
+2013,Miami Dolphins,27,23,Atlanta Falcons,FALSE
+2013,Minnesota Vikings,27,31,Cleveland Browns,FALSE
+2013,New England Patriots,23,3,Tampa Bay Buccaneers,FALSE
+2013,New Orleans Saints,31,7,Arizona Cardinals,FALSE
+2013,New York Jets,27,20,Buffalo Bills,FALSE
+2013,Pittsburgh Steelers,23,40,Chicago Bears,FALSE
+2013,San Francisco 49ers,7,27,Indianapolis Colts,FALSE
+2013,Seattle Seahawks,45,17,Jacksonville Jaguars,FALSE
+2013,Tennessee Titans,20,17,Los Angeles Chargers,FALSE
+2013,Washington Redskins,20,27,Detroit Lions,FALSE
+2013,Denver Broncos,37,21,Las Vegas Raiders,FALSE
+2013,Los Angeles Rams,11,35,San Francisco 49ers,FALSE
+2013,Atlanta Falcons,23,30,New England Patriots,FALSE
+2013,Buffalo Bills,23,20,Baltimore Ravens,FALSE
+2013,Cleveland Browns,17,6,Cincinnati Bengals,FALSE
+2013,Denver Broncos,52,20,Philadelphia Eagles,FALSE
+2013,Detroit Lions,40,32,Chicago Bears,FALSE
+2013,Houston Texans,20,23,Seattle Seahawks,FALSE
+2013,Jacksonville Jaguars,3,37,Indianapolis Colts,FALSE
+2013,Kansas City Chiefs,31,7,New York Giants,FALSE
+2013,Minnesota Vikings,34,27,Pittsburgh Steelers,TRUE
+2013,Las Vegas Raiders,14,24,Washington Redskins,FALSE
+2013,Los Angeles Chargers,30,21,Dallas Cowboys,FALSE
+2013,Tampa Bay Buccaneers,10,13,Arizona Cardinals,FALSE
+2013,Tennessee Titans,38,13,New York Jets,FALSE
+2013,New Orleans Saints,38,17,Miami Dolphins,FALSE
+2013,Cleveland Browns,37,24,Buffalo Bills,FALSE
+2013,Arizona Cardinals,22,6,Carolina Panthers,FALSE
+2013,Chicago Bears,18,26,New Orleans Saints,FALSE
+2013,Cincinnati Bengals,13,6,New England Patriots,FALSE
+2013,Dallas Cowboys,48,51,Denver Broncos,FALSE
+2013,Green Bay Packers,22,9,Detroit Lions,FALSE
+2013,Indianapolis Colts,34,28,Seattle Seahawks,FALSE
+2013,Miami Dolphins,23,26,Baltimore Ravens,FALSE
+2013,New York Giants,21,36,Philadelphia Eagles,FALSE
+2013,Las Vegas Raiders,27,17,Los Angeles Chargers,FALSE
+2013,San Francisco 49ers,34,3,Houston Texans,FALSE
+2013,Los Angeles Rams,34,20,Jacksonville Jaguars,FALSE
+2013,Tennessee Titans,17,26,Kansas City Chiefs,FALSE
+2013,Atlanta Falcons,28,30,New York Jets,FALSE
+2013,Chicago Bears,27,21,New York Giants,FALSE
+2013,Baltimore Ravens,17,19,Green Bay Packers,FALSE
+2013,Buffalo Bills,24,27,Cincinnati Bengals,FALSE
+2013,Cleveland Browns,17,31,Detroit Lions,FALSE
+2013,Dallas Cowboys,31,16,Washington Redskins,FALSE
+2013,Denver Broncos,35,19,Jacksonville Jaguars,FALSE
+2013,Houston Texans,13,38,Los Angeles Rams,FALSE
+2013,Kansas City Chiefs,24,7,Las Vegas Raiders,FALSE
+2013,Minnesota Vikings,10,35,Carolina Panthers,FALSE
+2013,New England Patriots,30,27,New Orleans Saints,FALSE
+2013,New York Jets,6,19,Pittsburgh Steelers,FALSE
+2013,San Francisco 49ers,32,20,Arizona Cardinals,FALSE
+2013,Seattle Seahawks,20,13,Tennessee Titans,FALSE
+2013,Tampa Bay Buccaneers,20,31,Philadelphia Eagles,FALSE
+2013,Los Angeles Chargers,19,9,Indianapolis Colts,FALSE
+2013,Arizona Cardinals,22,34,Seattle Seahawks,FALSE
+2013,Atlanta Falcons,31,23,Tampa Bay Buccaneers,FALSE
+2013,Carolina Panthers,30,15,Los Angeles Rams,FALSE
+2013,Detroit Lions,24,27,Cincinnati Bengals,FALSE
+2013,Green Bay Packers,31,13,Cleveland Browns,FALSE
+2013,Indianapolis Colts,39,33,Denver Broncos,FALSE
+2013,Jacksonville Jaguars,6,24,Los Angeles Chargers,FALSE
+2013,Kansas City Chiefs,17,16,Houston Texans,FALSE
+2013,Miami Dolphins,21,23,Buffalo Bills,FALSE
+2013,New York Jets,30,27,New England Patriots,FALSE
+2013,Philadelphia Eagles,3,17,Dallas Cowboys,FALSE
+2013,Pittsburgh Steelers,19,16,Baltimore Ravens,FALSE
+2013,Tennessee Titans,17,31,San Francisco 49ers,FALSE
+2013,Washington Redskins,45,41,Chicago Bears,FALSE
+2013,New York Giants,23,7,Minnesota Vikings,FALSE
+2013,Tampa Bay Buccaneers,13,31,Carolina Panthers,FALSE
+2013,Arizona Cardinals,27,13,Atlanta Falcons,FALSE
+2013,Cincinnati Bengals,49,9,New York Jets,FALSE
+2013,Denver Broncos,45,21,Washington Redskins,FALSE
+2013,Detroit Lions,31,30,Dallas Cowboys,FALSE
+2013,Jacksonville Jaguars,10,42,San Francisco 49ers,TRUE
+2013,Kansas City Chiefs,23,17,Cleveland Browns,FALSE
+2013,Minnesota Vikings,31,44,Green Bay Packers,FALSE
+2013,New England Patriots,27,17,Miami Dolphins,FALSE
+2013,New Orleans Saints,35,17,Buffalo Bills,FALSE
+2013,Las Vegas Raiders,21,18,Pittsburgh Steelers,FALSE
+2013,Philadelphia Eagles,7,15,New York Giants,FALSE
+2013,Los Angeles Rams,9,14,Seattle Seahawks,FALSE
+2013,Miami Dolphins,22,20,Cincinnati Bengals,FALSE
+2013,Buffalo Bills,13,23,Kansas City Chiefs,FALSE
+2013,Carolina Panthers,34,10,Atlanta Falcons,FALSE
+2013,Cleveland Browns,24,18,Baltimore Ravens,FALSE
+2013,Dallas Cowboys,27,23,Minnesota Vikings,FALSE
+2013,Houston Texans,24,27,Indianapolis Colts,FALSE
+2013,New England Patriots,55,31,Pittsburgh Steelers,FALSE
+2013,New York Jets,26,20,New Orleans Saints,FALSE
+2013,Las Vegas Raiders,20,49,Philadelphia Eagles,FALSE
+2013,Seattle Seahawks,27,24,Tampa Bay Buccaneers,FALSE
+2013,Los Angeles Rams,21,28,Tennessee Titans,FALSE
+2013,Washington Redskins,30,24,Los Angeles Chargers,FALSE
+2013,Green Bay Packers,20,27,Chicago Bears,FALSE
+2013,Minnesota Vikings,34,27,Washington Redskins,FALSE
+2013,Arizona Cardinals,27,24,Houston Texans,FALSE
+2013,Atlanta Falcons,10,33,Seattle Seahawks,FALSE
+2013,Baltimore Ravens,20,17,Cincinnati Bengals,FALSE
+2013,Chicago Bears,19,21,Detroit Lions,FALSE
+2013,Green Bay Packers,13,27,Philadelphia Eagles,FALSE
+2013,Indianapolis Colts,8,38,Los Angeles Rams,FALSE
+2013,New Orleans Saints,49,17,Dallas Cowboys,FALSE
+2013,New York Giants,24,20,Las Vegas Raiders,FALSE
+2013,Pittsburgh Steelers,23,10,Buffalo Bills,FALSE
+2013,Los Angeles Chargers,20,28,Denver Broncos,FALSE
+2013,San Francisco 49ers,9,10,Carolina Panthers,FALSE
+2013,Tennessee Titans,27,29,Jacksonville Jaguars,FALSE
+2013,Tampa Bay Buccaneers,22,19,Miami Dolphins,FALSE
+2013,Tennessee Titans,27,30,Indianapolis Colts,FALSE
+2013,Buffalo Bills,37,14,New York Jets,FALSE
+2013,Chicago Bears,23,20,Baltimore Ravens,FALSE
+2013,Cincinnati Bengals,41,20,Cleveland Browns,FALSE
+2013,Denver Broncos,27,17,Kansas City Chiefs,FALSE
+2013,Houston Texans,23,28,Las Vegas Raiders,FALSE
+2013,Jacksonville Jaguars,14,27,Arizona Cardinals,FALSE
+2013,Miami Dolphins,20,16,Los Angeles Chargers,FALSE
+2013,New Orleans Saints,23,20,San Francisco 49ers,FALSE
+2013,New York Giants,27,13,Green Bay Packers,FALSE
+2013,Philadelphia Eagles,24,16,Washington Redskins,FALSE
+2013,Pittsburgh Steelers,37,27,Detroit Lions,FALSE
+2013,Seattle Seahawks,41,20,Minnesota Vikings,FALSE
+2013,Tampa Bay Buccaneers,41,28,Atlanta Falcons,FALSE
+2013,Carolina Panthers,24,20,New England Patriots,FALSE
+2013,Atlanta Falcons,13,17,New Orleans Saints,FALSE
+2013,Arizona Cardinals,40,11,Indianapolis Colts,FALSE
+2013,Baltimore Ravens,19,3,New York Jets,FALSE
+2013,Cleveland Browns,11,27,Pittsburgh Steelers,FALSE
+2013,Detroit Lions,21,24,Tampa Bay Buccaneers,FALSE
+2013,Green Bay Packers,26,26,Minnesota Vikings,FALSE
+2013,Houston Texans,6,13,Jacksonville Jaguars,FALSE
+2013,Kansas City Chiefs,38,41,Los Angeles Chargers,FALSE
+2013,Miami Dolphins,16,20,Carolina Panthers,FALSE
+2013,New England Patriots,34,31,Denver Broncos,FALSE
+2013,New York Giants,21,24,Dallas Cowboys,FALSE
+2013,Las Vegas Raiders,19,23,Tennessee Titans,FALSE
+2013,Los Angeles Rams,42,21,Chicago Bears,FALSE
+2013,Washington Redskins,6,27,San Francisco 49ers,FALSE
+2013,Baltimore Ravens,22,20,Pittsburgh Steelers,FALSE
+2013,Dallas Cowboys,31,24,Las Vegas Raiders,FALSE
+2013,Detroit Lions,40,10,Green Bay Packers,FALSE
+2013,Buffalo Bills,31,34,Atlanta Falcons,TRUE
+2013,Carolina Panthers,27,6,Tampa Bay Buccaneers,FALSE
+2013,Cleveland Browns,28,32,Jacksonville Jaguars,FALSE
+2013,Houston Texans,31,34,New England Patriots,FALSE
+2013,Indianapolis Colts,22,14,Tennessee Titans,FALSE
+2013,Kansas City Chiefs,28,35,Denver Broncos,FALSE
+2013,Minnesota Vikings,23,20,Chicago Bears,FALSE
+2013,New York Jets,3,23,Miami Dolphins,FALSE
+2013,Philadelphia Eagles,24,21,Arizona Cardinals,FALSE
+2013,Los Angeles Chargers,10,17,Cincinnati Bengals,FALSE
+2013,San Francisco 49ers,23,13,Los Angeles Rams,FALSE
+2013,Washington Redskins,17,24,New York Giants,FALSE
+2013,Seattle Seahawks,34,7,New Orleans Saints,FALSE
+2013,Jacksonville Jaguars,27,20,Houston Texans,FALSE
+2013,Arizona Cardinals,30,10,Los Angeles Rams,FALSE
+2013,Baltimore Ravens,29,26,Minnesota Vikings,FALSE
+2013,Cincinnati Bengals,42,28,Indianapolis Colts,FALSE
+2013,Denver Broncos,51,28,Tennessee Titans,FALSE
+2013,Green Bay Packers,22,21,Atlanta Falcons,FALSE
+2013,New England Patriots,27,26,Cleveland Browns,FALSE
+2013,New Orleans Saints,31,13,Carolina Panthers,FALSE
+2013,New York Jets,37,27,Las Vegas Raiders,FALSE
+2013,Philadelphia Eagles,34,20,Detroit Lions,FALSE
+2013,Pittsburgh Steelers,28,34,Miami Dolphins,FALSE
+2013,Los Angeles Chargers,37,14,New York Giants,FALSE
+2013,San Francisco 49ers,19,17,Seattle Seahawks,FALSE
+2013,Tampa Bay Buccaneers,27,6,Buffalo Bills,FALSE
+2013,Washington Redskins,10,45,Kansas City Chiefs,FALSE
+2013,Chicago Bears,45,28,Dallas Cowboys,FALSE
+2013,Denver Broncos,20,27,Los Angeles Chargers,FALSE
+2013,Atlanta Falcons,27,26,Washington Redskins,FALSE
+2013,Carolina Panthers,30,20,New York Jets,FALSE
+2013,Cleveland Browns,31,38,Chicago Bears,FALSE
+2013,Dallas Cowboys,36,37,Green Bay Packers,FALSE
+2013,Indianapolis Colts,25,3,Houston Texans,FALSE
+2013,Jacksonville Jaguars,20,27,Buffalo Bills,FALSE
+2013,Miami Dolphins,24,20,New England Patriots,FALSE
+2013,Minnesota Vikings,48,30,Philadelphia Eagles,FALSE
+2013,New York Giants,0,23,Seattle Seahawks,FALSE
+2013,Las Vegas Raiders,31,56,Kansas City Chiefs,FALSE
+2013,Pittsburgh Steelers,30,20,Cincinnati Bengals,FALSE
+2013,Los Angeles Rams,27,16,New Orleans Saints,FALSE
+2013,Tampa Bay Buccaneers,14,33,San Francisco 49ers,FALSE
+2013,Tennessee Titans,34,37,Arizona Cardinals,FALSE
+2013,Detroit Lions,16,18,Baltimore Ravens,FALSE
+2013,Baltimore Ravens,7,41,New England Patriots,FALSE
+2013,Buffalo Bills,19,0,Miami Dolphins,FALSE
+2013,Carolina Panthers,17,13,New Orleans Saints,FALSE
+2013,Cincinnati Bengals,42,14,Minnesota Vikings,FALSE
+2013,Detroit Lions,20,23,New York Giants,FALSE
+2013,Green Bay Packers,31,38,Pittsburgh Steelers,FALSE
+2013,Houston Texans,13,37,Denver Broncos,FALSE
+2013,Jacksonville Jaguars,16,20,Tennessee Titans,FALSE
+2013,Kansas City Chiefs,7,23,Indianapolis Colts,FALSE
+2013,New York Jets,24,13,Cleveland Browns,FALSE
+2013,Philadelphia Eagles,54,11,Chicago Bears,FALSE
+2013,Los Angeles Chargers,26,13,Las Vegas Raiders,FALSE
+2013,Seattle Seahawks,10,17,Arizona Cardinals,FALSE
+2013,Los Angeles Rams,23,13,Tampa Bay Buccaneers,FALSE
+2013,Washington Redskins,23,24,Dallas Cowboys,FALSE
+2013,San Francisco 49ers,34,24,Atlanta Falcons,FALSE
+2013,Arizona Cardinals,20,23,San Francisco 49ers,FALSE
+2013,Atlanta Falcons,20,21,Carolina Panthers,FALSE
+2013,Chicago Bears,28,33,Green Bay Packers,FALSE
+2013,Cincinnati Bengals,34,17,Baltimore Ravens,FALSE
+2013,Dallas Cowboys,22,24,Philadelphia Eagles,FALSE
+2013,Indianapolis Colts,30,10,Jacksonville Jaguars,FALSE
+2013,Miami Dolphins,7,20,New York Jets,FALSE
+2013,Minnesota Vikings,14,13,Detroit Lions,FALSE
+2013,New England Patriots,34,20,Buffalo Bills,FALSE
+2013,New Orleans Saints,42,17,Tampa Bay Buccaneers,FALSE
+2013,New York Giants,20,6,Washington Redskins,FALSE
+2013,Las Vegas Raiders,14,34,Denver Broncos,FALSE
+2013,Pittsburgh Steelers,20,7,Cleveland Browns,FALSE
+2013,Los Angeles Chargers,27,24,Kansas City Chiefs,FALSE
+2013,Seattle Seahawks,27,9,Los Angeles Rams,FALSE
+2013,Tennessee Titans,16,10,Houston Texans,FALSE
+2013,Indianapolis Colts,45,44,Kansas City Chiefs,FALSE
+2013,Philadelphia Eagles,24,26,New Orleans Saints,FALSE
+2013,Cincinnati Bengals,10,27,Los Angeles Chargers,FALSE
+2013,Green Bay Packers,20,23,San Francisco 49ers,FALSE
+2013,New England Patriots,43,22,Indianapolis Colts,FALSE
+2013,Seattle Seahawks,23,15,New Orleans Saints,FALSE
+2013,Carolina Panthers,10,23,San Francisco 49ers,FALSE
+2013,Denver Broncos,24,17,Los Angeles Chargers,FALSE
+2013,Denver Broncos,26,16,New England Patriots,FALSE
+2013,Seattle Seahawks,23,17,San Francisco 49ers,FALSE
+2013,Denver Broncos,8,43,Seattle Seahawks,TRUE
+2014,Seattle Seahawks,36,16,Green Bay Packers,FALSE
+2014,Atlanta Falcons,37,34,New Orleans Saints,FALSE
+2014,Baltimore Ravens,16,23,Cincinnati Bengals,FALSE
+2014,Chicago Bears,20,23,Buffalo Bills,FALSE
+2014,Dallas Cowboys,17,28,San Francisco 49ers,FALSE
+2014,Denver Broncos,31,24,Indianapolis Colts,FALSE
+2014,Houston Texans,17,6,Washington Redskins,FALSE
+2014,Kansas City Chiefs,10,26,Tennessee Titans,FALSE
+2014,Miami Dolphins,33,20,New England Patriots,FALSE
+2014,New York Jets,19,14,Las Vegas Raiders,FALSE
+2014,Philadelphia Eagles,34,17,Jacksonville Jaguars,FALSE
+2014,Pittsburgh Steelers,30,27,Cleveland Browns,FALSE
+2014,Los Angeles Rams,6,34,Minnesota Vikings,FALSE
+2014,Tampa Bay Buccaneers,14,20,Carolina Panthers,FALSE
+2014,Arizona Cardinals,18,17,Los Angeles Chargers,FALSE
+2014,Detroit Lions,35,14,New York Giants,FALSE
+2014,Baltimore Ravens,26,6,Pittsburgh Steelers,FALSE
+2014,Buffalo Bills,29,10,Miami Dolphins,FALSE
+2014,Carolina Panthers,24,7,Detroit Lions,FALSE
+2014,Cincinnati Bengals,24,10,Atlanta Falcons,FALSE
+2014,Cleveland Browns,26,24,New Orleans Saints,FALSE
+2014,Denver Broncos,24,17,Kansas City Chiefs,FALSE
+2014,Green Bay Packers,31,24,New York Jets,FALSE
+2014,Minnesota Vikings,7,30,New England Patriots,FALSE
+2014,New York Giants,14,25,Arizona Cardinals,FALSE
+2014,Las Vegas Raiders,14,30,Houston Texans,FALSE
+2014,Los Angeles Chargers,30,21,Seattle Seahawks,FALSE
+2014,San Francisco 49ers,20,28,Chicago Bears,FALSE
+2014,Tampa Bay Buccaneers,17,19,Los Angeles Rams,FALSE
+2014,Tennessee Titans,10,26,Dallas Cowboys,FALSE
+2014,Washington Redskins,41,10,Jacksonville Jaguars,FALSE
+2014,Indianapolis Colts,27,30,Philadelphia Eagles,FALSE
+2014,Atlanta Falcons,56,14,Tampa Bay Buccaneers,FALSE
+2014,Arizona Cardinals,23,14,San Francisco 49ers,FALSE
+2014,Buffalo Bills,10,22,Los Angeles Chargers,FALSE
+2014,Carolina Panthers,19,37,Pittsburgh Steelers,FALSE
+2014,Cincinnati Bengals,33,7,Tennessee Titans,FALSE
+2014,Cleveland Browns,21,23,Baltimore Ravens,FALSE
+2014,Detroit Lions,19,7,Green Bay Packers,FALSE
+2014,Jacksonville Jaguars,17,44,Indianapolis Colts,FALSE
+2014,Miami Dolphins,15,34,Kansas City Chiefs,FALSE
+2014,New England Patriots,16,9,Las Vegas Raiders,FALSE
+2014,New Orleans Saints,20,9,Minnesota Vikings,FALSE
+2014,New York Giants,30,17,Houston Texans,FALSE
+2014,Philadelphia Eagles,37,34,Washington Redskins,FALSE
+2014,Seattle Seahawks,26,20,Denver Broncos,FALSE
+2014,Los Angeles Rams,31,34,Dallas Cowboys,FALSE
+2014,New York Jets,19,27,Chicago Bears,FALSE
+2014,Washington Redskins,14,45,New York Giants,FALSE
+2014,Baltimore Ravens,38,10,Carolina Panthers,FALSE
+2014,Chicago Bears,17,38,Green Bay Packers,FALSE
+2014,Dallas Cowboys,38,17,New Orleans Saints,FALSE
+2014,Houston Texans,23,17,Buffalo Bills,FALSE
+2014,Indianapolis Colts,41,17,Tennessee Titans,FALSE
+2014,Minnesota Vikings,41,28,Atlanta Falcons,FALSE
+2014,New York Jets,17,24,Detroit Lions,FALSE
+2014,Las Vegas Raiders,14,38,Miami Dolphins,TRUE
+2014,Pittsburgh Steelers,24,27,Tampa Bay Buccaneers,FALSE
+2014,Los Angeles Chargers,33,14,Jacksonville Jaguars,FALSE
+2014,San Francisco 49ers,26,21,Philadelphia Eagles,FALSE
+2014,Kansas City Chiefs,41,14,New England Patriots,FALSE
+2014,Green Bay Packers,42,10,Minnesota Vikings,FALSE
+2014,Carolina Panthers,31,24,Chicago Bears,FALSE
+2014,Dallas Cowboys,20,17,Houston Texans,FALSE
+2014,Denver Broncos,41,20,Arizona Cardinals,FALSE
+2014,Detroit Lions,14,17,Buffalo Bills,FALSE
+2014,Indianapolis Colts,20,13,Baltimore Ravens,FALSE
+2014,Jacksonville Jaguars,9,17,Pittsburgh Steelers,FALSE
+2014,New England Patriots,43,17,Cincinnati Bengals,FALSE
+2014,New Orleans Saints,37,31,Tampa Bay Buccaneers,FALSE
+2014,New York Giants,30,20,Atlanta Falcons,FALSE
+2014,Philadelphia Eagles,34,28,Los Angeles Rams,FALSE
+2014,Los Angeles Chargers,31,0,New York Jets,FALSE
+2014,San Francisco 49ers,22,17,Kansas City Chiefs,FALSE
+2014,Tennessee Titans,28,29,Cleveland Browns,FALSE
+2014,Washington Redskins,17,27,Seattle Seahawks,FALSE
+2014,Houston Texans,28,33,Indianapolis Colts,FALSE
+2014,Arizona Cardinals,30,20,Washington Redskins,FALSE
+2014,Atlanta Falcons,13,27,Chicago Bears,FALSE
+2014,Buffalo Bills,22,37,New England Patriots,FALSE
+2014,Cincinnati Bengals,37,37,Carolina Panthers,FALSE
+2014,Cleveland Browns,31,10,Pittsburgh Steelers,FALSE
+2014,Miami Dolphins,24,27,Green Bay Packers,FALSE
+2014,Minnesota Vikings,3,17,Detroit Lions,FALSE
+2014,New York Jets,17,31,Denver Broncos,FALSE
+2014,Las Vegas Raiders,28,31,Los Angeles Chargers,FALSE
+2014,Philadelphia Eagles,27,0,New York Giants,FALSE
+2014,Seattle Seahawks,23,30,Dallas Cowboys,FALSE
+2014,Tampa Bay Buccaneers,17,48,Baltimore Ravens,FALSE
+2014,Tennessee Titans,16,14,Jacksonville Jaguars,FALSE
+2014,Los Angeles Rams,17,31,San Francisco 49ers,FALSE
+2014,New England Patriots,27,25,New York Jets,FALSE
+2014,Baltimore Ravens,29,7,Atlanta Falcons,FALSE
+2014,Buffalo Bills,17,16,Minnesota Vikings,FALSE
+2014,Chicago Bears,14,27,Miami Dolphins,FALSE
+2014,Dallas Cowboys,31,21,New York Giants,FALSE
+2014,Denver Broncos,42,17,San Francisco 49ers,FALSE
+2014,Detroit Lions,24,23,New Orleans Saints,FALSE
+2014,Green Bay Packers,38,17,Carolina Panthers,FALSE
+2014,Indianapolis Colts,27,0,Cincinnati Bengals,FALSE
+2014,Jacksonville Jaguars,24,6,Cleveland Browns,FALSE
+2014,Las Vegas Raiders,13,24,Arizona Cardinals,FALSE
+2014,Los Angeles Chargers,20,23,Kansas City Chiefs,FALSE
+2014,Los Angeles Rams,28,26,Seattle Seahawks,FALSE
+2014,Washington Redskins,19,17,Tennessee Titans,FALSE
+2014,Pittsburgh Steelers,30,23,Houston Texans,FALSE
+2014,Denver Broncos,35,21,Los Angeles Chargers,FALSE
+2014,Arizona Cardinals,24,20,Philadelphia Eagles,FALSE
+2014,Atlanta Falcons,21,22,Detroit Lions,TRUE
+2014,Carolina Panthers,9,13,Seattle Seahawks,FALSE
+2014,Cincinnati Bengals,27,24,Baltimore Ravens,FALSE
+2014,Cleveland Browns,23,13,Las Vegas Raiders,FALSE
+2014,Jacksonville Jaguars,13,27,Miami Dolphins,FALSE
+2014,Kansas City Chiefs,34,7,Los Angeles Rams,FALSE
+2014,New England Patriots,51,23,Chicago Bears,FALSE
+2014,New Orleans Saints,44,23,Green Bay Packers,FALSE
+2014,New York Jets,23,43,Buffalo Bills,FALSE
+2014,Pittsburgh Steelers,51,34,Indianapolis Colts,FALSE
+2014,Tampa Bay Buccaneers,13,19,Minnesota Vikings,FALSE
+2014,Tennessee Titans,16,30,Houston Texans,FALSE
+2014,Dallas Cowboys,17,20,Washington Redskins,FALSE
+2014,Carolina Panthers,10,28,New Orleans Saints,FALSE
+2014,Cincinnati Bengals,33,23,Jacksonville Jaguars,FALSE
+2014,Cleveland Browns,22,17,Tampa Bay Buccaneers,FALSE
+2014,Dallas Cowboys,17,28,Arizona Cardinals,FALSE
+2014,Houston Texans,21,31,Philadelphia Eagles,FALSE
+2014,Kansas City Chiefs,24,10,New York Jets,FALSE
+2014,Miami Dolphins,37,0,Los Angeles Chargers,FALSE
+2014,Minnesota Vikings,29,26,Washington Redskins,FALSE
+2014,New England Patriots,43,21,Denver Broncos,FALSE
+2014,Pittsburgh Steelers,43,23,Baltimore Ravens,FALSE
+2014,San Francisco 49ers,10,13,Los Angeles Rams,FALSE
+2014,Seattle Seahawks,30,24,Las Vegas Raiders,FALSE
+2014,New York Giants,24,40,Indianapolis Colts,FALSE
+2014,Cincinnati Bengals,3,24,Cleveland Browns,FALSE
+2014,Arizona Cardinals,31,14,Los Angeles Rams,FALSE
+2014,Baltimore Ravens,21,7,Tennessee Titans,FALSE
+2014,Buffalo Bills,13,17,Kansas City Chiefs,FALSE
+2014,Detroit Lions,20,16,Miami Dolphins,FALSE
+2014,Green Bay Packers,55,14,Chicago Bears,FALSE
+2014,Jacksonville Jaguars,17,31,Dallas Cowboys,TRUE
+2014,New Orleans Saints,24,27,San Francisco 49ers,FALSE
+2014,New York Jets,20,13,Pittsburgh Steelers,FALSE
+2014,Las Vegas Raiders,17,41,Denver Broncos,FALSE
+2014,Seattle Seahawks,38,17,New York Giants,FALSE
+2014,Tampa Bay Buccaneers,17,27,Atlanta Falcons,FALSE
+2014,Philadelphia Eagles,45,21,Carolina Panthers,FALSE
+2014,Miami Dolphins,22,9,Buffalo Bills,FALSE
+2014,Arizona Cardinals,14,6,Detroit Lions,FALSE
+2014,Carolina Panthers,17,19,Atlanta Falcons,FALSE
+2014,Chicago Bears,21,13,Minnesota Vikings,FALSE
+2014,Cleveland Browns,7,23,Houston Texans,FALSE
+2014,Green Bay Packers,53,20,Philadelphia Eagles,FALSE
+2014,Indianapolis Colts,20,42,New England Patriots,FALSE
+2014,Kansas City Chiefs,24,20,Seattle Seahawks,FALSE
+2014,New Orleans Saints,10,27,Cincinnati Bengals,FALSE
+2014,New York Giants,10,16,San Francisco 49ers,FALSE
+2014,Los Angeles Chargers,13,6,Las Vegas Raiders,FALSE
+2014,Los Angeles Rams,22,7,Denver Broncos,FALSE
+2014,Washington Redskins,7,27,Tampa Bay Buccaneers,FALSE
+2014,Tennessee Titans,24,27,Pittsburgh Steelers,FALSE
+2014,Las Vegas Raiders,24,20,Kansas City Chiefs,FALSE
+2014,Atlanta Falcons,24,26,Cleveland Browns,FALSE
+2014,Chicago Bears,21,13,Tampa Bay Buccaneers,FALSE
+2014,Denver Broncos,39,36,Miami Dolphins,FALSE
+2014,Houston Texans,13,22,Cincinnati Bengals,FALSE
+2014,Indianapolis Colts,23,3,Jacksonville Jaguars,FALSE
+2014,Minnesota Vikings,21,24,Green Bay Packers,FALSE
+2014,New England Patriots,34,9,Detroit Lions,FALSE
+2014,New York Giants,28,31,Dallas Cowboys,FALSE
+2014,Philadelphia Eagles,43,24,Tennessee Titans,FALSE
+2014,Los Angeles Chargers,27,24,Los Angeles Rams,FALSE
+2014,San Francisco 49ers,17,13,Washington Redskins,FALSE
+2014,Seattle Seahawks,19,3,Arizona Cardinals,FALSE
+2014,Buffalo Bills,38,3,New York Jets,FALSE
+2014,New Orleans Saints,27,34,Baltimore Ravens,FALSE
+2014,Dallas Cowboys,10,33,Philadelphia Eagles,FALSE
+2014,Detroit Lions,34,17,Chicago Bears,FALSE
+2014,San Francisco 49ers,3,19,Seattle Seahawks,FALSE
+2014,Atlanta Falcons,29,18,Arizona Cardinals,FALSE
+2014,Baltimore Ravens,33,34,Los Angeles Chargers,FALSE
+2014,Buffalo Bills,26,10,Cleveland Browns,FALSE
+2014,Green Bay Packers,26,21,New England Patriots,FALSE
+2014,Houston Texans,45,21,Tennessee Titans,FALSE
+2014,Indianapolis Colts,49,27,Washington Redskins,FALSE
+2014,Jacksonville Jaguars,25,24,New York Giants,FALSE
+2014,Kansas City Chiefs,16,29,Denver Broncos,FALSE
+2014,Minnesota Vikings,31,13,Carolina Panthers,FALSE
+2014,Pittsburgh Steelers,32,35,New Orleans Saints,FALSE
+2014,Los Angeles Rams,52,0,Las Vegas Raiders,FALSE
+2014,Tampa Bay Buccaneers,13,14,Cincinnati Bengals,FALSE
+2014,New York Jets,13,16,Miami Dolphins,FALSE
+2014,Chicago Bears,28,41,Dallas Cowboys,FALSE
+2014,Arizona Cardinals,17,14,Kansas City Chiefs,FALSE
+2014,Cincinnati Bengals,21,42,Pittsburgh Steelers,FALSE
+2014,Cleveland Browns,24,25,Indianapolis Colts,FALSE
+2014,Denver Broncos,24,17,Buffalo Bills,FALSE
+2014,Detroit Lions,34,17,Tampa Bay Buccaneers,FALSE
+2014,Jacksonville Jaguars,13,27,Houston Texans,FALSE
+2014,Miami Dolphins,13,28,Baltimore Ravens,FALSE
+2014,Minnesota Vikings,30,24,New York Jets,FALSE
+2014,New Orleans Saints,10,41,Carolina Panthers,FALSE
+2014,Las Vegas Raiders,24,13,San Francisco 49ers,FALSE
+2014,Philadelphia Eagles,14,24,Seattle Seahawks,FALSE
+2014,Los Angeles Chargers,14,23,New England Patriots,FALSE
+2014,Tennessee Titans,7,36,New York Giants,FALSE
+2014,Washington Redskins,0,24,Los Angeles Rams,FALSE
+2014,Green Bay Packers,43,37,Atlanta Falcons,FALSE
+2014,Los Angeles Rams,6,12,Arizona Cardinals,FALSE
+2014,Atlanta Falcons,20,27,Pittsburgh Steelers,FALSE
+2014,Baltimore Ravens,20,12,Jacksonville Jaguars,FALSE
+2014,Buffalo Bills,21,13,Green Bay Packers,FALSE
+2014,Carolina Panthers,19,17,Tampa Bay Buccaneers,FALSE
+2014,Cleveland Browns,0,30,Cincinnati Bengals,FALSE
+2014,Detroit Lions,16,14,Minnesota Vikings,FALSE
+2014,Indianapolis Colts,17,10,Houston Texans,FALSE
+2014,Kansas City Chiefs,31,13,Las Vegas Raiders,FALSE
+2014,New England Patriots,41,13,Miami Dolphins,FALSE
+2014,New York Giants,24,13,Washington Redskins,FALSE
+2014,Philadelphia Eagles,27,38,Dallas Cowboys,FALSE
+2014,Los Angeles Chargers,10,22,Denver Broncos,FALSE
+2014,Seattle Seahawks,17,7,San Francisco 49ers,FALSE
+2014,Tennessee Titans,11,16,New York Jets,FALSE
+2014,Chicago Bears,15,31,New Orleans Saints,FALSE
+2014,Jacksonville Jaguars,21,13,Tennessee Titans,FALSE
+2014,San Francisco 49ers,35,38,Los Angeles Chargers,FALSE
+2014,Washington Redskins,27,24,Philadelphia Eagles,FALSE
+2014,Arizona Cardinals,6,35,Seattle Seahawks,FALSE
+2014,Carolina Panthers,17,13,Cleveland Browns,FALSE
+2014,Chicago Bears,14,20,Detroit Lions,FALSE
+2014,Dallas Cowboys,42,7,Indianapolis Colts,FALSE
+2014,Houston Texans,25,13,Baltimore Ravens,FALSE
+2014,Miami Dolphins,37,35,Minnesota Vikings,FALSE
+2014,New Orleans Saints,14,30,Atlanta Falcons,FALSE
+2014,New York Jets,16,17,New England Patriots,FALSE
+2014,Las Vegas Raiders,26,24,Buffalo Bills,FALSE
+2014,Pittsburgh Steelers,20,12,Kansas City Chiefs,FALSE
+2014,Los Angeles Rams,27,37,New York Giants,FALSE
+2014,Tampa Bay Buccaneers,3,20,Green Bay Packers,FALSE
+2014,Cincinnati Bengals,37,28,Denver Broncos,FALSE
+2014,Atlanta Falcons,3,34,Carolina Panthers,FALSE
+2014,Baltimore Ravens,20,10,Cleveland Browns,FALSE
+2014,Denver Broncos,47,14,Las Vegas Raiders,FALSE
+2014,Green Bay Packers,30,20,Detroit Lions,FALSE
+2014,Houston Texans,23,17,Jacksonville Jaguars,FALSE
+2014,Kansas City Chiefs,19,7,Los Angeles Chargers,FALSE
+2014,Miami Dolphins,24,37,New York Jets,FALSE
+2014,Minnesota Vikings,13,9,Chicago Bears,FALSE
+2014,New England Patriots,9,17,Buffalo Bills,FALSE
+2014,New York Giants,26,34,Philadelphia Eagles,FALSE
+2014,Pittsburgh Steelers,27,17,Cincinnati Bengals,FALSE
+2014,San Francisco 49ers,20,17,Arizona Cardinals,FALSE
+2014,Seattle Seahawks,20,6,Los Angeles Rams,FALSE
+2014,Tampa Bay Buccaneers,20,23,New Orleans Saints,FALSE
+2014,Tennessee Titans,10,27,Indianapolis Colts,FALSE
+2014,Washington Redskins,17,44,Dallas Cowboys,FALSE
+2014,Carolina Panthers,27,16,Arizona Cardinals,FALSE
+2014,Pittsburgh Steelers,17,30,Baltimore Ravens,FALSE
+2014,Dallas Cowboys,24,20,Detroit Lions,FALSE
+2014,Indianapolis Colts,26,10,Cincinnati Bengals,FALSE
+2014,New England Patriots,35,31,Baltimore Ravens,FALSE
+2014,Seattle Seahawks,31,17,Carolina Panthers,FALSE
+2014,Denver Broncos,13,24,Indianapolis Colts,FALSE
+2014,Green Bay Packers,26,21,Dallas Cowboys,FALSE
+2014,New England Patriots,45,7,Indianapolis Colts,FALSE
+2014,Seattle Seahawks,28,22,Green Bay Packers,FALSE
+2014,New England Patriots,28,24,Seattle Seahawks,TRUE
+2015,New England Patriots,28,21,Pittsburgh Steelers,FALSE
+2015,Arizona Cardinals,31,19,New Orleans Saints,FALSE
+2015,Buffalo Bills,27,14,Indianapolis Colts,FALSE
+2015,Chicago Bears,23,31,Green Bay Packers,FALSE
+2015,Dallas Cowboys,27,26,New York Giants,FALSE
+2015,Denver Broncos,19,13,Baltimore Ravens,FALSE
+2015,Houston Texans,20,27,Kansas City Chiefs,FALSE
+2015,Jacksonville Jaguars,9,20,Carolina Panthers,FALSE
+2015,New York Jets,31,10,Cleveland Browns,FALSE
+2015,Las Vegas Raiders,13,33,Cincinnati Bengals,FALSE
+2015,Los Angeles Chargers,33,28,Detroit Lions,FALSE
+2015,Los Angeles Rams,34,31,Seattle Seahawks,FALSE
+2015,Tampa Bay Buccaneers,14,42,Tennessee Titans,FALSE
+2015,Washington Redskins,10,17,Miami Dolphins,FALSE
+2015,Atlanta Falcons,26,24,Philadelphia Eagles,FALSE
+2015,San Francisco 49ers,20,3,Minnesota Vikings,FALSE
+2015,Kansas City Chiefs,24,31,Denver Broncos,FALSE
+2015,Buffalo Bills,32,40,New England Patriots,FALSE
+2015,Carolina Panthers,24,17,Houston Texans,FALSE
+2015,Chicago Bears,23,48,Arizona Cardinals,FALSE
+2015,Cincinnati Bengals,24,19,Los Angeles Chargers,FALSE
+2015,Cleveland Browns,28,14,Tennessee Titans,FALSE
+2015,Green Bay Packers,27,17,Seattle Seahawks,FALSE
+2015,Jacksonville Jaguars,23,20,Miami Dolphins,FALSE
+2015,Minnesota Vikings,26,16,Detroit Lions,FALSE
+2015,New Orleans Saints,19,26,Tampa Bay Buccaneers,FALSE
+2015,New York Giants,20,24,Atlanta Falcons,FALSE
+2015,Las Vegas Raiders,37,33,Baltimore Ravens,FALSE
+2015,Philadelphia Eagles,10,20,Dallas Cowboys,FALSE
+2015,Pittsburgh Steelers,43,18,San Francisco 49ers,FALSE
+2015,Washington Redskins,24,10,Los Angeles Rams,FALSE
+2015,Indianapolis Colts,7,20,New York Jets,FALSE
+2015,New York Giants,32,21,Washington Redskins,FALSE
+2015,Arizona Cardinals,47,7,San Francisco 49ers,FALSE
+2015,Baltimore Ravens,24,28,Cincinnati Bengals,FALSE
+2015,Carolina Panthers,27,22,New Orleans Saints,FALSE
+2015,Cleveland Browns,20,27,Las Vegas Raiders,FALSE
+2015,Dallas Cowboys,28,39,Atlanta Falcons,FALSE
+2015,Detroit Lions,12,24,Denver Broncos,FALSE
+2015,Houston Texans,19,9,Tampa Bay Buccaneers,FALSE
+2015,Miami Dolphins,14,41,Buffalo Bills,FALSE
+2015,Minnesota Vikings,31,14,Los Angeles Chargers,FALSE
+2015,New England Patriots,51,17,Jacksonville Jaguars,FALSE
+2015,New York Jets,17,24,Philadelphia Eagles,FALSE
+2015,Seattle Seahawks,26,0,Chicago Bears,FALSE
+2015,Los Angeles Rams,6,12,Pittsburgh Steelers,FALSE
+2015,Tennessee Titans,33,35,Indianapolis Colts,FALSE
+2015,Green Bay Packers,38,28,Kansas City Chiefs,FALSE
+2015,Pittsburgh Steelers,20,23,Baltimore Ravens,FALSE
+2015,Arizona Cardinals,22,24,Los Angeles Rams,FALSE
+2015,Atlanta Falcons,48,21,Houston Texans,FALSE
+2015,Buffalo Bills,10,24,New York Giants,FALSE
+2015,Chicago Bears,22,20,Las Vegas Raiders,FALSE
+2015,Cincinnati Bengals,36,21,Kansas City Chiefs,FALSE
+2015,Denver Broncos,23,20,Minnesota Vikings,FALSE
+2015,Indianapolis Colts,16,13,Jacksonville Jaguars,FALSE
+2015,Miami Dolphins,14,27,New York Jets,TRUE
+2015,New Orleans Saints,26,20,Dallas Cowboys,FALSE
+2015,Los Angeles Chargers,30,27,Cleveland Browns,FALSE
+2015,San Francisco 49ers,3,17,Green Bay Packers,FALSE
+2015,Tampa Bay Buccaneers,23,37,Carolina Panthers,FALSE
+2015,Washington Redskins,23,20,Philadelphia Eagles,FALSE
+2015,Seattle Seahawks,13,10,Detroit Lions,FALSE
+2015,Houston Texans,20,27,Indianapolis Colts,FALSE
+2015,Atlanta Falcons,25,19,Washington Redskins,FALSE
+2015,Baltimore Ravens,30,33,Cleveland Browns,FALSE
+2015,Cincinnati Bengals,27,24,Seattle Seahawks,FALSE
+2015,Dallas Cowboys,6,30,New England Patriots,FALSE
+2015,Detroit Lions,17,42,Arizona Cardinals,FALSE
+2015,Green Bay Packers,24,10,Los Angeles Rams,FALSE
+2015,Kansas City Chiefs,17,18,Chicago Bears,FALSE
+2015,New York Giants,30,27,San Francisco 49ers,FALSE
+2015,Las Vegas Raiders,10,16,Denver Broncos,FALSE
+2015,Philadelphia Eagles,39,17,New Orleans Saints,FALSE
+2015,Tampa Bay Buccaneers,38,31,Jacksonville Jaguars,FALSE
+2015,Tennessee Titans,13,14,Buffalo Bills,FALSE
+2015,Los Angeles Chargers,20,24,Pittsburgh Steelers,FALSE
+2015,New Orleans Saints,31,21,Atlanta Falcons,FALSE
+2015,Buffalo Bills,21,34,Cincinnati Bengals,FALSE
+2015,Cleveland Browns,23,26,Denver Broncos,FALSE
+2015,Detroit Lions,37,34,Chicago Bears,FALSE
+2015,Green Bay Packers,27,20,Los Angeles Chargers,FALSE
+2015,Indianapolis Colts,27,34,New England Patriots,FALSE
+2015,Jacksonville Jaguars,20,31,Houston Texans,FALSE
+2015,Minnesota Vikings,16,10,Kansas City Chiefs,FALSE
+2015,New York Jets,34,20,Washington Redskins,FALSE
+2015,Pittsburgh Steelers,25,13,Arizona Cardinals,FALSE
+2015,San Francisco 49ers,25,20,Baltimore Ravens,FALSE
+2015,Seattle Seahawks,23,27,Carolina Panthers,FALSE
+2015,Tennessee Titans,10,38,Miami Dolphins,FALSE
+2015,Philadelphia Eagles,27,7,New York Giants,FALSE
+2015,San Francisco 49ers,3,20,Seattle Seahawks,FALSE
+2015,Carolina Panthers,27,16,Philadelphia Eagles,FALSE
+2015,Detroit Lions,19,28,Minnesota Vikings,FALSE
+2015,Indianapolis Colts,21,27,New Orleans Saints,FALSE
+2015,Jacksonville Jaguars,34,31,Buffalo Bills,TRUE
+2015,Kansas City Chiefs,23,13,Pittsburgh Steelers,FALSE
+2015,Miami Dolphins,44,26,Houston Texans,FALSE
+2015,New England Patriots,30,23,New York Jets,FALSE
+2015,New York Giants,27,20,Dallas Cowboys,FALSE
+2015,Los Angeles Chargers,29,37,Las Vegas Raiders,FALSE
+2015,Los Angeles Rams,24,6,Cleveland Browns,FALSE
+2015,Tennessee Titans,7,10,Atlanta Falcons,FALSE
+2015,Washington Redskins,31,30,Tampa Bay Buccaneers,FALSE
+2015,Arizona Cardinals,26,18,Baltimore Ravens,FALSE
+2015,New England Patriots,36,7,Miami Dolphins,FALSE
+2015,Atlanta Falcons,20,23,Tampa Bay Buccaneers,FALSE
+2015,Baltimore Ravens,29,26,Los Angeles Chargers,FALSE
+2015,Chicago Bears,20,23,Minnesota Vikings,FALSE
+2015,Cleveland Browns,20,34,Arizona Cardinals,FALSE
+2015,Dallas Cowboys,12,13,Seattle Seahawks,FALSE
+2015,Denver Broncos,29,10,Green Bay Packers,FALSE
+2015,Houston Texans,20,6,Tennessee Titans,FALSE
+2015,Kansas City Chiefs,45,10,Detroit Lions,TRUE
+2015,New Orleans Saints,52,49,New York Giants,FALSE
+2015,Las Vegas Raiders,34,20,New York Jets,FALSE
+2015,Pittsburgh Steelers,10,16,Cincinnati Bengals,FALSE
+2015,Los Angeles Rams,27,6,San Francisco 49ers,FALSE
+2015,Carolina Panthers,29,26,Indianapolis Colts,FALSE
+2015,Cincinnati Bengals,31,10,Cleveland Browns,FALSE
+2015,Buffalo Bills,33,17,Miami Dolphins,FALSE
+2015,Carolina Panthers,37,29,Green Bay Packers,FALSE
+2015,Dallas Cowboys,27,33,Philadelphia Eagles,FALSE
+2015,Indianapolis Colts,27,24,Denver Broncos,FALSE
+2015,Minnesota Vikings,21,18,Los Angeles Rams,FALSE
+2015,New England Patriots,27,10,Washington Redskins,FALSE
+2015,New Orleans Saints,28,34,Tennessee Titans,FALSE
+2015,New York Jets,28,23,Jacksonville Jaguars,FALSE
+2015,Pittsburgh Steelers,38,35,Las Vegas Raiders,FALSE
+2015,San Francisco 49ers,17,16,Atlanta Falcons,FALSE
+2015,Tampa Bay Buccaneers,18,32,New York Giants,FALSE
+2015,Los Angeles Chargers,19,22,Chicago Bears,FALSE
+2015,New York Jets,17,22,Buffalo Bills,FALSE
+2015,Baltimore Ravens,20,22,Jacksonville Jaguars,FALSE
+2015,Denver Broncos,13,29,Kansas City Chiefs,FALSE
+2015,Green Bay Packers,16,18,Detroit Lions,FALSE
+2015,New York Giants,26,27,New England Patriots,FALSE
+2015,Las Vegas Raiders,14,30,Minnesota Vikings,FALSE
+2015,Philadelphia Eagles,19,20,Miami Dolphins,FALSE
+2015,Pittsburgh Steelers,30,9,Cleveland Browns,FALSE
+2015,Seattle Seahawks,32,39,Arizona Cardinals,FALSE
+2015,Los Angeles Rams,13,37,Chicago Bears,FALSE
+2015,Tampa Bay Buccaneers,10,6,Dallas Cowboys,FALSE
+2015,Tennessee Titans,10,27,Carolina Panthers,FALSE
+2015,Washington Redskins,47,14,New Orleans Saints,FALSE
+2015,Cincinnati Bengals,6,10,Houston Texans,FALSE
+2015,Jacksonville Jaguars,19,13,Tennessee Titans,FALSE
+2015,Arizona Cardinals,34,31,Cincinnati Bengals,FALSE
+2015,Atlanta Falcons,21,24,Indianapolis Colts,FALSE
+2015,Baltimore Ravens,16,13,Los Angeles Rams,FALSE
+2015,Carolina Panthers,44,16,Washington Redskins,FALSE
+2015,Chicago Bears,15,17,Denver Broncos,FALSE
+2015,Detroit Lions,18,13,Las Vegas Raiders,FALSE
+2015,Houston Texans,24,17,New York Jets,FALSE
+2015,Miami Dolphins,14,24,Dallas Cowboys,FALSE
+2015,Minnesota Vikings,13,30,Green Bay Packers,FALSE
+2015,Philadelphia Eagles,17,45,Tampa Bay Buccaneers,FALSE
+2015,Los Angeles Chargers,3,33,Kansas City Chiefs,FALSE
+2015,Seattle Seahawks,29,13,San Francisco 49ers,FALSE
+2015,New England Patriots,20,13,Buffalo Bills,FALSE
+2015,Dallas Cowboys,14,33,Carolina Panthers,FALSE
+2015,Detroit Lions,45,14,Philadelphia Eagles,FALSE
+2015,Green Bay Packers,13,17,Chicago Bears,FALSE
+2015,Atlanta Falcons,10,20,Minnesota Vikings,FALSE
+2015,Cincinnati Bengals,31,7,Los Angeles Rams,FALSE
+2015,Denver Broncos,30,24,New England Patriots,FALSE
+2015,Houston Texans,24,6,New Orleans Saints,FALSE
+2015,Indianapolis Colts,25,12,Tampa Bay Buccaneers,FALSE
+2015,Jacksonville Jaguars,25,31,Los Angeles Chargers,FALSE
+2015,Kansas City Chiefs,30,22,Buffalo Bills,FALSE
+2015,New York Jets,38,20,Miami Dolphins,FALSE
+2015,San Francisco 49ers,13,19,Arizona Cardinals,FALSE
+2015,Seattle Seahawks,39,30,Pittsburgh Steelers,FALSE
+2015,Tennessee Titans,21,24,Las Vegas Raiders,FALSE
+2015,Washington Redskins,20,14,New York Giants,FALSE
+2015,Cleveland Browns,27,33,Baltimore Ravens,FALSE
+2015,Detroit Lions,23,27,Green Bay Packers,FALSE
+2015,Buffalo Bills,30,21,Houston Texans,FALSE
+2015,Chicago Bears,20,26,San Francisco 49ers,FALSE
+2015,Cleveland Browns,3,37,Cincinnati Bengals,FALSE
+2015,Miami Dolphins,15,13,Baltimore Ravens,FALSE
+2015,Minnesota Vikings,7,38,Seattle Seahawks,FALSE
+2015,New England Patriots,28,35,Philadelphia Eagles,FALSE
+2015,New Orleans Saints,38,41,Carolina Panthers,FALSE
+2015,New York Giants,20,23,New York Jets,FALSE
+2015,Las Vegas Raiders,20,34,Kansas City Chiefs,FALSE
+2015,Pittsburgh Steelers,45,10,Indianapolis Colts,FALSE
+2015,Los Angeles Chargers,3,17,Denver Broncos,FALSE
+2015,Los Angeles Rams,3,27,Arizona Cardinals,FALSE
+2015,Tampa Bay Buccaneers,23,19,Atlanta Falcons,FALSE
+2015,Tennessee Titans,42,39,Jacksonville Jaguars,FALSE
+2015,Washington Redskins,16,19,Dallas Cowboys,FALSE
+2015,Arizona Cardinals,23,20,Minnesota Vikings,FALSE
+2015,Baltimore Ravens,6,35,Seattle Seahawks,FALSE
+2015,Carolina Panthers,38,0,Atlanta Falcons,FALSE
+2015,Chicago Bears,21,24,Washington Redskins,FALSE
+2015,Cincinnati Bengals,20,33,Pittsburgh Steelers,FALSE
+2015,Cleveland Browns,24,10,San Francisco 49ers,FALSE
+2015,Denver Broncos,12,15,Las Vegas Raiders,FALSE
+2015,Green Bay Packers,28,7,Dallas Cowboys,FALSE
+2015,Houston Texans,6,27,New England Patriots,FALSE
+2015,Jacksonville Jaguars,51,16,Indianapolis Colts,FALSE
+2015,Kansas City Chiefs,10,3,Los Angeles Chargers,FALSE
+2015,New York Jets,30,8,Tennessee Titans,FALSE
+2015,Philadelphia Eagles,23,20,Buffalo Bills,FALSE
+2015,Los Angeles Rams,21,14,Detroit Lions,FALSE
+2015,Tampa Bay Buccaneers,17,24,New Orleans Saints,FALSE
+2015,Miami Dolphins,24,31,New York Giants,FALSE
+2015,Los Angeles Rams,31,23,Tampa Bay Buccaneers,FALSE
+2015,Dallas Cowboys,16,19,New York Jets,FALSE
+2015,Baltimore Ravens,14,34,Kansas City Chiefs,FALSE
+2015,Indianapolis Colts,10,16,Houston Texans,FALSE
+2015,Jacksonville Jaguars,17,23,Atlanta Falcons,FALSE
+2015,Minnesota Vikings,38,17,Chicago Bears,FALSE
+2015,New England Patriots,33,16,Tennessee Titans,FALSE
+2015,New York Giants,35,38,Carolina Panthers,FALSE
+2015,Las Vegas Raiders,20,30,Green Bay Packers,FALSE
+2015,Philadelphia Eagles,17,40,Arizona Cardinals,FALSE
+2015,Pittsburgh Steelers,34,27,Denver Broncos,FALSE
+2015,Los Angeles Chargers,30,14,Miami Dolphins,FALSE
+2015,San Francisco 49ers,14,24,Cincinnati Bengals,FALSE
+2015,Seattle Seahawks,30,13,Cleveland Browns,FALSE
+2015,Washington Redskins,35,25,Buffalo Bills,FALSE
+2015,New Orleans Saints,27,35,Detroit Lions,FALSE
+2015,Las Vegas Raiders,23,20,Los Angeles Chargers,FALSE
+2015,Philadelphia Eagles,24,38,Washington Redskins,FALSE
+2015,Arizona Cardinals,38,8,Green Bay Packers,FALSE
+2015,Atlanta Falcons,20,13,Carolina Panthers,FALSE
+2015,Baltimore Ravens,20,17,Pittsburgh Steelers,FALSE
+2015,Buffalo Bills,16,6,Dallas Cowboys,FALSE
+2015,Detroit Lions,32,17,San Francisco 49ers,FALSE
+2015,Kansas City Chiefs,17,13,Cleveland Browns,FALSE
+2015,Miami Dolphins,12,18,Indianapolis Colts,FALSE
+2015,Minnesota Vikings,49,17,New York Giants,FALSE
+2015,New Orleans Saints,38,27,Jacksonville Jaguars,FALSE
+2015,New York Jets,26,20,New England Patriots,FALSE
+2015,Seattle Seahawks,17,23,Los Angeles Rams,FALSE
+2015,Tampa Bay Buccaneers,21,26,Chicago Bears,FALSE
+2015,Tennessee Titans,6,34,Houston Texans,FALSE
+2015,Denver Broncos,20,17,Cincinnati Bengals,FALSE
+2015,Arizona Cardinals,6,36,Seattle Seahawks,FALSE
+2015,Atlanta Falcons,17,20,New Orleans Saints,FALSE
+2015,Buffalo Bills,22,17,New York Jets,FALSE
+2015,Carolina Panthers,38,10,Tampa Bay Buccaneers,FALSE
+2015,Chicago Bears,20,24,Detroit Lions,FALSE
+2015,Cincinnati Bengals,24,16,Baltimore Ravens,FALSE
+2015,Cleveland Browns,12,28,Pittsburgh Steelers,FALSE
+2015,Dallas Cowboys,23,34,Washington Redskins,FALSE
+2015,Denver Broncos,27,20,Los Angeles Chargers,FALSE
+2015,Green Bay Packers,13,20,Minnesota Vikings,FALSE
+2015,Houston Texans,30,6,Jacksonville Jaguars,FALSE
+2015,Indianapolis Colts,30,24,Tennessee Titans,FALSE
+2015,Kansas City Chiefs,23,17,Las Vegas Raiders,FALSE
+2015,Miami Dolphins,20,10,New England Patriots,FALSE
+2015,New York Giants,30,35,Philadelphia Eagles,FALSE
+2015,San Francisco 49ers,19,16,Los Angeles Rams,FALSE
+2015,Cincinnati Bengals,16,18,Pittsburgh Steelers,FALSE
+2015,Houston Texans,0,30,Kansas City Chiefs,FALSE
+2015,Minnesota Vikings,9,10,Seattle Seahawks,FALSE
+2015,Washington Redskins,18,35,Green Bay Packers,FALSE
+2015,Arizona Cardinals,26,20,Green Bay Packers,FALSE
+2015,New England Patriots,27,20,Kansas City Chiefs,FALSE
+2015,Carolina Panthers,31,24,Seattle Seahawks,FALSE
+2015,Denver Broncos,23,16,Pittsburgh Steelers,FALSE
+2015,Carolina Panthers,49,15,Arizona Cardinals,FALSE
+2015,Denver Broncos,20,18,New England Patriots,FALSE
+2015,Denver Broncos,24,10,Carolina Panthers,TRUE
+2016,Denver Broncos,21,20,Carolina Panthers,FALSE
+2016,Arizona Cardinals,21,23,New England Patriots,FALSE
+2016,Atlanta Falcons,24,31,Tampa Bay Buccaneers,FALSE
+2016,Baltimore Ravens,13,7,Buffalo Bills,FALSE
+2016,Dallas Cowboys,19,20,New York Giants,FALSE
+2016,Houston Texans,23,14,Chicago Bears,FALSE
+2016,Indianapolis Colts,35,39,Detroit Lions,FALSE
+2016,Jacksonville Jaguars,23,27,Green Bay Packers,FALSE
+2016,Kansas City Chiefs,33,27,Los Angeles Chargers,FALSE
+2016,New Orleans Saints,34,35,Las Vegas Raiders,FALSE
+2016,New York Jets,22,23,Cincinnati Bengals,FALSE
+2016,Philadelphia Eagles,29,10,Cleveland Browns,FALSE
+2016,Seattle Seahawks,12,10,Miami Dolphins,FALSE
+2016,Tennessee Titans,16,25,Minnesota Vikings,FALSE
+2016,San Francisco 49ers,28,0,Los Angeles Rams,FALSE
+2016,Washington Redskins,16,38,Pittsburgh Steelers,FALSE
+2016,Buffalo Bills,31,37,New York Jets,FALSE
+2016,Arizona Cardinals,40,7,Tampa Bay Buccaneers,FALSE
+2016,Carolina Panthers,46,27,San Francisco 49ers,FALSE
+2016,Cleveland Browns,20,25,Baltimore Ravens,FALSE
+2016,Denver Broncos,34,20,Indianapolis Colts,FALSE
+2016,Detroit Lions,15,16,Tennessee Titans,FALSE
+2016,Houston Texans,19,12,Kansas City Chiefs,FALSE
+2016,Los Angeles Rams,9,3,Seattle Seahawks,FALSE
+2016,Minnesota Vikings,17,14,Green Bay Packers,FALSE
+2016,New England Patriots,31,24,Miami Dolphins,FALSE
+2016,New York Giants,16,13,New Orleans Saints,FALSE
+2016,Las Vegas Raiders,28,35,Atlanta Falcons,FALSE
+2016,Pittsburgh Steelers,24,16,Cincinnati Bengals,FALSE
+2016,Los Angeles Chargers,38,14,Jacksonville Jaguars,FALSE
+2016,Washington Redskins,23,27,Dallas Cowboys,FALSE
+2016,Chicago Bears,14,29,Philadelphia Eagles,FALSE
+2016,New England Patriots,27,0,Houston Texans,FALSE
+2016,Buffalo Bills,33,18,Arizona Cardinals,FALSE
+2016,Carolina Panthers,10,22,Minnesota Vikings,FALSE
+2016,Cincinnati Bengals,17,29,Denver Broncos,FALSE
+2016,Dallas Cowboys,31,17,Chicago Bears,FALSE
+2016,Green Bay Packers,34,27,Detroit Lions,FALSE
+2016,Indianapolis Colts,26,22,Los Angeles Chargers,FALSE
+2016,Jacksonville Jaguars,17,19,Baltimore Ravens,FALSE
+2016,Kansas City Chiefs,24,3,New York Jets,FALSE
+2016,Miami Dolphins,30,24,Cleveland Browns,FALSE
+2016,New York Giants,27,29,Washington Redskins,FALSE
+2016,Philadelphia Eagles,34,3,Pittsburgh Steelers,FALSE
+2016,Seattle Seahawks,37,18,San Francisco 49ers,FALSE
+2016,Tampa Bay Buccaneers,32,37,Los Angeles Rams,FALSE
+2016,Tennessee Titans,10,17,Las Vegas Raiders,FALSE
+2016,New Orleans Saints,32,45,Atlanta Falcons,FALSE
+2016,Cincinnati Bengals,22,7,Miami Dolphins,FALSE
+2016,Arizona Cardinals,13,17,Los Angeles Rams,FALSE
+2016,Atlanta Falcons,48,33,Carolina Panthers,FALSE
+2016,Baltimore Ravens,27,28,Las Vegas Raiders,FALSE
+2016,Chicago Bears,17,14,Detroit Lions,FALSE
+2016,Houston Texans,27,20,Tennessee Titans,FALSE
+2016,Jacksonville Jaguars,30,27,Indianapolis Colts,TRUE
+2016,New England Patriots,0,16,Buffalo Bills,FALSE
+2016,New York Jets,17,27,Seattle Seahawks,FALSE
+2016,Pittsburgh Steelers,43,14,Kansas City Chiefs,FALSE
+2016,Los Angeles Chargers,34,35,New Orleans Saints,FALSE
+2016,San Francisco 49ers,17,24,Dallas Cowboys,FALSE
+2016,Tampa Bay Buccaneers,7,27,Denver Broncos,FALSE
+2016,Washington Redskins,31,20,Cleveland Browns,FALSE
+2016,Minnesota Vikings,24,10,New York Giants,FALSE
+2016,San Francisco 49ers,21,33,Arizona Cardinals,FALSE
+2016,Baltimore Ravens,10,16,Washington Redskins,FALSE
+2016,Cleveland Browns,13,33,New England Patriots,FALSE
+2016,Dallas Cowboys,28,14,Cincinnati Bengals,FALSE
+2016,Denver Broncos,16,23,Atlanta Falcons,FALSE
+2016,Detroit Lions,24,23,Philadelphia Eagles,FALSE
+2016,Green Bay Packers,23,16,New York Giants,FALSE
+2016,Indianapolis Colts,29,23,Chicago Bears,FALSE
+2016,Los Angeles Rams,19,30,Buffalo Bills,FALSE
+2016,Miami Dolphins,17,30,Tennessee Titans,FALSE
+2016,Minnesota Vikings,31,13,Houston Texans,FALSE
+2016,Las Vegas Raiders,34,31,Los Angeles Chargers,FALSE
+2016,Pittsburgh Steelers,31,13,New York Jets,FALSE
+2016,Carolina Panthers,14,17,Tampa Bay Buccaneers,FALSE
+2016,Los Angeles Chargers,21,13,Denver Broncos,FALSE
+2016,Buffalo Bills,45,16,San Francisco 49ers,FALSE
+2016,Chicago Bears,16,17,Jacksonville Jaguars,FALSE
+2016,Detroit Lions,31,28,Los Angeles Rams,FALSE
+2016,Green Bay Packers,16,30,Dallas Cowboys,FALSE
+2016,Houston Texans,26,23,Indianapolis Colts,FALSE
+2016,Miami Dolphins,30,15,Pittsburgh Steelers,FALSE
+2016,New England Patriots,35,17,Cincinnati Bengals,FALSE
+2016,New Orleans Saints,41,38,Carolina Panthers,FALSE
+2016,New York Giants,27,23,Baltimore Ravens,FALSE
+2016,Las Vegas Raiders,10,26,Kansas City Chiefs,FALSE
+2016,Seattle Seahawks,26,24,Atlanta Falcons,FALSE
+2016,Tennessee Titans,28,26,Cleveland Browns,FALSE
+2016,Washington Redskins,27,20,Philadelphia Eagles,FALSE
+2016,Arizona Cardinals,28,3,New York Jets,FALSE
+2016,Green Bay Packers,26,10,Chicago Bears,FALSE
+2016,Arizona Cardinals,6,6,Seattle Seahawks,FALSE
+2016,Atlanta Falcons,30,33,Los Angeles Chargers,FALSE
+2016,Cincinnati Bengals,31,17,Cleveland Browns,FALSE
+2016,Detroit Lions,20,17,Washington Redskins,FALSE
+2016,Jacksonville Jaguars,16,33,Las Vegas Raiders,FALSE
+2016,Kansas City Chiefs,27,21,New Orleans Saints,FALSE
+2016,Los Angeles Rams,10,17,New York Giants,TRUE
+2016,Miami Dolphins,28,25,Buffalo Bills,FALSE
+2016,New York Jets,24,16,Baltimore Ravens,FALSE
+2016,Philadelphia Eagles,21,10,Minnesota Vikings,FALSE
+2016,Pittsburgh Steelers,16,27,New England Patriots,FALSE
+2016,San Francisco 49ers,17,34,Tampa Bay Buccaneers,FALSE
+2016,Tennessee Titans,26,34,Indianapolis Colts,FALSE
+2016,Denver Broncos,27,9,Houston Texans,FALSE
+2016,Tennessee Titans,36,22,Jacksonville Jaguars,FALSE
+2016,Atlanta Falcons,33,32,Green Bay Packers,FALSE
+2016,Buffalo Bills,25,41,New England Patriots,FALSE
+2016,Carolina Panthers,30,20,Arizona Cardinals,FALSE
+2016,Cincinnati Bengals,27,27,Washington Redskins,TRUE
+2016,Cleveland Browns,28,31,New York Jets,FALSE
+2016,Dallas Cowboys,29,23,Philadelphia Eagles,FALSE
+2016,Denver Broncos,27,19,Los Angeles Chargers,FALSE
+2016,Houston Texans,20,13,Detroit Lions,FALSE
+2016,Indianapolis Colts,14,30,Kansas City Chiefs,FALSE
+2016,New Orleans Saints,25,20,Seattle Seahawks,FALSE
+2016,Tampa Bay Buccaneers,24,30,Las Vegas Raiders,FALSE
+2016,Chicago Bears,20,10,Minnesota Vikings,FALSE
+2016,Tampa Bay Buccaneers,28,43,Atlanta Falcons,FALSE
+2016,Baltimore Ravens,21,14,Pittsburgh Steelers,FALSE
+2016,Cleveland Browns,10,35,Dallas Cowboys,FALSE
+2016,Green Bay Packers,26,31,Indianapolis Colts,FALSE
+2016,Kansas City Chiefs,19,14,Jacksonville Jaguars,FALSE
+2016,Los Angeles Rams,10,13,Carolina Panthers,FALSE
+2016,Miami Dolphins,27,23,New York Jets,FALSE
+2016,Minnesota Vikings,16,22,Detroit Lions,FALSE
+2016,New York Giants,28,23,Philadelphia Eagles,FALSE
+2016,Las Vegas Raiders,30,20,Denver Broncos,FALSE
+2016,Los Angeles Chargers,43,35,Tennessee Titans,FALSE
+2016,San Francisco 49ers,23,41,New Orleans Saints,FALSE
+2016,Seattle Seahawks,31,25,Buffalo Bills,FALSE
+2016,Baltimore Ravens,28,7,Cleveland Browns,FALSE
+2016,Arizona Cardinals,23,20,San Francisco 49ers,FALSE
+2016,Carolina Panthers,17,20,Kansas City Chiefs,FALSE
+2016,Jacksonville Jaguars,21,24,Houston Texans,FALSE
+2016,New England Patriots,24,31,Seattle Seahawks,FALSE
+2016,New Orleans Saints,23,25,Denver Broncos,FALSE
+2016,New York Jets,6,9,Los Angeles Rams,FALSE
+2016,Philadelphia Eagles,24,15,Atlanta Falcons,FALSE
+2016,Pittsburgh Steelers,30,35,Dallas Cowboys,FALSE
+2016,Los Angeles Chargers,24,31,Miami Dolphins,FALSE
+2016,Tampa Bay Buccaneers,36,10,Chicago Bears,FALSE
+2016,Tennessee Titans,47,25,Green Bay Packers,FALSE
+2016,Washington Redskins,26,20,Minnesota Vikings,FALSE
+2016,New York Giants,21,20,Cincinnati Bengals,FALSE
+2016,Carolina Panthers,23,20,New Orleans Saints,FALSE
+2016,Cincinnati Bengals,12,16,Buffalo Bills,FALSE
+2016,Cleveland Browns,9,24,Pittsburgh Steelers,FALSE
+2016,Dallas Cowboys,27,17,Baltimore Ravens,FALSE
+2016,Detroit Lions,26,19,Jacksonville Jaguars,FALSE
+2016,Indianapolis Colts,24,17,Tennessee Titans,FALSE
+2016,Kansas City Chiefs,17,19,Tampa Bay Buccaneers,FALSE
+2016,Los Angeles Rams,10,14,Miami Dolphins,FALSE
+2016,Minnesota Vikings,30,24,Arizona Cardinals,FALSE
+2016,New York Giants,22,16,Chicago Bears,FALSE
+2016,San Francisco 49ers,17,30,New England Patriots,FALSE
+2016,Seattle Seahawks,26,15,Philadelphia Eagles,FALSE
+2016,Washington Redskins,42,24,Green Bay Packers,FALSE
+2016,Las Vegas Raiders,27,20,Houston Texans,TRUE
+2016,Dallas Cowboys,31,26,Washington Redskins,FALSE
+2016,Detroit Lions,16,13,Minnesota Vikings,FALSE
+2016,Indianapolis Colts,7,28,Pittsburgh Steelers,FALSE
+2016,Atlanta Falcons,38,19,Arizona Cardinals,FALSE
+2016,Baltimore Ravens,19,14,Cincinnati Bengals,FALSE
+2016,Buffalo Bills,28,21,Jacksonville Jaguars,FALSE
+2016,Chicago Bears,21,27,Tennessee Titans,FALSE
+2016,Cleveland Browns,13,27,New York Giants,FALSE
+2016,Denver Broncos,27,30,Kansas City Chiefs,FALSE
+2016,Houston Texans,13,21,Los Angeles Chargers,FALSE
+2016,Miami Dolphins,31,24,San Francisco 49ers,FALSE
+2016,New Orleans Saints,49,21,Los Angeles Rams,FALSE
+2016,New York Jets,17,22,New England Patriots,FALSE
+2016,Las Vegas Raiders,35,32,Carolina Panthers,FALSE
+2016,Tampa Bay Buccaneers,14,5,Seattle Seahawks,FALSE
+2016,Philadelphia Eagles,13,27,Green Bay Packers,FALSE
+2016,Minnesota Vikings,15,17,Dallas Cowboys,FALSE
+2016,Arizona Cardinals,31,23,Washington Redskins,FALSE
+2016,Atlanta Falcons,28,29,Kansas City Chiefs,FALSE
+2016,Baltimore Ravens,38,6,Miami Dolphins,FALSE
+2016,Chicago Bears,26,6,San Francisco 49ers,FALSE
+2016,Cincinnati Bengals,32,14,Philadelphia Eagles,FALSE
+2016,Green Bay Packers,21,13,Houston Texans,FALSE
+2016,Jacksonville Jaguars,10,20,Denver Broncos,FALSE
+2016,New England Patriots,26,10,Los Angeles Rams,FALSE
+2016,New Orleans Saints,13,28,Detroit Lions,FALSE
+2016,Las Vegas Raiders,38,24,Buffalo Bills,FALSE
+2016,Pittsburgh Steelers,24,14,New York Giants,FALSE
+2016,Los Angeles Chargers,21,28,Tampa Bay Buccaneers,FALSE
+2016,Seattle Seahawks,40,7,Carolina Panthers,FALSE
+2016,New York Jets,10,41,Indianapolis Colts,FALSE
+2016,Kansas City Chiefs,21,13,Las Vegas Raiders,FALSE
+2016,Buffalo Bills,20,27,Pittsburgh Steelers,FALSE
+2016,Carolina Panthers,28,16,Los Angeles Chargers,FALSE
+2016,Cleveland Browns,10,23,Cincinnati Bengals,FALSE
+2016,Detroit Lions,20,17,Chicago Bears,FALSE
+2016,Green Bay Packers,38,10,Seattle Seahawks,FALSE
+2016,Indianapolis Colts,17,22,Houston Texans,FALSE
+2016,Jacksonville Jaguars,16,25,Minnesota Vikings,FALSE
+2016,Los Angeles Rams,14,42,Atlanta Falcons,FALSE
+2016,Miami Dolphins,26,23,Arizona Cardinals,FALSE
+2016,New York Giants,10,7,Dallas Cowboys,FALSE
+2016,Philadelphia Eagles,22,27,Washington Redskins,FALSE
+2016,San Francisco 49ers,17,23,New York Jets,FALSE
+2016,Tampa Bay Buccaneers,16,11,New Orleans Saints,FALSE
+2016,Tennessee Titans,13,10,Denver Broncos,FALSE
+2016,New England Patriots,30,23,Baltimore Ravens,FALSE
+2016,Seattle Seahawks,24,3,Los Angeles Rams,FALSE
+2016,New York Jets,13,34,Miami Dolphins,FALSE
+2016,Arizona Cardinals,41,48,New Orleans Saints,FALSE
+2016,Atlanta Falcons,41,13,San Francisco 49ers,FALSE
+2016,Baltimore Ravens,27,26,Philadelphia Eagles,FALSE
+2016,Buffalo Bills,33,13,Cleveland Browns,FALSE
+2016,Chicago Bears,27,30,Green Bay Packers,FALSE
+2016,Cincinnati Bengals,20,24,Pittsburgh Steelers,FALSE
+2016,Dallas Cowboys,26,20,Tampa Bay Buccaneers,FALSE
+2016,Denver Broncos,3,16,New England Patriots,FALSE
+2016,Houston Texans,21,20,Jacksonville Jaguars,FALSE
+2016,Kansas City Chiefs,17,19,Tennessee Titans,FALSE
+2016,Minnesota Vikings,6,34,Indianapolis Colts,FALSE
+2016,New York Giants,17,6,Detroit Lions,FALSE
+2016,Los Angeles Chargers,16,19,Las Vegas Raiders,FALSE
+2016,Washington Redskins,15,26,Carolina Panthers,FALSE
+2016,Philadelphia Eagles,24,19,New York Giants,FALSE
+2016,Buffalo Bills,31,34,Miami Dolphins,FALSE
+2016,Carolina Panthers,16,33,Atlanta Falcons,FALSE
+2016,Chicago Bears,21,41,Washington Redskins,FALSE
+2016,Cleveland Browns,20,17,Los Angeles Chargers,FALSE
+2016,Green Bay Packers,38,25,Minnesota Vikings,FALSE
+2016,Houston Texans,12,10,Cincinnati Bengals,FALSE
+2016,Jacksonville Jaguars,38,17,Tennessee Titans,FALSE
+2016,Los Angeles Rams,21,22,San Francisco 49ers,FALSE
+2016,New England Patriots,41,3,New York Jets,FALSE
+2016,New Orleans Saints,31,24,Tampa Bay Buccaneers,FALSE
+2016,Las Vegas Raiders,33,25,Indianapolis Colts,FALSE
+2016,Seattle Seahawks,31,34,Arizona Cardinals,FALSE
+2016,Kansas City Chiefs,33,10,Denver Broncos,FALSE
+2016,Pittsburgh Steelers,31,27,Baltimore Ravens,FALSE
+2016,Dallas Cowboys,42,21,Detroit Lions,FALSE
+2016,Atlanta Falcons,38,32,New Orleans Saints,FALSE
+2016,Cincinnati Bengals,27,10,Baltimore Ravens,FALSE
+2016,Denver Broncos,24,6,Las Vegas Raiders,FALSE
+2016,Detroit Lions,24,31,Green Bay Packers,FALSE
+2016,Indianapolis Colts,24,20,Jacksonville Jaguars,FALSE
+2016,Los Angeles Rams,6,44,Arizona Cardinals,FALSE
+2016,Miami Dolphins,14,35,New England Patriots,FALSE
+2016,Minnesota Vikings,38,10,Chicago Bears,FALSE
+2016,New York Jets,30,10,Buffalo Bills,FALSE
+2016,Philadelphia Eagles,27,13,Dallas Cowboys,FALSE
+2016,Pittsburgh Steelers,27,24,Cleveland Browns,FALSE
+2016,Los Angeles Chargers,27,37,Kansas City Chiefs,FALSE
+2016,San Francisco 49ers,23,25,Seattle Seahawks,FALSE
+2016,Tampa Bay Buccaneers,17,16,Carolina Panthers,FALSE
+2016,Tennessee Titans,24,17,Houston Texans,FALSE
+2016,Washington Redskins,10,19,New York Giants,FALSE
+2016,Houston Texans,27,14,Las Vegas Raiders,FALSE
+2016,Seattle Seahawks,26,6,Detroit Lions,FALSE
+2016,Green Bay Packers,38,13,New York Giants,FALSE
+2016,Pittsburgh Steelers,30,12,Miami Dolphins,FALSE
+2016,Atlanta Falcons,36,20,Seattle Seahawks,FALSE
+2016,New England Patriots,34,16,Houston Texans,FALSE
+2016,Dallas Cowboys,31,34,Green Bay Packers,FALSE
+2016,Kansas City Chiefs,16,18,Pittsburgh Steelers,FALSE
+2016,Atlanta Falcons,44,21,Green Bay Packers,FALSE
+2016,New England Patriots,36,17,Pittsburgh Steelers,FALSE
+2016,New England Patriots,34,28,Atlanta Falcons,TRUE
+2017,New England Patriots,27,42,Kansas City Chiefs,FALSE
+2017,Buffalo Bills,21,12,New York Jets,FALSE
+2017,Chicago Bears,17,23,Atlanta Falcons,FALSE
+2017,Cincinnati Bengals,0,20,Baltimore Ravens,FALSE
+2017,Cleveland Browns,18,21,Pittsburgh Steelers,FALSE
+2017,Dallas Cowboys,19,3,New York Giants,FALSE
+2017,Detroit Lions,35,23,Arizona Cardinals,FALSE
+2017,Green Bay Packers,17,9,Seattle Seahawks,FALSE
+2017,Houston Texans,7,29,Jacksonville Jaguars,FALSE
+2017,Los Angeles Rams,46,9,Indianapolis Colts,FALSE
+2017,San Francisco 49ers,3,23,Carolina Panthers,FALSE
+2017,Tennessee Titans,16,26,Las Vegas Raiders,FALSE
+2017,Washington Redskins,17,30,Philadelphia Eagles,FALSE
+2017,Denver Broncos,24,21,Los Angeles Chargers,FALSE
+2017,Minnesota Vikings,29,19,New Orleans Saints,FALSE
+2017,Cincinnati Bengals,9,13,Houston Texans,FALSE
+2017,Atlanta Falcons,34,23,Green Bay Packers,FALSE
+2017,Baltimore Ravens,24,10,Cleveland Browns,FALSE
+2017,Carolina Panthers,9,3,Buffalo Bills,FALSE
+2017,Denver Broncos,42,17,Dallas Cowboys,FALSE
+2017,Indianapolis Colts,13,16,Arizona Cardinals,FALSE
+2017,Jacksonville Jaguars,16,37,Tennessee Titans,FALSE
+2017,Kansas City Chiefs,27,20,Philadelphia Eagles,FALSE
+2017,Los Angeles Chargers,17,19,Miami Dolphins,FALSE
+2017,Los Angeles Rams,20,27,Washington Redskins,FALSE
+2017,New Orleans Saints,20,36,New England Patriots,FALSE
+2017,Las Vegas Raiders,45,20,New York Jets,FALSE
+2017,Pittsburgh Steelers,26,9,Minnesota Vikings,FALSE
+2017,Seattle Seahawks,12,9,San Francisco 49ers,FALSE
+2017,Tampa Bay Buccaneers,29,7,Chicago Bears,FALSE
+2017,New York Giants,10,24,Detroit Lions,FALSE
+2017,San Francisco 49ers,39,41,Los Angeles Rams,FALSE
+2017,Buffalo Bills,26,16,Denver Broncos,FALSE
+2017,Carolina Panthers,13,34,New Orleans Saints,FALSE
+2017,Chicago Bears,23,17,Pittsburgh Steelers,FALSE
+2017,Detroit Lions,26,30,Atlanta Falcons,FALSE
+2017,Green Bay Packers,27,24,Cincinnati Bengals,FALSE
+2017,Indianapolis Colts,31,28,Cleveland Browns,FALSE
+2017,Jacksonville Jaguars,44,7,Baltimore Ravens,TRUE
+2017,Los Angeles Chargers,10,24,Kansas City Chiefs,FALSE
+2017,Minnesota Vikings,34,17,Tampa Bay Buccaneers,FALSE
+2017,New England Patriots,36,33,Houston Texans,FALSE
+2017,New York Jets,20,6,Miami Dolphins,FALSE
+2017,Philadelphia Eagles,27,24,New York Giants,FALSE
+2017,Tennessee Titans,33,27,Seattle Seahawks,FALSE
+2017,Washington Redskins,27,10,Las Vegas Raiders,FALSE
+2017,Arizona Cardinals,17,28,Dallas Cowboys,FALSE
+2017,Green Bay Packers,35,14,Chicago Bears,FALSE
+2017,Arizona Cardinals,18,15,San Francisco 49ers,FALSE
+2017,Atlanta Falcons,17,23,Buffalo Bills,FALSE
+2017,Baltimore Ravens,9,26,Pittsburgh Steelers,FALSE
+2017,Cleveland Browns,7,31,Cincinnati Bengals,FALSE
+2017,Dallas Cowboys,30,35,Los Angeles Rams,FALSE
+2017,Denver Broncos,16,10,Las Vegas Raiders,FALSE
+2017,Houston Texans,57,14,Tennessee Titans,FALSE
+2017,Los Angeles Chargers,24,26,Philadelphia Eagles,FALSE
+2017,Miami Dolphins,0,20,New Orleans Saints,TRUE
+2017,Minnesota Vikings,7,14,Detroit Lions,FALSE
+2017,New England Patriots,30,33,Carolina Panthers,FALSE
+2017,New York Jets,23,20,Jacksonville Jaguars,FALSE
+2017,Seattle Seahawks,46,17,Indianapolis Colts,FALSE
+2017,Tampa Bay Buccaneers,25,23,New York Giants,FALSE
+2017,Kansas City Chiefs,29,20,Washington Redskins,FALSE
+2017,Tampa Bay Buccaneers,14,19,New England Patriots,FALSE
+2017,Cincinnati Bengals,20,16,Buffalo Bills,FALSE
+2017,Cleveland Browns,14,17,New York Jets,FALSE
+2017,Dallas Cowboys,31,35,Green Bay Packers,FALSE
+2017,Detroit Lions,24,27,Carolina Panthers,FALSE
+2017,Houston Texans,34,42,Kansas City Chiefs,FALSE
+2017,Indianapolis Colts,26,23,San Francisco 49ers,FALSE
+2017,Los Angeles Rams,10,16,Seattle Seahawks,FALSE
+2017,Miami Dolphins,16,10,Tennessee Titans,FALSE
+2017,New York Giants,22,27,Los Angeles Chargers,FALSE
+2017,Las Vegas Raiders,17,30,Baltimore Ravens,FALSE
+2017,Philadelphia Eagles,34,7,Arizona Cardinals,FALSE
+2017,Pittsburgh Steelers,9,30,Jacksonville Jaguars,FALSE
+2017,Chicago Bears,17,20,Minnesota Vikings,FALSE
+2017,Carolina Panthers,23,28,Philadelphia Eagles,FALSE
+2017,Arizona Cardinals,38,33,Tampa Bay Buccaneers,FALSE
+2017,Atlanta Falcons,17,20,Miami Dolphins,FALSE
+2017,Baltimore Ravens,24,27,Chicago Bears,FALSE
+2017,Denver Broncos,10,23,New York Giants,FALSE
+2017,Houston Texans,33,17,Cleveland Browns,FALSE
+2017,Jacksonville Jaguars,17,27,Los Angeles Rams,FALSE
+2017,Kansas City Chiefs,13,19,Pittsburgh Steelers,FALSE
+2017,Minnesota Vikings,23,10,Green Bay Packers,FALSE
+2017,New Orleans Saints,52,38,Detroit Lions,FALSE
+2017,New York Jets,17,24,New England Patriots,FALSE
+2017,Las Vegas Raiders,16,17,Los Angeles Chargers,FALSE
+2017,Washington Redskins,26,24,San Francisco 49ers,FALSE
+2017,Tennessee Titans,36,22,Indianapolis Colts,FALSE
+2017,Las Vegas Raiders,31,30,Kansas City Chiefs,FALSE
+2017,Buffalo Bills,30,27,Tampa Bay Buccaneers,FALSE
+2017,Chicago Bears,17,3,Carolina Panthers,FALSE
+2017,Cleveland Browns,9,12,Tennessee Titans,FALSE
+2017,Green Bay Packers,17,26,New Orleans Saints,FALSE
+2017,Indianapolis Colts,0,27,Jacksonville Jaguars,FALSE
+2017,Los Angeles Chargers,21,0,Denver Broncos,FALSE
+2017,Los Angeles Rams,33,0,Arizona Cardinals,TRUE
+2017,Miami Dolphins,31,28,New York Jets,FALSE
+2017,Minnesota Vikings,24,16,Baltimore Ravens,FALSE
+2017,New England Patriots,23,7,Atlanta Falcons,FALSE
+2017,New York Giants,7,24,Seattle Seahawks,FALSE
+2017,Pittsburgh Steelers,29,14,Cincinnati Bengals,FALSE
+2017,San Francisco 49ers,10,40,Dallas Cowboys,FALSE
+2017,Philadelphia Eagles,34,24,Washington Redskins,FALSE
+2017,Baltimore Ravens,40,0,Miami Dolphins,FALSE
+2017,Buffalo Bills,34,14,Las Vegas Raiders,FALSE
+2017,Cincinnati Bengals,24,23,Indianapolis Colts,FALSE
+2017,Cleveland Browns,16,33,Minnesota Vikings,TRUE
+2017,Detroit Lions,15,20,Pittsburgh Steelers,FALSE
+2017,New England Patriots,21,13,Los Angeles Chargers,FALSE
+2017,New Orleans Saints,20,12,Chicago Bears,FALSE
+2017,New York Jets,20,25,Atlanta Falcons,FALSE
+2017,Philadelphia Eagles,33,10,San Francisco 49ers,FALSE
+2017,Seattle Seahawks,41,38,Houston Texans,FALSE
+2017,Tampa Bay Buccaneers,3,17,Carolina Panthers,FALSE
+2017,Washington Redskins,19,33,Dallas Cowboys,FALSE
+2017,Kansas City Chiefs,29,19,Denver Broncos,FALSE
+2017,New York Jets,34,21,Buffalo Bills,FALSE
+2017,Carolina Panthers,20,17,Atlanta Falcons,FALSE
+2017,Dallas Cowboys,28,17,Kansas City Chiefs,FALSE
+2017,Houston Texans,14,20,Indianapolis Colts,FALSE
+2017,Jacksonville Jaguars,23,7,Cincinnati Bengals,FALSE
+2017,Miami Dolphins,24,27,Las Vegas Raiders,FALSE
+2017,New Orleans Saints,30,10,Tampa Bay Buccaneers,FALSE
+2017,New York Giants,17,51,Los Angeles Rams,FALSE
+2017,Philadelphia Eagles,51,23,Denver Broncos,FALSE
+2017,San Francisco 49ers,10,20,Arizona Cardinals,FALSE
+2017,Seattle Seahawks,14,17,Washington Redskins,FALSE
+2017,Tennessee Titans,23,20,Baltimore Ravens,FALSE
+2017,Green Bay Packers,17,30,Detroit Lions,FALSE
+2017,Arizona Cardinals,16,22,Seattle Seahawks,FALSE
+2017,Atlanta Falcons,27,7,Dallas Cowboys,FALSE
+2017,Buffalo Bills,10,47,New Orleans Saints,FALSE
+2017,Chicago Bears,16,23,Green Bay Packers,FALSE
+2017,Denver Broncos,16,41,New England Patriots,FALSE
+2017,Detroit Lions,38,24,Cleveland Browns,FALSE
+2017,Indianapolis Colts,17,20,Pittsburgh Steelers,FALSE
+2017,Jacksonville Jaguars,20,17,Los Angeles Chargers,FALSE
+2017,Los Angeles Rams,33,7,Houston Texans,FALSE
+2017,San Francisco 49ers,31,21,New York Giants,FALSE
+2017,Tampa Bay Buccaneers,15,10,New York Jets,FALSE
+2017,Tennessee Titans,24,20,Cincinnati Bengals,FALSE
+2017,Washington Redskins,30,38,Minnesota Vikings,FALSE
+2017,Carolina Panthers,45,21,Miami Dolphins,FALSE
+2017,Pittsburgh Steelers,40,17,Tennessee Titans,FALSE
+2017,Chicago Bears,24,27,Detroit Lions,FALSE
+2017,Cleveland Browns,7,19,Jacksonville Jaguars,FALSE
+2017,Dallas Cowboys,9,37,Philadelphia Eagles,FALSE
+2017,Denver Broncos,17,20,Cincinnati Bengals,FALSE
+2017,Green Bay Packers,0,23,Baltimore Ravens,FALSE
+2017,Houston Texans,31,21,Arizona Cardinals,FALSE
+2017,Los Angeles Chargers,54,24,Buffalo Bills,FALSE
+2017,Miami Dolphins,20,30,Tampa Bay Buccaneers,FALSE
+2017,Minnesota Vikings,24,7,Los Angeles Rams,FALSE
+2017,New Orleans Saints,34,31,Washington Redskins,FALSE
+2017,New York Giants,12,9,Kansas City Chiefs,FALSE
+2017,Las Vegas Raiders,8,33,New England Patriots,TRUE
+2017,Seattle Seahawks,31,34,Atlanta Falcons,FALSE
+2017,Dallas Cowboys,6,28,Los Angeles Chargers,FALSE
+2017,Detroit Lions,23,30,Minnesota Vikings,FALSE
+2017,Washington Redskins,20,10,New York Giants,FALSE
+2017,Arizona Cardinals,27,24,Jacksonville Jaguars,FALSE
+2017,Atlanta Falcons,34,20,Tampa Bay Buccaneers,FALSE
+2017,Cincinnati Bengals,30,16,Cleveland Browns,FALSE
+2017,Indianapolis Colts,16,20,Tennessee Titans,FALSE
+2017,Kansas City Chiefs,10,16,Buffalo Bills,FALSE
+2017,Los Angeles Rams,26,20,New Orleans Saints,FALSE
+2017,New England Patriots,35,17,Miami Dolphins,FALSE
+2017,New York Jets,27,35,Carolina Panthers,FALSE
+2017,Las Vegas Raiders,21,14,Denver Broncos,FALSE
+2017,Philadelphia Eagles,31,3,Chicago Bears,FALSE
+2017,Pittsburgh Steelers,31,28,Green Bay Packers,FALSE
+2017,San Francisco 49ers,13,24,Seattle Seahawks,FALSE
+2017,Baltimore Ravens,23,16,Houston Texans,FALSE
+2017,Dallas Cowboys,38,14,Washington Redskins,FALSE
+2017,Arizona Cardinals,16,32,Los Angeles Rams,FALSE
+2017,Atlanta Falcons,9,14,Minnesota Vikings,FALSE
+2017,Baltimore Ravens,44,20,Detroit Lions,FALSE
+2017,Buffalo Bills,3,23,New England Patriots,FALSE
+2017,Chicago Bears,14,15,San Francisco 49ers,FALSE
+2017,Green Bay Packers,26,20,Tampa Bay Buccaneers,FALSE
+2017,Jacksonville Jaguars,30,10,Indianapolis Colts,FALSE
+2017,Los Angeles Chargers,19,10,Cleveland Browns,FALSE
+2017,Miami Dolphins,35,9,Denver Broncos,FALSE
+2017,New Orleans Saints,31,21,Carolina Panthers,FALSE
+2017,New York Jets,38,31,Kansas City Chiefs,FALSE
+2017,Las Vegas Raiders,24,17,New York Giants,FALSE
+2017,Seattle Seahawks,24,10,Philadelphia Eagles,FALSE
+2017,Tennessee Titans,24,13,Houston Texans,FALSE
+2017,Cincinnati Bengals,20,23,Pittsburgh Steelers,FALSE
+2017,Atlanta Falcons,20,17,New Orleans Saints,FALSE
+2017,Arizona Cardinals,12,7,Tennessee Titans,FALSE
+2017,Buffalo Bills,13,7,Indianapolis Colts,FALSE
+2017,Carolina Panthers,31,24,Minnesota Vikings,FALSE
+2017,Cincinnati Bengals,7,33,Chicago Bears,FALSE
+2017,Cleveland Browns,21,27,Green Bay Packers,FALSE
+2017,Denver Broncos,23,0,New York Jets,FALSE
+2017,Houston Texans,16,26,San Francisco 49ers,FALSE
+2017,Jacksonville Jaguars,30,24,Seattle Seahawks,FALSE
+2017,Kansas City Chiefs,26,15,Las Vegas Raiders,FALSE
+2017,Los Angeles Chargers,30,13,Washington Redskins,FALSE
+2017,Los Angeles Rams,35,43,Philadelphia Eagles,FALSE
+2017,New York Giants,10,30,Dallas Cowboys,FALSE
+2017,Pittsburgh Steelers,39,38,Baltimore Ravens,FALSE
+2017,Tampa Bay Buccaneers,21,24,Detroit Lions,FALSE
+2017,Miami Dolphins,27,20,New England Patriots,FALSE
+2017,Indianapolis Colts,13,25,Denver Broncos,FALSE
+2017,Detroit Lions,20,10,Chicago Bears,FALSE
+2017,Kansas City Chiefs,30,13,Los Angeles Chargers,FALSE
+2017,Buffalo Bills,24,16,Miami Dolphins,FALSE
+2017,Carolina Panthers,31,24,Green Bay Packers,FALSE
+2017,Cleveland Browns,10,27,Baltimore Ravens,FALSE
+2017,Jacksonville Jaguars,45,7,Houston Texans,FALSE
+2017,Minnesota Vikings,34,7,Cincinnati Bengals,FALSE
+2017,New Orleans Saints,31,19,New York Jets,FALSE
+2017,New York Giants,29,34,Philadelphia Eagles,FALSE
+2017,Las Vegas Raiders,17,20,Dallas Cowboys,FALSE
+2017,Pittsburgh Steelers,24,27,New England Patriots,FALSE
+2017,San Francisco 49ers,25,23,Tennessee Titans,FALSE
+2017,Seattle Seahawks,7,42,Los Angeles Rams,FALSE
+2017,Washington Redskins,20,15,Arizona Cardinals,FALSE
+2017,Tampa Bay Buccaneers,21,24,Atlanta Falcons,FALSE
+2017,Baltimore Ravens,23,16,Indianapolis Colts,FALSE
+2017,Green Bay Packers,0,16,Minnesota Vikings,FALSE
+2017,Arizona Cardinals,23,0,New York Giants,FALSE
+2017,Carolina Panthers,22,19,Tampa Bay Buccaneers,FALSE
+2017,Chicago Bears,20,3,Cleveland Browns,FALSE
+2017,Cincinnati Bengals,26,17,Detroit Lions,FALSE
+2017,Dallas Cowboys,12,21,Seattle Seahawks,FALSE
+2017,Kansas City Chiefs,29,13,Miami Dolphins,FALSE
+2017,New England Patriots,37,16,Buffalo Bills,FALSE
+2017,New Orleans Saints,23,13,Atlanta Falcons,FALSE
+2017,New York Jets,7,14,Los Angeles Chargers,FALSE
+2017,San Francisco 49ers,44,33,Jacksonville Jaguars,FALSE
+2017,Tennessee Titans,23,27,Los Angeles Rams,FALSE
+2017,Washington Redskins,27,11,Denver Broncos,FALSE
+2017,Houston Texans,6,34,Pittsburgh Steelers,FALSE
+2017,Philadelphia Eagles,19,10,Las Vegas Raiders,FALSE
+2017,Atlanta Falcons,22,10,Carolina Panthers,FALSE
+2017,Baltimore Ravens,27,31,Cincinnati Bengals,FALSE
+2017,Denver Broncos,24,27,Kansas City Chiefs,FALSE
+2017,Detroit Lions,35,11,Green Bay Packers,FALSE
+2017,Indianapolis Colts,22,13,Houston Texans,FALSE
+2017,Los Angeles Chargers,30,10,Las Vegas Raiders,FALSE
+2017,Los Angeles Rams,13,34,San Francisco 49ers,FALSE
+2017,Miami Dolphins,16,22,Buffalo Bills,FALSE
+2017,Minnesota Vikings,23,10,Chicago Bears,FALSE
+2017,New England Patriots,26,6,New York Jets,FALSE
+2017,New York Giants,18,10,Washington Redskins,FALSE
+2017,Philadelphia Eagles,0,6,Dallas Cowboys,FALSE
+2017,Pittsburgh Steelers,28,24,Cleveland Browns,FALSE
+2017,Seattle Seahawks,24,26,Arizona Cardinals,FALSE
+2017,Tampa Bay Buccaneers,31,24,New Orleans Saints,FALSE
+2017,Tennessee Titans,15,10,Jacksonville Jaguars,FALSE
+2017,Kansas City Chiefs,21,22,Tennessee Titans,FALSE
+2017,Los Angeles Rams,13,26,Atlanta Falcons,FALSE
+2017,Jacksonville Jaguars,10,3,Buffalo Bills,FALSE
+2017,New Orleans Saints,31,26,Carolina Panthers,FALSE
+2017,New England Patriots,35,14,Tennessee Titans,FALSE
+2017,Philadelphia Eagles,15,10,Atlanta Falcons,FALSE
+2017,Minnesota Vikings,29,24,New Orleans Saints,FALSE
+2017,Pittsburgh Steelers,42,45,Jacksonville Jaguars,FALSE
+2017,New England Patriots,24,20,Jacksonville Jaguars,FALSE
+2017,Philadelphia Eagles,38,7,Minnesota Vikings,FALSE
+2017,New England Patriots,33,41,Philadelphia Eagles,TRUE
+2018,Philadelphia Eagles,18,12,Atlanta Falcons,FALSE
+2018,Arizona Cardinals,6,24,Washington Redskins,FALSE
+2018,Baltimore Ravens,47,3,Buffalo Bills,FALSE
+2018,Carolina Panthers,16,8,Dallas Cowboys,FALSE
+2018,Cleveland Browns,21,21,Pittsburgh Steelers,FALSE
+2018,Denver Broncos,27,24,Seattle Seahawks,FALSE
+2018,Green Bay Packers,24,23,Chicago Bears,FALSE
+2018,Indianapolis Colts,23,34,Cincinnati Bengals,FALSE
+2018,Los Angeles Chargers,28,38,Kansas City Chiefs,FALSE
+2018,Miami Dolphins,27,20,Tennessee Titans,FALSE
+2018,Minnesota Vikings,24,16,San Francisco 49ers,FALSE
+2018,New England Patriots,27,20,Houston Texans,FALSE
+2018,New Orleans Saints,40,48,Tampa Bay Buccaneers,FALSE
+2018,New York Giants,15,20,Jacksonville Jaguars,FALSE
+2018,Detroit Lions,17,48,New York Jets,FALSE
+2018,Las Vegas Raiders,13,33,Los Angeles Rams,FALSE
+2018,Cincinnati Bengals,34,23,Baltimore Ravens,FALSE
+2018,Atlanta Falcons,31,24,Carolina Panthers,FALSE
+2018,Buffalo Bills,20,31,Los Angeles Chargers,FALSE
+2018,Dallas Cowboys,20,13,New York Giants,FALSE
+2018,Denver Broncos,20,19,Las Vegas Raiders,FALSE
+2018,Green Bay Packers,29,29,Minnesota Vikings,FALSE
+2018,Jacksonville Jaguars,31,20,New England Patriots,FALSE
+2018,Los Angeles Rams,34,0,Arizona Cardinals,FALSE
+2018,New Orleans Saints,21,18,Cleveland Browns,FALSE
+2018,New York Jets,12,20,Miami Dolphins,FALSE
+2018,Pittsburgh Steelers,37,42,Kansas City Chiefs,FALSE
+2018,San Francisco 49ers,30,27,Detroit Lions,FALSE
+2018,Tampa Bay Buccaneers,27,21,Philadelphia Eagles,FALSE
+2018,Tennessee Titans,20,17,Houston Texans,FALSE
+2018,Washington Redskins,9,21,Indianapolis Colts,FALSE
+2018,Chicago Bears,24,17,Seattle Seahawks,FALSE
+2018,Cleveland Browns,21,17,New York Jets,FALSE
+2018,Arizona Cardinals,14,16,Chicago Bears,FALSE
+2018,Atlanta Falcons,37,43,New Orleans Saints,FALSE
+2018,Baltimore Ravens,27,14,Denver Broncos,FALSE
+2018,Carolina Panthers,31,21,Cincinnati Bengals,FALSE
+2018,Detroit Lions,26,10,New England Patriots,FALSE
+2018,Houston Texans,22,27,New York Giants,FALSE
+2018,Jacksonville Jaguars,6,9,Tennessee Titans,FALSE
+2018,Kansas City Chiefs,38,27,San Francisco 49ers,FALSE
+2018,Los Angeles Rams,35,23,Los Angeles Chargers,FALSE
+2018,Miami Dolphins,28,20,Las Vegas Raiders,FALSE
+2018,Minnesota Vikings,6,27,Buffalo Bills,FALSE
+2018,Philadelphia Eagles,20,16,Indianapolis Colts,FALSE
+2018,Seattle Seahawks,24,13,Dallas Cowboys,FALSE
+2018,Washington Redskins,31,17,Green Bay Packers,FALSE
+2018,Tampa Bay Buccaneers,27,30,Pittsburgh Steelers,FALSE
+2018,Los Angeles Rams,38,31,Minnesota Vikings,FALSE
+2018,Arizona Cardinals,17,20,Seattle Seahawks,FALSE
+2018,Atlanta Falcons,36,37,Cincinnati Bengals,FALSE
+2018,Chicago Bears,48,10,Tampa Bay Buccaneers,FALSE
+2018,Dallas Cowboys,26,24,Detroit Lions,FALSE
+2018,Green Bay Packers,22,0,Buffalo Bills,FALSE
+2018,Indianapolis Colts,34,37,Houston Texans,FALSE
+2018,Jacksonville Jaguars,31,12,New York Jets,FALSE
+2018,Los Angeles Chargers,29,27,San Francisco 49ers,FALSE
+2018,New England Patriots,38,7,Miami Dolphins,FALSE
+2018,New York Giants,18,33,New Orleans Saints,FALSE
+2018,Las Vegas Raiders,45,42,Cleveland Browns,FALSE
+2018,Pittsburgh Steelers,14,26,Baltimore Ravens,FALSE
+2018,Tennessee Titans,26,23,Philadelphia Eagles,FALSE
+2018,Denver Broncos,23,27,Kansas City Chiefs,FALSE
+2018,New England Patriots,38,24,Indianapolis Colts,FALSE
+2018,Buffalo Bills,13,12,Tennessee Titans,FALSE
+2018,Carolina Panthers,33,31,New York Giants,FALSE
+2018,Cincinnati Bengals,27,17,Miami Dolphins,FALSE
+2018,Cleveland Browns,12,9,Baltimore Ravens,FALSE
+2018,Detroit Lions,31,23,Green Bay Packers,FALSE
+2018,Houston Texans,19,16,Dallas Cowboys,FALSE
+2018,Kansas City Chiefs,30,14,Jacksonville Jaguars,FALSE
+2018,Los Angeles Chargers,26,10,Las Vegas Raiders,FALSE
+2018,New York Jets,34,16,Denver Broncos,FALSE
+2018,Philadelphia Eagles,21,23,Minnesota Vikings,FALSE
+2018,Pittsburgh Steelers,41,17,Atlanta Falcons,FALSE
+2018,San Francisco 49ers,18,28,Arizona Cardinals,FALSE
+2018,Seattle Seahawks,31,33,Los Angeles Rams,FALSE
+2018,New Orleans Saints,43,19,Washington Redskins,FALSE
+2018,New York Giants,13,34,Philadelphia Eagles,FALSE
+2018,Atlanta Falcons,34,29,Tampa Bay Buccaneers,FALSE
+2018,Cincinnati Bengals,21,28,Pittsburgh Steelers,FALSE
+2018,Cleveland Browns,14,38,Los Angeles Chargers,FALSE
+2018,Dallas Cowboys,40,7,Jacksonville Jaguars,FALSE
+2018,Denver Broncos,20,23,Los Angeles Rams,FALSE
+2018,Houston Texans,20,13,Buffalo Bills,FALSE
+2018,Miami Dolphins,31,28,Chicago Bears,FALSE
+2018,Minnesota Vikings,27,17,Arizona Cardinals,FALSE
+2018,New England Patriots,43,40,Kansas City Chiefs,FALSE
+2018,New York Jets,42,34,Indianapolis Colts,FALSE
+2018,Las Vegas Raiders,3,27,Seattle Seahawks,TRUE
+2018,Tennessee Titans,0,21,Baltimore Ravens,FALSE
+2018,Washington Redskins,23,17,Carolina Panthers,FALSE
+2018,Green Bay Packers,33,30,San Francisco 49ers,FALSE
+2018,Arizona Cardinals,10,45,Denver Broncos,FALSE
+2018,Baltimore Ravens,23,24,New Orleans Saints,FALSE
+2018,Chicago Bears,31,38,New England Patriots,FALSE
+2018,Indianapolis Colts,37,5,Buffalo Bills,FALSE
+2018,Jacksonville Jaguars,7,20,Houston Texans,FALSE
+2018,Kansas City Chiefs,45,10,Cincinnati Bengals,FALSE
+2018,Los Angeles Chargers,20,19,Tennessee Titans,TRUE
+2018,Miami Dolphins,21,32,Detroit Lions,FALSE
+2018,New York Jets,17,37,Minnesota Vikings,FALSE
+2018,Philadelphia Eagles,17,21,Carolina Panthers,FALSE
+2018,San Francisco 49ers,10,39,Los Angeles Rams,FALSE
+2018,Tampa Bay Buccaneers,26,23,Cleveland Browns,FALSE
+2018,Washington Redskins,20,17,Dallas Cowboys,FALSE
+2018,Atlanta Falcons,23,20,New York Giants,FALSE
+2018,Houston Texans,42,23,Miami Dolphins,FALSE
+2018,Arizona Cardinals,18,15,San Francisco 49ers,FALSE
+2018,Carolina Panthers,36,21,Baltimore Ravens,FALSE
+2018,Chicago Bears,24,10,New York Jets,FALSE
+2018,Cincinnati Bengals,37,34,Tampa Bay Buccaneers,FALSE
+2018,Detroit Lions,14,28,Seattle Seahawks,FALSE
+2018,Jacksonville Jaguars,18,24,Philadelphia Eagles,TRUE
+2018,Kansas City Chiefs,30,23,Denver Broncos,FALSE
+2018,Los Angeles Rams,29,27,Green Bay Packers,FALSE
+2018,Minnesota Vikings,20,30,New Orleans Saints,FALSE
+2018,New York Giants,13,20,Washington Redskins,FALSE
+2018,Las Vegas Raiders,28,42,Indianapolis Colts,FALSE
+2018,Pittsburgh Steelers,33,18,Cleveland Browns,FALSE
+2018,Buffalo Bills,6,25,New England Patriots,FALSE
+2018,San Francisco 49ers,34,3,Las Vegas Raiders,FALSE
+2018,Baltimore Ravens,16,23,Pittsburgh Steelers,FALSE
+2018,Buffalo Bills,9,41,Chicago Bears,FALSE
+2018,Carolina Panthers,42,28,Tampa Bay Buccaneers,FALSE
+2018,Cleveland Browns,21,37,Kansas City Chiefs,FALSE
+2018,Denver Broncos,17,19,Houston Texans,FALSE
+2018,Miami Dolphins,13,6,New York Jets,FALSE
+2018,Minnesota Vikings,24,9,Detroit Lions,FALSE
+2018,New England Patriots,31,17,Green Bay Packers,FALSE
+2018,New Orleans Saints,45,35,Los Angeles Rams,FALSE
+2018,Seattle Seahawks,17,25,Los Angeles Chargers,FALSE
+2018,Washington Redskins,14,38,Atlanta Falcons,FALSE
+2018,Dallas Cowboys,14,28,Tennessee Titans,FALSE
+2018,Pittsburgh Steelers,52,21,Carolina Panthers,FALSE
+2018,Chicago Bears,34,22,Detroit Lions,FALSE
+2018,Cincinnati Bengals,14,51,New Orleans Saints,FALSE
+2018,Cleveland Browns,28,16,Atlanta Falcons,FALSE
+2018,Green Bay Packers,31,12,Miami Dolphins,FALSE
+2018,Indianapolis Colts,29,26,Jacksonville Jaguars,FALSE
+2018,Kansas City Chiefs,26,14,Arizona Cardinals,FALSE
+2018,Los Angeles Rams,36,31,Seattle Seahawks,FALSE
+2018,New York Jets,10,41,Buffalo Bills,FALSE
+2018,Las Vegas Raiders,6,20,Los Angeles Chargers,FALSE
+2018,Philadelphia Eagles,20,27,Dallas Cowboys,FALSE
+2018,Tampa Bay Buccaneers,3,16,Washington Redskins,FALSE
+2018,Tennessee Titans,34,10,New England Patriots,FALSE
+2018,San Francisco 49ers,23,27,New York Giants,FALSE
+2018,Seattle Seahawks,27,24,Green Bay Packers,FALSE
+2018,Arizona Cardinals,21,23,Las Vegas Raiders,FALSE
+2018,Atlanta Falcons,19,22,Dallas Cowboys,FALSE
+2018,Baltimore Ravens,24,21,Cincinnati Bengals,FALSE
+2018,Chicago Bears,25,20,Minnesota Vikings,FALSE
+2018,Detroit Lions,20,19,Carolina Panthers,FALSE
+2018,Indianapolis Colts,38,10,Tennessee Titans,FALSE
+2018,Jacksonville Jaguars,16,20,Pittsburgh Steelers,FALSE
+2018,Los Angeles Chargers,22,23,Denver Broncos,FALSE
+2018,New Orleans Saints,48,7,Philadelphia Eagles,FALSE
+2018,New York Giants,38,35,Tampa Bay Buccaneers,FALSE
+2018,Washington Redskins,21,23,Houston Texans,FALSE
+2018,Los Angeles Rams,54,51,Kansas City Chiefs,FALSE
+2018,Dallas Cowboys,31,23,Washington Redskins,FALSE
+2018,Detroit Lions,16,23,Chicago Bears,FALSE
+2018,New Orleans Saints,31,17,Atlanta Falcons,FALSE
+2018,Baltimore Ravens,34,17,Las Vegas Raiders,FALSE
+2018,Buffalo Bills,24,21,Jacksonville Jaguars,FALSE
+2018,Carolina Panthers,27,30,Seattle Seahawks,FALSE
+2018,Cincinnati Bengals,20,35,Cleveland Browns,FALSE
+2018,Denver Broncos,24,17,Pittsburgh Steelers,FALSE
+2018,Indianapolis Colts,27,24,Miami Dolphins,FALSE
+2018,Los Angeles Chargers,45,10,Arizona Cardinals,FALSE
+2018,Minnesota Vikings,24,17,Green Bay Packers,FALSE
+2018,New York Jets,13,27,New England Patriots,FALSE
+2018,Philadelphia Eagles,25,22,New York Giants,FALSE
+2018,Tampa Bay Buccaneers,27,9,San Francisco 49ers,FALSE
+2018,Houston Texans,34,17,Tennessee Titans,FALSE
+2018,Dallas Cowboys,13,10,New Orleans Saints,FALSE
+2018,Atlanta Falcons,16,26,Baltimore Ravens,FALSE
+2018,Cincinnati Bengals,10,24,Denver Broncos,FALSE
+2018,Detroit Lions,16,30,Los Angeles Rams,FALSE
+2018,Green Bay Packers,17,20,Arizona Cardinals,FALSE
+2018,Houston Texans,29,13,Cleveland Browns,FALSE
+2018,Jacksonville Jaguars,6,0,Indianapolis Colts,FALSE
+2018,Miami Dolphins,21,17,Buffalo Bills,FALSE
+2018,New England Patriots,24,10,Minnesota Vikings,FALSE
+2018,New York Giants,30,27,Chicago Bears,FALSE
+2018,Las Vegas Raiders,33,40,Kansas City Chiefs,FALSE
+2018,Pittsburgh Steelers,30,33,Los Angeles Chargers,FALSE
+2018,Seattle Seahawks,43,16,San Francisco 49ers,FALSE
+2018,Tampa Bay Buccaneers,24,17,Carolina Panthers,FALSE
+2018,Tennessee Titans,26,22,New York Jets,FALSE
+2018,Philadelphia Eagles,28,13,Washington Redskins,FALSE
+2018,Tennessee Titans,30,9,Jacksonville Jaguars,FALSE
+2018,Arizona Cardinals,3,17,Detroit Lions,FALSE
+2018,Buffalo Bills,23,27,New York Jets,FALSE
+2018,Chicago Bears,15,6,Los Angeles Rams,FALSE
+2018,Cleveland Browns,26,20,Carolina Panthers,FALSE
+2018,Dallas Cowboys,29,23,Philadelphia Eagles,FALSE
+2018,Green Bay Packers,34,20,Atlanta Falcons,FALSE
+2018,Houston Texans,21,24,Indianapolis Colts,FALSE
+2018,Kansas City Chiefs,27,24,Baltimore Ravens,FALSE
+2018,Los Angeles Chargers,26,21,Cincinnati Bengals,FALSE
+2018,Miami Dolphins,34,33,New England Patriots,FALSE
+2018,Las Vegas Raiders,24,21,Pittsburgh Steelers,FALSE
+2018,San Francisco 49ers,20,14,Denver Broncos,FALSE
+2018,Tampa Bay Buccaneers,14,28,New Orleans Saints,FALSE
+2018,Washington Redskins,16,40,New York Giants,FALSE
+2018,Seattle Seahawks,21,7,Minnesota Vikings,FALSE
+2018,Kansas City Chiefs,28,29,Los Angeles Chargers,FALSE
+2018,Denver Broncos,16,17,Cleveland Browns,FALSE
+2018,New York Jets,22,29,Houston Texans,FALSE
+2018,Atlanta Falcons,40,14,Arizona Cardinals,FALSE
+2018,Baltimore Ravens,20,12,Tampa Bay Buccaneers,FALSE
+2018,Buffalo Bills,14,13,Detroit Lions,FALSE
+2018,Chicago Bears,24,17,Green Bay Packers,FALSE
+2018,Cincinnati Bengals,30,16,Las Vegas Raiders,FALSE
+2018,Indianapolis Colts,23,0,Dallas Cowboys,FALSE
+2018,Jacksonville Jaguars,13,16,Washington Redskins,FALSE
+2018,Los Angeles Rams,23,30,Philadelphia Eagles,FALSE
+2018,Minnesota Vikings,41,17,Miami Dolphins,FALSE
+2018,New York Giants,0,17,Tennessee Titans,FALSE
+2018,Pittsburgh Steelers,17,10,New England Patriots,FALSE
+2018,San Francisco 49ers,26,23,Seattle Seahawks,FALSE
+2018,Carolina Panthers,9,12,New Orleans Saints,FALSE
+2018,Los Angeles Chargers,10,22,Baltimore Ravens,FALSE
+2018,Tennessee Titans,25,16,Washington Redskins,FALSE
+2018,Arizona Cardinals,9,31,Los Angeles Rams,FALSE
+2018,Carolina Panthers,10,24,Atlanta Falcons,FALSE
+2018,Cleveland Browns,26,18,Cincinnati Bengals,FALSE
+2018,Dallas Cowboys,27,20,Tampa Bay Buccaneers,FALSE
+2018,Detroit Lions,9,27,Minnesota Vikings,FALSE
+2018,Indianapolis Colts,28,27,New York Giants,FALSE
+2018,Miami Dolphins,7,17,Jacksonville Jaguars,FALSE
+2018,New England Patriots,24,12,Buffalo Bills,FALSE
+2018,New Orleans Saints,31,28,Pittsburgh Steelers,FALSE
+2018,New York Jets,38,44,Green Bay Packers,FALSE
+2018,Philadelphia Eagles,32,30,Houston Texans,FALSE
+2018,San Francisco 49ers,9,14,Chicago Bears,FALSE
+2018,Seattle Seahawks,38,31,Kansas City Chiefs,FALSE
+2018,Las Vegas Raiders,27,14,Denver Broncos,FALSE
+2018,Baltimore Ravens,26,24,Cleveland Browns,FALSE
+2018,Buffalo Bills,42,17,Miami Dolphins,FALSE
+2018,Denver Broncos,9,23,Los Angeles Chargers,FALSE
+2018,Green Bay Packers,0,31,Detroit Lions,FALSE
+2018,Houston Texans,20,3,Jacksonville Jaguars,FALSE
+2018,Kansas City Chiefs,35,3,Las Vegas Raiders,FALSE
+2018,Los Angeles Rams,48,32,San Francisco 49ers,FALSE
+2018,Minnesota Vikings,10,24,Chicago Bears,FALSE
+2018,New England Patriots,38,3,New York Jets,FALSE
+2018,New Orleans Saints,14,33,Carolina Panthers,FALSE
+2018,New York Giants,35,36,Dallas Cowboys,FALSE
+2018,Pittsburgh Steelers,16,13,Cincinnati Bengals,FALSE
+2018,Seattle Seahawks,27,24,Arizona Cardinals,FALSE
+2018,Tampa Bay Buccaneers,32,34,Atlanta Falcons,FALSE
+2018,Tennessee Titans,17,33,Indianapolis Colts,FALSE
+2018,Washington Redskins,0,24,Philadelphia Eagles,FALSE
+2018,Dallas Cowboys,24,22,Seattle Seahawks,FALSE
+2018,Houston Texans,7,21,Indianapolis Colts,FALSE
+2018,Baltimore Ravens,17,23,Los Angeles Chargers,FALSE
+2018,Chicago Bears,15,16,Philadelphia Eagles,FALSE
+2018,Kansas City Chiefs,31,13,Indianapolis Colts,FALSE
+2018,Los Angeles Rams,30,22,Dallas Cowboys,FALSE
+2018,New England Patriots,41,28,Los Angeles Chargers,FALSE
+2018,New Orleans Saints,20,14,Philadelphia Eagles,FALSE
+2018,Kansas City Chiefs,31,37,New England Patriots,FALSE
+2018,New Orleans Saints,23,26,Los Angeles Rams,FALSE
+2018,Los Angeles Rams,3,13,New England Patriots,TRUE
+2019,Chicago Bears,3,10,Green Bay Packers,FALSE
+2019,Arizona Cardinals,27,27,Detroit Lions,FALSE
+2019,Carolina Panthers,27,30,Los Angeles Rams,FALSE
+2019,Cleveland Browns,13,43,Tennessee Titans,FALSE
+2019,Dallas Cowboys,35,17,New York Giants,FALSE
+2019,Jacksonville Jaguars,26,40,Kansas City Chiefs,FALSE
+2019,Los Angeles Chargers,30,24,Indianapolis Colts,FALSE
+2019,Miami Dolphins,10,59,Baltimore Ravens,FALSE
+2019,Minnesota Vikings,28,12,Atlanta Falcons,FALSE
+2019,New England Patriots,33,3,Pittsburgh Steelers,FALSE
+2019,New York Jets,16,17,Buffalo Bills,FALSE
+2019,Philadelphia Eagles,32,27,Washington Redskins,FALSE
+2019,Seattle Seahawks,21,20,Cincinnati Bengals,FALSE
+2019,Tampa Bay Buccaneers,17,31,San Francisco 49ers,FALSE
+2019,New Orleans Saints,30,28,Houston Texans,FALSE
+2019,Las Vegas Raiders,24,16,Denver Broncos,FALSE
+2019,Carolina Panthers,14,20,Tampa Bay Buccaneers,FALSE
+2019,Atlanta Falcons,24,20,Philadelphia Eagles,FALSE
+2019,Baltimore Ravens,23,17,Arizona Cardinals,FALSE
+2019,Cincinnati Bengals,17,41,San Francisco 49ers,FALSE
+2019,Denver Broncos,14,16,Chicago Bears,FALSE
+2019,Detroit Lions,13,10,Los Angeles Chargers,FALSE
+2019,Green Bay Packers,21,16,Minnesota Vikings,FALSE
+2019,Houston Texans,13,12,Jacksonville Jaguars,FALSE
+2019,Los Angeles Rams,27,9,New Orleans Saints,FALSE
+2019,Miami Dolphins,0,43,New England Patriots,FALSE
+2019,New York Giants,14,28,Buffalo Bills,FALSE
+2019,Las Vegas Raiders,10,28,Kansas City Chiefs,FALSE
+2019,Pittsburgh Steelers,26,28,Seattle Seahawks,FALSE
+2019,Tennessee Titans,17,19,Indianapolis Colts,FALSE
+2019,Washington Redskins,21,31,Dallas Cowboys,FALSE
+2019,New York Jets,3,23,Cleveland Browns,FALSE
+2019,Jacksonville Jaguars,20,7,Tennessee Titans,FALSE
+2019,Arizona Cardinals,20,38,Carolina Panthers,FALSE
+2019,Buffalo Bills,21,17,Cincinnati Bengals,FALSE
+2019,Cleveland Browns,13,20,Los Angeles Rams,FALSE
+2019,Dallas Cowboys,31,6,Miami Dolphins,FALSE
+2019,Green Bay Packers,27,16,Denver Broncos,FALSE
+2019,Indianapolis Colts,27,24,Atlanta Falcons,FALSE
+2019,Kansas City Chiefs,33,28,Baltimore Ravens,FALSE
+2019,Los Angeles Chargers,20,27,Houston Texans,FALSE
+2019,Minnesota Vikings,34,14,Las Vegas Raiders,FALSE
+2019,New England Patriots,30,14,New York Jets,FALSE
+2019,Philadelphia Eagles,24,27,Detroit Lions,FALSE
+2019,San Francisco 49ers,24,20,Pittsburgh Steelers,FALSE
+2019,Seattle Seahawks,27,33,New Orleans Saints,FALSE
+2019,Tampa Bay Buccaneers,31,32,New York Giants,FALSE
+2019,Washington Redskins,15,31,Chicago Bears,FALSE
+2019,Green Bay Packers,27,34,Philadelphia Eagles,FALSE
+2019,Arizona Cardinals,10,27,Seattle Seahawks,FALSE
+2019,Atlanta Falcons,10,24,Tennessee Titans,FALSE
+2019,Baltimore Ravens,25,40,Cleveland Browns,FALSE
+2019,Buffalo Bills,10,16,New England Patriots,FALSE
+2019,Chicago Bears,16,6,Minnesota Vikings,FALSE
+2019,Denver Broncos,24,26,Jacksonville Jaguars,FALSE
+2019,Detroit Lions,30,34,Kansas City Chiefs,FALSE
+2019,Houston Texans,10,16,Carolina Panthers,FALSE
+2019,Indianapolis Colts,24,31,Las Vegas Raiders,FALSE
+2019,Los Angeles Rams,40,55,Tampa Bay Buccaneers,FALSE
+2019,Miami Dolphins,10,30,Los Angeles Chargers,FALSE
+2019,New Orleans Saints,12,10,Dallas Cowboys,FALSE
+2019,New York Giants,24,3,Washington Redskins,FALSE
+2019,Pittsburgh Steelers,27,3,Cincinnati Bengals,FALSE
+2019,Seattle Seahawks,30,29,Los Angeles Rams,FALSE
+2019,Carolina Panthers,34,27,Jacksonville Jaguars,FALSE
+2019,Cincinnati Bengals,23,26,Arizona Cardinals,FALSE
+2019,Dallas Cowboys,24,34,Green Bay Packers,FALSE
+2019,Houston Texans,53,32,Atlanta Falcons,FALSE
+2019,Kansas City Chiefs,13,19,Indianapolis Colts,FALSE
+2019,Los Angeles Chargers,13,20,Denver Broncos,FALSE
+2019,New Orleans Saints,31,24,Tampa Bay Buccaneers,FALSE
+2019,New York Giants,10,28,Minnesota Vikings,FALSE
+2019,Las Vegas Raiders,24,21,Chicago Bears,TRUE
+2019,Philadelphia Eagles,31,6,New York Jets,FALSE
+2019,Pittsburgh Steelers,23,26,Baltimore Ravens,FALSE
+2019,Tennessee Titans,7,14,Buffalo Bills,FALSE
+2019,Washington Redskins,7,33,New England Patriots,FALSE
+2019,San Francisco 49ers,31,3,Cleveland Browns,FALSE
+2019,New England Patriots,35,14,New York Giants,FALSE
+2019,Arizona Cardinals,34,33,Atlanta Falcons,FALSE
+2019,Baltimore Ravens,23,17,Cincinnati Bengals,FALSE
+2019,Cleveland Browns,28,32,Seattle Seahawks,FALSE
+2019,Denver Broncos,16,0,Tennessee Titans,FALSE
+2019,Jacksonville Jaguars,6,13,New Orleans Saints,FALSE
+2019,Kansas City Chiefs,24,31,Houston Texans,FALSE
+2019,Los Angeles Chargers,17,24,Pittsburgh Steelers,FALSE
+2019,Los Angeles Rams,7,20,San Francisco 49ers,FALSE
+2019,Miami Dolphins,16,17,Washington Redskins,FALSE
+2019,Minnesota Vikings,38,20,Philadelphia Eagles,FALSE
+2019,New York Jets,24,22,Dallas Cowboys,FALSE
+2019,Tampa Bay Buccaneers,26,37,Carolina Panthers,TRUE
+2019,Green Bay Packers,23,22,Detroit Lions,FALSE
+2019,Denver Broncos,6,30,Kansas City Chiefs,FALSE
+2019,Atlanta Falcons,10,37,Los Angeles Rams,FALSE
+2019,Buffalo Bills,31,21,Miami Dolphins,FALSE
+2019,Chicago Bears,25,36,New Orleans Saints,FALSE
+2019,Cincinnati Bengals,17,27,Jacksonville Jaguars,FALSE
+2019,Dallas Cowboys,37,10,Philadelphia Eagles,FALSE
+2019,Detroit Lions,30,42,Minnesota Vikings,FALSE
+2019,Green Bay Packers,42,24,Las Vegas Raiders,FALSE
+2019,Indianapolis Colts,30,23,Houston Texans,FALSE
+2019,New York Giants,21,27,Arizona Cardinals,FALSE
+2019,Seattle Seahawks,16,30,Baltimore Ravens,FALSE
+2019,Tennessee Titans,23,20,Los Angeles Chargers,FALSE
+2019,Washington Redskins,0,9,San Francisco 49ers,FALSE
+2019,New York Jets,0,33,New England Patriots,FALSE
+2019,Minnesota Vikings,19,9,Washington Redskins,FALSE
+2019,Atlanta Falcons,20,27,Seattle Seahawks,FALSE
+2019,Buffalo Bills,13,31,Philadelphia Eagles,FALSE
+2019,Chicago Bears,16,17,Los Angeles Chargers,FALSE
+2019,Detroit Lions,31,26,New York Giants,FALSE
+2019,Houston Texans,27,24,Las Vegas Raiders,FALSE
+2019,Indianapolis Colts,15,13,Denver Broncos,FALSE
+2019,Jacksonville Jaguars,29,15,New York Jets,FALSE
+2019,Kansas City Chiefs,24,31,Green Bay Packers,FALSE
+2019,Los Angeles Rams,24,10,Cincinnati Bengals,TRUE
+2019,New England Patriots,27,13,Cleveland Browns,FALSE
+2019,New Orleans Saints,31,9,Arizona Cardinals,FALSE
+2019,San Francisco 49ers,51,13,Carolina Panthers,FALSE
+2019,Tennessee Titans,27,23,Tampa Bay Buccaneers,FALSE
+2019,Pittsburgh Steelers,27,14,Miami Dolphins,FALSE
+2019,Arizona Cardinals,25,28,San Francisco 49ers,FALSE
+2019,Baltimore Ravens,37,20,New England Patriots,FALSE
+2019,Buffalo Bills,24,9,Washington Redskins,FALSE
+2019,Carolina Panthers,30,20,Tennessee Titans,FALSE
+2019,Denver Broncos,24,19,Cleveland Browns,FALSE
+2019,Jacksonville Jaguars,3,26,Houston Texans,TRUE
+2019,Kansas City Chiefs,26,23,Minnesota Vikings,FALSE
+2019,Los Angeles Chargers,26,11,Green Bay Packers,FALSE
+2019,Miami Dolphins,26,18,New York Jets,FALSE
+2019,Las Vegas Raiders,31,24,Detroit Lions,FALSE
+2019,Philadelphia Eagles,22,14,Chicago Bears,FALSE
+2019,Pittsburgh Steelers,26,24,Indianapolis Colts,FALSE
+2019,Seattle Seahawks,40,34,Tampa Bay Buccaneers,FALSE
+2019,New York Giants,18,37,Dallas Cowboys,FALSE
+2019,Las Vegas Raiders,26,24,Los Angeles Chargers,FALSE
+2019,Chicago Bears,20,13,Detroit Lions,FALSE
+2019,Cincinnati Bengals,13,49,Baltimore Ravens,FALSE
+2019,Cleveland Browns,19,16,Buffalo Bills,FALSE
+2019,Dallas Cowboys,24,28,Minnesota Vikings,FALSE
+2019,Green Bay Packers,24,16,Carolina Panthers,FALSE
+2019,Indianapolis Colts,12,16,Miami Dolphins,FALSE
+2019,New Orleans Saints,9,26,Atlanta Falcons,FALSE
+2019,New York Jets,34,27,New York Giants,FALSE
+2019,Pittsburgh Steelers,17,12,Los Angeles Rams,FALSE
+2019,Tampa Bay Buccaneers,30,27,Arizona Cardinals,FALSE
+2019,Tennessee Titans,35,32,Kansas City Chiefs,FALSE
+2019,San Francisco 49ers,24,27,Seattle Seahawks,FALSE
+2019,Cleveland Browns,21,7,Pittsburgh Steelers,FALSE
+2019,Baltimore Ravens,41,7,Houston Texans,FALSE
+2019,Carolina Panthers,3,29,Atlanta Falcons,FALSE
+2019,Detroit Lions,27,35,Dallas Cowboys,FALSE
+2019,Indianapolis Colts,33,13,Jacksonville Jaguars,FALSE
+2019,Los Angeles Rams,17,7,Chicago Bears,FALSE
+2019,Miami Dolphins,20,37,Buffalo Bills,FALSE
+2019,Minnesota Vikings,27,23,Denver Broncos,FALSE
+2019,Las Vegas Raiders,17,10,Cincinnati Bengals,FALSE
+2019,Philadelphia Eagles,10,17,New England Patriots,FALSE
+2019,San Francisco 49ers,36,26,Arizona Cardinals,FALSE
+2019,Tampa Bay Buccaneers,17,34,New Orleans Saints,FALSE
+2019,Washington Redskins,17,34,New York Jets,FALSE
+2019,Los Angeles Chargers,17,24,Kansas City Chiefs,TRUE
+2019,Houston Texans,20,17,Indianapolis Colts,FALSE
+2019,Atlanta Falcons,22,35,Tampa Bay Buccaneers,FALSE
+2019,Buffalo Bills,20,3,Denver Broncos,FALSE
+2019,Chicago Bears,19,14,New York Giants,FALSE
+2019,Cincinnati Bengals,10,16,Pittsburgh Steelers,FALSE
+2019,Cleveland Browns,41,24,Miami Dolphins,FALSE
+2019,New England Patriots,13,9,Dallas Cowboys,FALSE
+2019,New Orleans Saints,34,31,Carolina Panthers,FALSE
+2019,New York Jets,34,3,Las Vegas Raiders,FALSE
+2019,Philadelphia Eagles,9,17,Seattle Seahawks,FALSE
+2019,San Francisco 49ers,37,8,Green Bay Packers,FALSE
+2019,Tennessee Titans,42,20,Jacksonville Jaguars,FALSE
+2019,Washington Redskins,19,16,Detroit Lions,FALSE
+2019,Los Angeles Rams,6,45,Baltimore Ravens,FALSE
+2019,Atlanta Falcons,18,26,New Orleans Saints,FALSE
+2019,Dallas Cowboys,15,26,Buffalo Bills,FALSE
+2019,Detroit Lions,20,24,Chicago Bears,FALSE
+2019,Arizona Cardinals,7,34,Los Angeles Rams,FALSE
+2019,Baltimore Ravens,20,17,San Francisco 49ers,FALSE
+2019,Carolina Panthers,21,29,Washington Redskins,FALSE
+2019,Cincinnati Bengals,22,6,New York Jets,FALSE
+2019,Denver Broncos,23,20,Los Angeles Chargers,FALSE
+2019,Houston Texans,28,22,New England Patriots,FALSE
+2019,Indianapolis Colts,17,31,Tennessee Titans,FALSE
+2019,Jacksonville Jaguars,11,28,Tampa Bay Buccaneers,FALSE
+2019,Kansas City Chiefs,40,9,Las Vegas Raiders,FALSE
+2019,Miami Dolphins,37,31,Philadelphia Eagles,FALSE
+2019,New York Giants,13,31,Green Bay Packers,FALSE
+2019,Pittsburgh Steelers,20,13,Cleveland Browns,FALSE
+2019,Seattle Seahawks,37,30,Minnesota Vikings,FALSE
+2019,Chicago Bears,31,24,Dallas Cowboys,FALSE
+2019,Arizona Cardinals,17,23,Pittsburgh Steelers,FALSE
+2019,Atlanta Falcons,40,20,Carolina Panthers,FALSE
+2019,Buffalo Bills,17,24,Baltimore Ravens,FALSE
+2019,Cleveland Browns,27,19,Cincinnati Bengals,FALSE
+2019,Green Bay Packers,20,15,Washington Redskins,FALSE
+2019,Houston Texans,24,38,Denver Broncos,FALSE
+2019,Jacksonville Jaguars,10,45,Los Angeles Chargers,FALSE
+2019,Los Angeles Rams,28,12,Seattle Seahawks,FALSE
+2019,Minnesota Vikings,20,7,Detroit Lions,FALSE
+2019,New England Patriots,16,23,Kansas City Chiefs,FALSE
+2019,New Orleans Saints,46,48,San Francisco 49ers,FALSE
+2019,New York Jets,22,21,Miami Dolphins,FALSE
+2019,Las Vegas Raiders,21,42,Tennessee Titans,FALSE
+2019,Tampa Bay Buccaneers,38,35,Indianapolis Colts,FALSE
+2019,Philadelphia Eagles,23,17,New York Giants,FALSE
+2019,Baltimore Ravens,42,21,New York Jets,FALSE
+2019,Arizona Cardinals,38,24,Cleveland Browns,FALSE
+2019,Carolina Panthers,24,30,Seattle Seahawks,FALSE
+2019,Cincinnati Bengals,13,34,New England Patriots,FALSE
+2019,Dallas Cowboys,44,21,Los Angeles Rams,FALSE
+2019,Detroit Lions,17,38,Tampa Bay Buccaneers,FALSE
+2019,Green Bay Packers,21,13,Chicago Bears,FALSE
+2019,Kansas City Chiefs,23,3,Denver Broncos,FALSE
+2019,Los Angeles Chargers,10,39,Minnesota Vikings,FALSE
+2019,New York Giants,36,20,Miami Dolphins,FALSE
+2019,Las Vegas Raiders,16,20,Jacksonville Jaguars,FALSE
+2019,Pittsburgh Steelers,10,17,Buffalo Bills,FALSE
+2019,San Francisco 49ers,22,29,Atlanta Falcons,FALSE
+2019,Tennessee Titans,21,24,Houston Texans,FALSE
+2019,Washington Redskins,27,37,Philadelphia Eagles,FALSE
+2019,New Orleans Saints,34,7,Indianapolis Colts,FALSE
+2019,New England Patriots,24,17,Buffalo Bills,FALSE
+2019,San Francisco 49ers,34,31,Los Angeles Rams,FALSE
+2019,Tampa Bay Buccaneers,20,23,Houston Texans,FALSE
+2019,Atlanta Falcons,24,12,Jacksonville Jaguars,FALSE
+2019,Chicago Bears,3,26,Kansas City Chiefs,FALSE
+2019,Cleveland Browns,15,31,Baltimore Ravens,FALSE
+2019,Denver Broncos,27,17,Detroit Lions,FALSE
+2019,Indianapolis Colts,38,6,Carolina Panthers,FALSE
+2019,Los Angeles Chargers,17,24,Las Vegas Raiders,FALSE
+2019,Miami Dolphins,38,35,Cincinnati Bengals,FALSE
+2019,New York Jets,16,10,Pittsburgh Steelers,FALSE
+2019,Philadelphia Eagles,17,9,Dallas Cowboys,FALSE
+2019,Seattle Seahawks,13,27,Arizona Cardinals,FALSE
+2019,Tennessee Titans,28,38,New Orleans Saints,FALSE
+2019,Washington Redskins,35,41,New York Giants,FALSE
+2019,Minnesota Vikings,10,23,Green Bay Packers,FALSE
+2019,Baltimore Ravens,28,10,Pittsburgh Steelers,FALSE
+2019,Buffalo Bills,6,13,New York Jets,FALSE
+2019,Carolina Panthers,10,42,New Orleans Saints,FALSE
+2019,Cincinnati Bengals,33,23,Cleveland Browns,FALSE
+2019,Dallas Cowboys,47,16,Washington Redskins,FALSE
+2019,Denver Broncos,16,15,Las Vegas Raiders,FALSE
+2019,Detroit Lions,20,23,Green Bay Packers,FALSE
+2019,Houston Texans,14,35,Tennessee Titans,FALSE
+2019,Jacksonville Jaguars,38,20,Indianapolis Colts,FALSE
+2019,Kansas City Chiefs,31,21,Los Angeles Chargers,FALSE
+2019,Los Angeles Rams,31,24,Arizona Cardinals,FALSE
+2019,Minnesota Vikings,19,21,Chicago Bears,FALSE
+2019,New England Patriots,24,27,Miami Dolphins,FALSE
+2019,New York Giants,17,34,Philadelphia Eagles,FALSE
+2019,Seattle Seahawks,21,26,San Francisco 49ers,FALSE
+2019,Tampa Bay Buccaneers,22,28,Atlanta Falcons,FALSE
+2019,Houston Texans,22,19,Buffalo Bills,FALSE
+2019,New England Patriots,13,20,Tennessee Titans,FALSE
+2019,New Orleans Saints,20,26,Minnesota Vikings,FALSE
+2019,Philadelphia Eagles,9,17,Seattle Seahawks,FALSE
+2019,Baltimore Ravens,12,28,Tennessee Titans,FALSE
+2019,San Francisco 49ers,27,10,Minnesota Vikings,FALSE
+2019,Green Bay Packers,28,23,Seattle Seahawks,FALSE
+2019,Kansas City Chiefs,51,31,Houston Texans,FALSE
+2019,Kansas City Chiefs,35,24,Tennessee Titans,FALSE
+2019,San Francisco 49ers,37,20,Green Bay Packers,FALSE
+2019,Kansas City Chiefs,31,20,San Francisco 49ers,TRUE

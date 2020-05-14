@@ -1,0 +1,257 @@
+schedule_date,team_home,score_home,score_away,team_away,stadium_neutral
+12/31/2020,Arizona Cardinals,0,0,Los Angeles Rams,FALSE
+12/31/2020,Arizona Cardinals,0,0,San Francisco 49ers,FALSE
+12/31/2020,Arizona Cardinals,0,0,Seattle Seahawks,FALSE
+12/31/2020,Arizona Cardinals,0,0,Buffalo Bills,FALSE
+12/31/2020,Arizona Cardinals,0,0,Detroit Lions,FALSE
+12/31/2020,Arizona Cardinals,0,0,Miami Dolphins,FALSE
+12/31/2020,Arizona Cardinals,0,0,Philadelphia Eagles,FALSE
+12/31/2020,Arizona Cardinals,0,0,Washington Redskins,FALSE
+12/31/2020,Los Angeles Rams,0,0,Arizona Cardinals,FALSE
+12/31/2020,San Francisco 49ers,0,0,Arizona Cardinals,FALSE
+12/31/2020,Seattle Seahawks,0,0,Arizona Cardinals,FALSE
+12/31/2020,Carolina Panthers,0,0,Arizona Cardinals,FALSE
+12/31/2020,Dallas Cowboys,0,0,Arizona Cardinals,FALSE
+12/31/2020,New England Patriots,0,0,Arizona Cardinals,FALSE
+12/31/2020,New York Giants,0,0,Arizona Cardinals,FALSE
+12/31/2020,New York Jets,0,0,Arizona Cardinals,FALSE
+12/31/2020,Atlanta Falcons,0,0,Carolina Panthers,FALSE
+12/31/2020,Atlanta Falcons,0,0,New Orleans Saints,FALSE
+12/31/2020,Atlanta Falcons,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,Atlanta Falcons,0,0,Chicago Bears,FALSE
+12/31/2020,Atlanta Falcons,0,0,Denver Broncos,FALSE
+12/31/2020,Atlanta Falcons,0,0,Detroit Lions,FALSE
+12/31/2020,Atlanta Falcons,0,0,Las Vegas Raiders,FALSE
+12/31/2020,Atlanta Falcons,0,0,Seattle Seahawks,FALSE
+12/31/2020,Carolina Panthers,0,0,Atlanta Falcons,FALSE
+12/31/2020,New Orleans Saints,0,0,Atlanta Falcons,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,Atlanta Falcons,FALSE
+12/31/2020,Dallas Cowboys,0,0,Atlanta Falcons,FALSE
+12/31/2020,Green Bay Packers,0,0,Atlanta Falcons,FALSE
+12/31/2020,Kansas City Chiefs,0,0,Atlanta Falcons,FALSE
+12/31/2020,Los Angeles Chargers,0,0,Atlanta Falcons,FALSE
+12/31/2020,Minnesota Vikings,0,0,Atlanta Falcons,FALSE
+12/31/2020,Baltimore Ravens,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Baltimore Ravens,0,0,Cleveland Browns,FALSE
+12/31/2020,Baltimore Ravens,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,Baltimore Ravens,0,0,Dallas Cowboys,FALSE
+12/31/2020,Baltimore Ravens,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Baltimore Ravens,0,0,Kansas City Chiefs,FALSE
+12/31/2020,Baltimore Ravens,0,0,New York Giants,FALSE
+12/31/2020,Baltimore Ravens,0,0,Tennessee Titans,FALSE
+12/31/2020,Cincinnati Bengals,0,0,Baltimore Ravens,FALSE
+12/31/2020,Cleveland Browns,0,0,Baltimore Ravens,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Baltimore Ravens,FALSE
+12/31/2020,Houston Texans,0,0,Baltimore Ravens,FALSE
+12/31/2020,Indianapolis Colts,0,0,Baltimore Ravens,FALSE
+12/31/2020,New England Patriots,0,0,Baltimore Ravens,FALSE
+12/31/2020,Philadelphia Eagles,0,0,Baltimore Ravens,FALSE
+12/31/2020,Washington Redskins,0,0,Baltimore Ravens,FALSE
+12/31/2020,Buffalo Bills,0,0,Miami Dolphins,FALSE
+12/31/2020,Buffalo Bills,0,0,New England Patriots,FALSE
+12/31/2020,Buffalo Bills,0,0,New York Jets,FALSE
+12/31/2020,Buffalo Bills,0,0,Kansas City Chiefs,FALSE
+12/31/2020,Buffalo Bills,0,0,Los Angeles Chargers,FALSE
+12/31/2020,Buffalo Bills,0,0,Los Angeles Rams,FALSE
+12/31/2020,Buffalo Bills,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,Buffalo Bills,0,0,Seattle Seahawks,FALSE
+12/31/2020,Miami Dolphins,0,0,Buffalo Bills,FALSE
+12/31/2020,New England Patriots,0,0,Buffalo Bills,FALSE
+12/31/2020,New York Jets,0,0,Buffalo Bills,FALSE
+12/31/2020,Denver Broncos,0,0,Buffalo Bills,FALSE
+12/31/2020,Las Vegas Raiders,0,0,Buffalo Bills,FALSE
+12/31/2020,San Francisco 49ers,0,0,Buffalo Bills,FALSE
+12/31/2020,Tennessee Titans,0,0,Buffalo Bills,FALSE
+12/31/2020,Carolina Panthers,0,0,New Orleans Saints,FALSE
+12/31/2020,Carolina Panthers,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,Carolina Panthers,0,0,Chicago Bears,FALSE
+12/31/2020,Carolina Panthers,0,0,Denver Broncos,FALSE
+12/31/2020,Carolina Panthers,0,0,Detroit Lions,FALSE
+12/31/2020,Carolina Panthers,0,0,Las Vegas Raiders,FALSE
+12/31/2020,New Orleans Saints,0,0,Carolina Panthers,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,Carolina Panthers,FALSE
+12/31/2020,Green Bay Packers,0,0,Carolina Panthers,FALSE
+12/31/2020,Kansas City Chiefs,0,0,Carolina Panthers,FALSE
+12/31/2020,Los Angeles Chargers,0,0,Carolina Panthers,FALSE
+12/31/2020,Minnesota Vikings,0,0,Carolina Panthers,FALSE
+12/31/2020,Washington Redskins,0,0,Carolina Panthers,FALSE
+12/31/2020,Chicago Bears,0,0,Detroit Lions,FALSE
+12/31/2020,Chicago Bears,0,0,Green Bay Packers,FALSE
+12/31/2020,Chicago Bears,0,0,Minnesota Vikings,FALSE
+12/31/2020,Chicago Bears,0,0,Houston Texans,FALSE
+12/31/2020,Chicago Bears,0,0,Indianapolis Colts,FALSE
+12/31/2020,Chicago Bears,0,0,New Orleans Saints,FALSE
+12/31/2020,Chicago Bears,0,0,New York Giants,FALSE
+12/31/2020,Chicago Bears,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,Detroit Lions,0,0,Chicago Bears,FALSE
+12/31/2020,Green Bay Packers,0,0,Chicago Bears,FALSE
+12/31/2020,Minnesota Vikings,0,0,Chicago Bears,FALSE
+12/31/2020,Los Angeles Rams,0,0,Chicago Bears,FALSE
+12/31/2020,Tennessee Titans,0,0,Chicago Bears,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Chicago Bears,FALSE
+12/31/2020,Cincinnati Bengals,0,0,Cleveland Browns,FALSE
+12/31/2020,Cincinnati Bengals,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,Cincinnati Bengals,0,0,Dallas Cowboys,FALSE
+12/31/2020,Cincinnati Bengals,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Cincinnati Bengals,0,0,Los Angeles Chargers,FALSE
+12/31/2020,Cincinnati Bengals,0,0,New York Giants,FALSE
+12/31/2020,Cincinnati Bengals,0,0,Tennessee Titans,FALSE
+12/31/2020,Cleveland Browns,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Houston Texans,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Indianapolis Colts,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Miami Dolphins,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Philadelphia Eagles,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Washington Redskins,0,0,Cincinnati Bengals,FALSE
+12/31/2020,Cleveland Browns,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,Cleveland Browns,0,0,Houston Texans,FALSE
+12/31/2020,Cleveland Browns,0,0,Indianapolis Colts,FALSE
+12/31/2020,Cleveland Browns,0,0,Las Vegas Raiders,FALSE
+12/31/2020,Cleveland Browns,0,0,Philadelphia Eagles,FALSE
+12/31/2020,Cleveland Browns,0,0,Washington Redskins,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Cleveland Browns,FALSE
+12/31/2020,Dallas Cowboys,0,0,Cleveland Browns,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Cleveland Browns,FALSE
+12/31/2020,New York Giants,0,0,Cleveland Browns,FALSE
+12/31/2020,New York Jets,0,0,Cleveland Browns,FALSE
+12/31/2020,Tennessee Titans,0,0,Cleveland Browns,FALSE
+12/31/2020,Dallas Cowboys,0,0,New York Giants,FALSE
+12/31/2020,Dallas Cowboys,0,0,Philadelphia Eagles,FALSE
+12/31/2020,Dallas Cowboys,0,0,Washington Redskins,FALSE
+12/31/2020,Dallas Cowboys,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,Dallas Cowboys,0,0,San Francisco 49ers,FALSE
+12/31/2020,New York Giants,0,0,Dallas Cowboys,FALSE
+12/31/2020,Philadelphia Eagles,0,0,Dallas Cowboys,FALSE
+12/31/2020,Washington Redskins,0,0,Dallas Cowboys,FALSE
+12/31/2020,Los Angeles Rams,0,0,Dallas Cowboys,FALSE
+12/31/2020,Minnesota Vikings,0,0,Dallas Cowboys,FALSE
+12/31/2020,Seattle Seahawks,0,0,Dallas Cowboys,FALSE
+12/31/2020,Denver Broncos,0,0,Kansas City Chiefs,FALSE
+12/31/2020,Denver Broncos,0,0,Las Vegas Raiders,FALSE
+12/31/2020,Denver Broncos,0,0,Los Angeles Chargers,FALSE
+12/31/2020,Denver Broncos,0,0,Miami Dolphins,FALSE
+12/31/2020,Denver Broncos,0,0,New Orleans Saints,FALSE
+12/31/2020,Denver Broncos,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,Denver Broncos,0,0,Tennessee Titans,FALSE
+12/31/2020,Kansas City Chiefs,0,0,Denver Broncos,FALSE
+12/31/2020,Las Vegas Raiders,0,0,Denver Broncos,FALSE
+12/31/2020,Los Angeles Chargers,0,0,Denver Broncos,FALSE
+12/31/2020,New England Patriots,0,0,Denver Broncos,FALSE
+12/31/2020,New York Jets,0,0,Denver Broncos,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Denver Broncos,FALSE
+12/31/2020,Detroit Lions,0,0,Green Bay Packers,FALSE
+12/31/2020,Detroit Lions,0,0,Minnesota Vikings,FALSE
+12/31/2020,Detroit Lions,0,0,Houston Texans,FALSE
+12/31/2020,Detroit Lions,0,0,Indianapolis Colts,FALSE
+12/31/2020,Detroit Lions,0,0,New Orleans Saints,FALSE
+12/31/2020,Detroit Lions,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,Detroit Lions,0,0,Washington Redskins,FALSE
+12/31/2020,Green Bay Packers,0,0,Detroit Lions,FALSE
+12/31/2020,Minnesota Vikings,0,0,Detroit Lions,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Detroit Lions,FALSE
+12/31/2020,Tennessee Titans,0,0,Detroit Lions,FALSE
+12/31/2020,Green Bay Packers,0,0,Minnesota Vikings,FALSE
+12/31/2020,Green Bay Packers,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Green Bay Packers,0,0,Philadelphia Eagles,FALSE
+12/31/2020,Green Bay Packers,0,0,Tennessee Titans,FALSE
+12/31/2020,Minnesota Vikings,0,0,Green Bay Packers,FALSE
+12/31/2020,Houston Texans,0,0,Green Bay Packers,FALSE
+12/31/2020,Indianapolis Colts,0,0,Green Bay Packers,FALSE
+12/31/2020,New Orleans Saints,0,0,Green Bay Packers,FALSE
+12/31/2020,San Francisco 49ers,0,0,Green Bay Packers,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,Green Bay Packers,FALSE
+12/31/2020,Houston Texans,0,0,Indianapolis Colts,FALSE
+12/31/2020,Houston Texans,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Houston Texans,0,0,Tennessee Titans,FALSE
+12/31/2020,Houston Texans,0,0,Minnesota Vikings,FALSE
+12/31/2020,Houston Texans,0,0,New England Patriots,FALSE
+12/31/2020,Indianapolis Colts,0,0,Houston Texans,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Houston Texans,FALSE
+12/31/2020,Tennessee Titans,0,0,Houston Texans,FALSE
+12/31/2020,Kansas City Chiefs,0,0,Houston Texans,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Houston Texans,FALSE
+12/31/2020,Indianapolis Colts,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Indianapolis Colts,0,0,Tennessee Titans,FALSE
+12/31/2020,Indianapolis Colts,0,0,Minnesota Vikings,FALSE
+12/31/2020,Indianapolis Colts,0,0,New York Jets,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Indianapolis Colts,FALSE
+12/31/2020,Tennessee Titans,0,0,Indianapolis Colts,FALSE
+12/31/2020,Las Vegas Raiders,0,0,Indianapolis Colts,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Indianapolis Colts,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Tennessee Titans,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Miami Dolphins,FALSE
+12/31/2020,Jacksonville Jaguars,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,Tennessee Titans,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Los Angeles Chargers,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Minnesota Vikings,0,0,Jacksonville Jaguars,FALSE
+12/31/2020,Kansas City Chiefs,0,0,Las Vegas Raiders,FALSE
+12/31/2020,Kansas City Chiefs,0,0,Los Angeles Chargers,FALSE
+12/31/2020,Kansas City Chiefs,0,0,New England Patriots,FALSE
+12/31/2020,Kansas City Chiefs,0,0,New York Jets,FALSE
+12/31/2020,Las Vegas Raiders,0,0,Kansas City Chiefs,FALSE
+12/31/2020,Los Angeles Chargers,0,0,Kansas City Chiefs,FALSE
+12/31/2020,Miami Dolphins,0,0,Kansas City Chiefs,FALSE
+12/31/2020,New Orleans Saints,0,0,Kansas City Chiefs,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,Kansas City Chiefs,FALSE
+12/31/2020,Las Vegas Raiders,0,0,Los Angeles Chargers,FALSE
+12/31/2020,Las Vegas Raiders,0,0,Miami Dolphins,FALSE
+12/31/2020,Las Vegas Raiders,0,0,New Orleans Saints,FALSE
+12/31/2020,Las Vegas Raiders,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,Los Angeles Chargers,0,0,Las Vegas Raiders,FALSE
+12/31/2020,New England Patriots,0,0,Las Vegas Raiders,FALSE
+12/31/2020,New York Jets,0,0,Las Vegas Raiders,FALSE
+12/31/2020,Los Angeles Chargers,0,0,New England Patriots,FALSE
+12/31/2020,Los Angeles Chargers,0,0,New York Jets,FALSE
+12/31/2020,Miami Dolphins,0,0,Los Angeles Chargers,FALSE
+12/31/2020,New Orleans Saints,0,0,Los Angeles Chargers,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,Los Angeles Chargers,FALSE
+12/31/2020,Los Angeles Rams,0,0,San Francisco 49ers,FALSE
+12/31/2020,Los Angeles Rams,0,0,Seattle Seahawks,FALSE
+12/31/2020,Los Angeles Rams,0,0,New England Patriots,FALSE
+12/31/2020,Los Angeles Rams,0,0,New York Giants,FALSE
+12/31/2020,Los Angeles Rams,0,0,New York Jets,FALSE
+12/31/2020,San Francisco 49ers,0,0,Los Angeles Rams,FALSE
+12/31/2020,Seattle Seahawks,0,0,Los Angeles Rams,FALSE
+12/31/2020,Miami Dolphins,0,0,Los Angeles Rams,FALSE
+12/31/2020,Philadelphia Eagles,0,0,Los Angeles Rams,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,Los Angeles Rams,FALSE
+12/31/2020,Washington Redskins,0,0,Los Angeles Rams,FALSE
+12/31/2020,Miami Dolphins,0,0,New England Patriots,FALSE
+12/31/2020,Miami Dolphins,0,0,New York Jets,FALSE
+12/31/2020,Miami Dolphins,0,0,Seattle Seahawks,FALSE
+12/31/2020,New England Patriots,0,0,Miami Dolphins,FALSE
+12/31/2020,New York Jets,0,0,Miami Dolphins,FALSE
+12/31/2020,San Francisco 49ers,0,0,Miami Dolphins,FALSE
+12/31/2020,Minnesota Vikings,0,0,Tennessee Titans,FALSE
+12/31/2020,New Orleans Saints,0,0,Minnesota Vikings,FALSE
+12/31/2020,Seattle Seahawks,0,0,Minnesota Vikings,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,Minnesota Vikings,FALSE
+12/31/2020,New England Patriots,0,0,New York Jets,FALSE
+12/31/2020,New England Patriots,0,0,San Francisco 49ers,FALSE
+12/31/2020,New York Jets,0,0,New England Patriots,FALSE
+12/31/2020,Seattle Seahawks,0,0,New England Patriots,FALSE
+12/31/2020,New Orleans Saints,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,New Orleans Saints,0,0,San Francisco 49ers,FALSE
+12/31/2020,Tampa Bay Buccaneers,0,0,New Orleans Saints,FALSE
+12/31/2020,Philadelphia Eagles,0,0,New Orleans Saints,FALSE
+12/31/2020,New York Giants,0,0,Philadelphia Eagles,FALSE
+12/31/2020,New York Giants,0,0,Washington Redskins,FALSE
+12/31/2020,New York Giants,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,New York Giants,0,0,San Francisco 49ers,FALSE
+12/31/2020,New York Giants,0,0,Tampa Bay Buccaneers,FALSE
+12/31/2020,Philadelphia Eagles,0,0,New York Giants,FALSE
+12/31/2020,Washington Redskins,0,0,New York Giants,FALSE
+12/31/2020,Seattle Seahawks,0,0,New York Giants,FALSE
+12/31/2020,New York Jets,0,0,San Francisco 49ers,FALSE
+12/31/2020,Seattle Seahawks,0,0,New York Jets,FALSE
+12/31/2020,Philadelphia Eagles,0,0,Washington Redskins,FALSE
+12/31/2020,Philadelphia Eagles,0,0,Seattle Seahawks,FALSE
+12/31/2020,Washington Redskins,0,0,Philadelphia Eagles,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Philadelphia Eagles,FALSE
+12/31/2020,San Francisco 49ers,0,0,Philadelphia Eagles,FALSE
+12/31/2020,Pittsburgh Steelers,0,0,Washington Redskins,FALSE
+12/31/2020,Tennessee Titans,0,0,Pittsburgh Steelers,FALSE
+12/31/2020,San Francisco 49ers,0,0,Seattle Seahawks,FALSE
+12/31/2020,San Francisco 49ers,0,0,Washington Redskins,FALSE
+12/31/2020,Seattle Seahawks,0,0,San Francisco 49ers,FALSE
+12/31/2020,Washington Redskins,0,0,Seattle Seahawks,FALSE

@@ -1,0 +1,900 @@
+---
+title: "Bayesian Final Project"
+author: "James Nguyen"
+date: "April 25, 2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+```
+
+Read in the dataset for NFL 2019 season:
+
+```{r, message=F, results=F}
+NFL2019 <- read_csv("C:/James Laptop/M.S. Applied Statistics/MAT 8410 Bayesian Statistics - Dr. Frey/Project/NFL2019.csv")
+teamlist <- read_csv("C:/James Laptop/M.S. Applied Statistics/MAT 8410 Bayesian Statistics - Dr. Frey/Project/NFL team list.csv")
+```
+
+Calculate actual score mean and variance for each team in 2019:
+
+```{r}
+NFL2019 %>% select(team_home, score_home) %>% 
+  rename(team=team_home, score=score_home) -> home
+NFL2019 %>% select(team_away, score_away) %>% 
+  rename(team=team_away, score=score_away) -> away
+score2019 <- rbind(home, away)
+team.abbr <- vector(mode="character", length=length(score2019$team))
+score2019 <- cbind(team.abbr, score2019, stringsAsFactors=F)
+for (i in 1:length(score2019$team)){
+  score2019$team.abbr[i] <- teamlist$Abbreviation[which(teamlist$Name==score2019$team[i])]
+}
+score2019 %>% group_by(team) %>% 
+  summarize(mean=round(mean(score), digits=3), variance=round(var(score), digits=3), stddev=round(sd(score), digits=3)) -> teamstat
+View(teamstat)
+```
+
+Perform a simple linear regression on mean score and score variance of teams to explore linear coefficients:
+
+```{r, fig.height=6, fig.width=6}
+fit <- lm(teamstat$variance~teamstat$mean)
+summary(fit)
+par(mfrow=c(2,2))
+plot(fit)
+```
+
+The model is significant with low p-value. The slope coefficient is also significant. Although the adjusted R-squared is very low, indicating a weak model, I think we can still use the parameter estimates from this linear model for the mean and variance parameters of score distribution.
+
+```{r}
+plot(x=teamstat$mean, y=teamstat$variance, xlab="Mean", ylab="Variance", main="Linear relationship of mean and variance")
+abline(coef=fit$coefficients, col=2)
+```
+
+The plot doesn't seem too convincing, but this is just a minor part where we check possible linear relationship, so I will proceed with the obtained coefficients.
+
+I will use the following combination of parameters for which I will place priors:
+
+Scores will follow gamma distribution with $\alpha$ and $\beta$ parameters corresponding to the following linear combination, using coefficients from the linear model above:
+
+$Mean = \alpha\beta = \Omega_i - \Delta_j + \Phi_i \times (\pm1)$
+
+$Variance = \alpha\beta^2 = 29.017 + 2.731 \times Mean$
+
+For example, in a game where team i meets team j at i's home field:
+
+$Score_i \sim Gamma(\alpha_i,\beta_i)$
+
+$\ \ \ \ where \ \alpha_i\beta_i = \Omega_i - \Delta_j + \Phi_i$
+
+$\ \ \ \ and \ \alpha_i\beta_i^2 = 29.017 + 2.731 \times \alpha_i\beta_i$
+
+$Score_j \sim Gamma(\alpha_j,\beta_j)$
+
+$\ \ \ \ where \ \alpha_j\beta_j = \Omega_j - \Delta_i - \Phi_j$
+
+$\ \ \ \ and \ \alpha_j\beta_j^2 = 29.017 + 2.731 \times \alpha_j\beta_j$
+
+Priors:
+
+$\Omega$ is the OFFENSE POWER parameter ~ Gamma(6,6)
+
+$\Delta$ is the DEFENSE POWER parameter ~ Gamma(3,3)
+
+$\Phi$ is the HOME FIELD ADVANTAGE parameter ~ Gamma(2,2). It has ($\pm1$) coefficient to indicate whether the team is at their home field. If the game takes place on a neutral ground, both team will receive $\Phi \times (-1) = -\Phi$ for their mean score distribution.
+
+Set up numerical vectors for home teams and away teams:
+
+```{r}
+away.team <- double(length(NFL2019$team_home))
+home.team <- double(length(NFL2019$team_home))
+neutral.coef <- double(length(NFL2019$team_home))
+for (i in 1:length(NFL2019$team_home)){
+  away.team[i] = which(teamlist$Name==NFL2019$team_away[i])
+  home.team[i] = which(teamlist$Name==NFL2019$team_home[i])
+}
+neutral.coef <- ifelse(NFL2019$stadium_neutral=="FALSE",1,-1)
+```
+
+I also reject all moves that result in a non-positive sigma value.
+
+First I will compare different epsilon values to pick out the best one, which gives maximum total movement in the chains.
+
+```{r}
+#Number of steps
+nsteps = 100000
+
+#Three parameters, starting points quite different and arbitrary 
+#To avoid producing negative mean and standard deviation 
+#(quite tricky part here, may need advice)
+offe = rep(36, times=32) #Offense (omega)
+defe = rep(9, times=32) #Defense (delta)
+hoad = rep(4, times=32) #Home advantage (phi)
+
+#Storage matrices for each parameter
+offe.mtrx <- matrix(0,nsteps,32)
+defe.mtrx <- matrix(0,nsteps,32)
+hoad.mtrx <- matrix(0,nsteps,32)
+
+#Storage matrices for total movements
+offe.totmove.mtrx <- matrix(0,100,32)
+defe.totmove.mtrx <- matrix(0,100,32)
+hoad.totmove.mtrx <- matrix(0,100,32)
+
+#Markov chain + Metropolis-Hastings algorithm
+logprior = sum(
+            dgamma(offe,shape=6,scale=6, log=T),
+            dgamma(defe,shape=3,scale=3, log=T),
+            dgamma(hoad,shape=2,scale=2, log=T))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef))/(offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef)
+    away.beta = (29.017+2.731*(offe[away.team]-defe[home.team]-hoad[away.team]))/(offe[away.team]-defe[home.team]-hoad[away.team])
+    #Alpha=Mean/Beta
+    home.alpha = (offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef)/home.beta
+    away.alpha = (offe[away.team]-defe[home.team]-hoad[away.team])/away.beta
+loglikelihood = sum(
+                dgamma(NFL2019$score_home+1, 
+                       shape=home.alpha, scale=home.beta, log=T),
+                dgamma(NFL2019$score_away+1, 
+                       shape=away.alpha, scale=away.beta, log=T))
+logpost = logprior+loglikelihood
+
+  #Metropolis-Hastings algorithm
+for (k in 1:100){
+  for (step in 1:nsteps){
+    eps=k/50
+    #Propose moves for 3 parameters
+    newoffe = offe+runif(32,-eps,eps)
+    newdefe = defe+runif(32,-eps,eps)
+    newhoad = hoad+runif(32,-eps,eps)
+  
+    #New prior, likelihood and posterior
+    newlogprior = sum(
+            dgamma(newoffe,shape=6,scale=6, log=T),
+            dgamma(newdefe,shape=3,scale=3, log=T),
+            dgamma(newhoad,shape=2,scale=2, log=T))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef))/(newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef)
+    away.beta = (29.017+2.731*(newoffe[away.team]-newdefe[home.team]-newhoad[away.team]))/(newoffe[away.team]-newdefe[home.team]-newhoad[away.team])
+    #Alpha=Mean/Beta
+    home.alpha = (newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef)/home.beta
+    away.alpha = (newoffe[away.team]-newdefe[home.team]-newhoad[away.team])/away.beta
+    if (any(home.beta<=0) | any(away.beta<=0) | any(home.alpha<=0) | any(away.alpha<=0)){
+      acc = 0
+      offe.mtrx[step,] = offe
+      defe.mtrx[step,] = defe
+      hoad.mtrx[step,] = hoad
+    } else {
+      newloglikelihood = sum(
+                dgamma(NFL2019$score_home+1, 
+                       shape=home.alpha, scale=home.beta, log=T),
+                dgamma(NFL2019$score_away+1, 
+                       shape=away.alpha, scale=away.beta, log=T))
+      newlogpost = newlogprior+newloglikelihood
+      acc = exp(min(0,newlogpost-logpost))
+      if (runif(1)<acc){
+        offe = newoffe
+        defe = newdefe
+        hoad = newhoad
+        logpost = newlogpost}
+        offe.mtrx[step,] = offe
+        defe.mtrx[step,] = defe
+        hoad.mtrx[step,] = hoad
+    }
+  }
+  offe.totmove.mtrx[k,] <- apply(offe.mtrx,2, function(x) sum(abs(diff(x))))
+  defe.totmove.mtrx[k,] <- apply(defe.mtrx,2, function(x) sum(abs(diff(x))))
+  hoad.totmove.mtrx[k,] <- apply(hoad.mtrx,2, function(x) sum(abs(diff(x))))
+}
+```
+
+Now I will check which epsilon value provides the highest total movements for each parameter
+
+```{r, fig.height=7, fig.width=6}
+offe.totmove.mtrx <- cbind(c(1:100/50),offe.totmove.mtrx)
+defe.totmove.mtrx <- cbind(c(1:100/50),defe.totmove.mtrx)
+hoad.totmove.mtrx <- cbind(c(1:100/50),hoad.totmove.mtrx)
+
+par(mfrow=c(3,1))
+plot(y=offe.totmove.mtrx[,2],x=offe.totmove.mtrx[,1],type='l',ylab="Total Movement",xlab="Epsilon",main="Total movement on offense parameter")
+for (i in 3:33){
+  lines(y=offe.totmove.mtrx[,i],x=offe.totmove.mtrx[,1])
+}
+plot(y=defe.totmove.mtrx[,2],x=defe.totmove.mtrx[,1],type='l',ylab="Total Movement",xlab="Epsilon",main="Total movement on defense parameter")
+for (i in 3:33){
+  lines(y=defe.totmove.mtrx[,i],x=defe.totmove.mtrx[,1])
+}
+plot(y=hoad.totmove.mtrx[,2],x=hoad.totmove.mtrx[,1],type='l',ylab="Total Movement",xlab="Epsilon",main="Total movement on home advantage parameter")
+for (i in 3:33){
+  lines(y=hoad.totmove.mtrx[,i],x=hoad.totmove.mtrx[,1])
+}
+
+table(apply(offe.totmove.mtrx,2,function(x) offe.totmove.mtrx[which.max(x),1]))
+table(apply(defe.totmove.mtrx,2,function(x) defe.totmove.mtrx[which.max(x),1]))
+table(apply(hoad.totmove.mtrx,2,function(x) hoad.totmove.mtrx[which.max(x),1]))
+```
+
+Based on this simulation, the epsilon value that produces the largest movement amount for the parameters is: epsilon=0.32 for offense and epsilon=0.28 for defense and home advantage.
+
+I will now run the chain with above epsilon values to obtain time-series and estimation.
+
+```{r}
+#Number of steps
+nsteps = 300000
+
+#Three parameters, starting points quite different and arbitrary 
+#To avoid producing negative mean and standard deviation 
+#(quite tricky part here, may need advice)
+offe = rep(36, times=32) #Offense (omega)
+defe = rep(9, times=32) #Defense (delta)
+hoad = rep(4, times=32) #Home advantage (phi)
+
+#Storage matrices for each parameter
+offe.mtrx <- matrix(0,nsteps,32)
+defe.mtrx <- matrix(0,nsteps,32)
+hoad.mtrx <- matrix(0,nsteps,32)
+
+#Markov chain + Metropolis-Hastings algorithm
+logprior = sum(
+            dgamma(offe,shape=6,scale=6, log=T),
+            dgamma(defe,shape=3,scale=3, log=T),
+            dgamma(hoad,shape=2,scale=2, log=T))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef))/(offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef)
+    away.beta = (29.017+2.731*(offe[away.team]-defe[home.team]-hoad[away.team]))/(offe[away.team]-defe[home.team]-hoad[away.team])
+    #Alpha=Mean/Beta
+    home.alpha = (offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef)/home.beta
+    away.alpha = (offe[away.team]-defe[home.team]-hoad[away.team])/away.beta
+loglikelihood = sum(
+                dgamma(NFL2019$score_home+1, 
+                       shape=home.alpha, scale=home.beta, log=T),
+                dgamma(NFL2019$score_away+1, 
+                       shape=away.alpha, scale=away.beta, log=T))
+logpost = logprior+loglikelihood
+
+  #Metropolis-Hastings algorithm
+  for (step in 1:nsteps){
+    eps.offe=0.32
+    eps.defe=0.28
+    eps.hoad=0.28
+    #Propose moves for 3 parameters
+    newoffe = offe+runif(32,-eps.offe,eps.offe)
+    newdefe = defe+runif(32,-eps.defe,eps.defe)
+    newhoad = hoad+runif(32,-eps.hoad,eps.hoad)
+  
+    #New prior, likelihood and posterior
+    newlogprior = sum(
+            dgamma(newoffe,shape=6,scale=6, log=T),
+            dgamma(newdefe,shape=3,scale=3, log=T),
+            dgamma(newhoad,shape=2,scale=2, log=T))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef))/(newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef)
+    away.beta = (29.017+2.731*(newoffe[away.team]-newdefe[home.team]-newhoad[away.team]))/(newoffe[away.team]-newdefe[home.team]-newhoad[away.team])
+    #Alpha=Mean/Beta
+    home.alpha = (newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef)/home.beta
+    away.alpha = (newoffe[away.team]-newdefe[home.team]-newhoad[away.team])/away.beta
+    if (any(home.beta<=0) | any(away.beta<=0) | any(home.alpha<=0) | any(away.alpha<=0)){
+      acc = 0
+      offe.mtrx[step,] = offe
+      defe.mtrx[step,] = defe
+      hoad.mtrx[step,] = hoad
+    } else {
+      newloglikelihood = sum(
+                dgamma(NFL2019$score_home+1, 
+                       shape=home.alpha, scale=home.beta, log=T),
+                dgamma(NFL2019$score_away+1, 
+                       shape=away.alpha, scale=away.beta, log=T))
+      newlogpost = newlogprior+newloglikelihood
+      acc = exp(min(0,newlogpost-logpost))
+      if (runif(1)<acc){
+        offe = newoffe
+        defe = newdefe
+        hoad = newhoad
+        logpost = newlogpost}
+        offe.mtrx[step,] = offe
+        defe.mtrx[step,] = defe
+        hoad.mtrx[step,] = hoad
+    }
+  }
+```
+
+Now I check the time-series plots:
+
+```{r, fig.height=8, fig.width=6}
+par(mfrow=c(3,1))
+plot(defe.mtrx[,15], type="l")
+plot(offe.mtrx[,15], type="l")
+plot(hoad.mtrx[,15], type="l")
+```
+
+They mix ok now.
+
+```{r}
+mean(abs(diff(defe.mtrx[,26]))>0)
+```
+
+Acceptance rate = 46.50%, pretty okay.
+
+I will now calculate posterior mean for each parameter and put them in a data frame for easier comparison and plotting.
+
+```{r}
+mean.offe <- round(apply(offe.mtrx,2,mean), digits=3)
+mean.defe <- round(apply(defe.mtrx,2,mean), digits=3)
+mean.hoad <- round(apply(hoad.mtrx,2,mean), digits=3)
+team.result <- data.frame("Team"=teamlist$Name,
+                          "Offense"=mean.offe,
+                          "Defense"=mean.defe,
+                          "HomeAdv"=mean.hoad)
+kable(team.result)
+```
+
+Side question: Is there a difference in home field advantage of 32 teams?
+
+```{r, fig.height=5, fig.width=7}
+team.i = rep(1:32, times=32)
+team.j = rep(1:32, each=32)
+prop = double(length(team.i))
+for (k in 1:length(prop)){
+  prop[k] = mean((hoad.mtrx[,team.i[k]]-hoad.mtrx[,team.j[k]])>0)
+}
+hoad.diff.df <- data.frame(team.i, team.j, "prop"=round(prop, digits=3))
+View(hoad.diff.df)
+ggplot(hoad.diff.df, aes(team.j, team.i)) + geom_raster(aes(fill=prop)) + scale_x_continuous(name="Team.j", breaks=seq(1,32,by=1)) + scale_y_continuous(name="Team.i", breaks=seq(1,32,by=1))
+```
+
+The heatmap, accompanied with proportion table, does not show significant evidence to conclude that there is a difference in home field advantage of 32 teams. So perhaps 1 single common parameter for home advantage for all 32 teams could be a better idea. 
+
+Prediction for 2019 season with 2020 regular season schedule.
+
+```{r}
+NFL2020 <- read_csv("C:/James Laptop/M.S. Applied Statistics/MAT 8410 Bayesian Statistics - Dr. Frey/Project/NFL2020.csv")
+away20 <- double(length(NFL2020$team_home))
+home20 <- double(length(NFL2020$team_home))
+neutral20 <- double(length(NFL2020$team_home))
+for (i in 1:length(NFL2020$team_home)){
+  away20[i] = which(teamlist$Name==NFL2020$team_away[i])
+  home20[i] = which(teamlist$Name==NFL2020$team_home[i])
+}
+neutral20 <- ifelse(NFL2020$stadium_neutral=="FALSE",1,-1)
+sb.winning=double(32)
+runs=10000
+
+for (i in 1:runs){
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[home20]-mean.defe[away20]+mean.hoad[home20]*neutral20))/(mean.offe[home20]-mean.defe[away20]+mean.hoad[home20]*neutral20)
+    away.beta = (29.017+2.731*(mean.offe[away20]-mean.defe[home20]-mean.hoad[away20]))/(mean.offe[away20]-mean.defe[home20]-mean.hoad[away20])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[home20]-mean.defe[away20]+mean.hoad[home20]*neutral20)/home.beta
+    away.alpha = (mean.offe[away20]-mean.defe[home20]-mean.hoad[away20])/away.beta
+#Make score predictions
+NFL2020$score_home = rgamma(length(NFL2020$score_home), shape=home.alpha, scale=home.beta)
+NFL2020$score_away = rgamma(length(NFL2020$score_away), shape=away.alpha, scale=away.beta)
+NFL2020$score_home = floor(NFL2020$score_home)
+NFL2020$score_away = floor(NFL2020$score_away)
+
+#Standings for regular season
+Win_home=double(32)
+Win_away=double(32)
+Loss_home=double(32)
+Loss_away=double(32)
+Tie_home=double(32)
+Tie_away=double(32)
+for (i in 1:length(NFL2020$score_home)){
+  Win_home[home20[i]]=Win_home[home20[i]]+ifelse(NFL2020$score_home[i]>NFL2020$score_away[i],1,0)
+  Loss_away[away20[i]]=Loss_away[away20[i]]+ifelse(NFL2020$score_home[i]>NFL2020$score_away[i],1,0)
+  Loss_home[home20[i]]=Loss_home[home20[i]]+ifelse(NFL2020$score_home[i]<NFL2020$score_away[i],1,0)
+  Win_away[away20[i]]=Win_away[away20[i]]+ifelse(NFL2020$score_home[i]<NFL2020$score_away[i],1,0)
+  Tie_home[home20[i]]=Tie_home[home20[i]]+ifelse(NFL2020$score_home[i]==NFL2020$score_away[i],1,0)
+  Tie_away[away20[i]]=Tie_away[away20[i]]+ifelse(NFL2020$score_home[i]==NFL2020$score_away[i],1,0)
+}
+Win=Win_home+Win_away
+Loss=Loss_home+Loss_away
+Tie=Tie_home+Tie_away
+Pct=round((Win*1+Loss*0+Tie*0.5)/16, digits=3)
+standing20 <- cbind(teamlist,Win,Loss,Tie,Pct)
+
+#Playoff season teams based on NFL rules
+standing20 %>% arrange(desc(Pct)) %>% select(-ID, -Abbreviation) %>%
+  group_by(Conference,Division) %>% slice(which.max(Pct)) %>% 
+  group_by(Conference) %>% 
+  mutate(Seed=rank(-Pct, ties.method="first")) -> topseed
+standing20 %>% arrange(desc(Pct)) %>% select(-ID, -Abbreviation) %>%
+  anti_join(topseed, by="Name") %>% group_by(Conference) %>% 
+  slice(1:3) %>%   
+  mutate(Seed=rank(-Pct, ties.method="first")+4) -> wildcard
+playoff.team <- rbind(topseed,wildcard)
+playoff.afc <- filter(playoff.team, Conference=="AFC")
+playoff.nfc <- filter(playoff.team, Conference=="NFC")
+
+#Wild-card round for AFC
+home.wc.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==2)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==3)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==4)]))
+away.wc.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==7)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==6)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==5)]))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[home.wc.afc]-mean.defe[away.wc.afc]+mean.hoad[home.wc.afc]))/(mean.offe[home.wc.afc]-mean.defe[away.wc.afc]+mean.hoad[home.wc.afc])
+    away.beta = (29.017+2.731*(mean.offe[away.wc.afc]-mean.defe[home.wc.afc]-mean.hoad[away.wc.afc]))/(mean.offe[away.wc.afc]-mean.defe[home.wc.afc]-mean.hoad[away.wc.afc])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[home.wc.afc]-mean.defe[away.wc.afc]+mean.hoad[home.wc.afc])/home.beta
+    away.alpha = (mean.offe[away.wc.afc]-mean.defe[home.wc.afc]-mean.hoad[away.wc.afc])/away.beta
+#Advancing teams
+results = rgamma(3, shape=home.alpha, scale=home.beta)>rgamma(3, shape=away.alpha, scale=away.beta)
+results = c(c(2,3,4)[results],c(7,6,5)[!results])
+
+#Divisional round for AFC
+home.div.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==1)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==min(results))]))
+away.div.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==max(results))]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==results[rank(results)==2])]))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[home.div.afc]-mean.defe[away.div.afc]+mean.hoad[home.div.afc]))/(mean.offe[home.div.afc]-mean.defe[away.div.afc]+mean.hoad[home.div.afc])
+    away.beta = (29.017+2.731*(mean.offe[away.div.afc]-mean.defe[home.div.afc]-mean.hoad[away.div.afc]))/(mean.offe[away.div.afc]-mean.defe[home.div.afc]-mean.hoad[away.div.afc])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[home.div.afc]-mean.defe[away.div.afc]+mean.hoad[home.div.afc])/home.beta
+    away.alpha = (mean.offe[away.div.afc]-mean.defe[home.div.afc]-mean.hoad[away.div.afc])/away.beta
+#Advancing teams
+results.div = rgamma(2, shape=home.alpha, scale=home.beta)>rgamma(2, shape=away.alpha, scale=away.beta)
+results.div = c(c(1,min(results))[results.div],c(max(results),results[rank(results)==2])[!results.div])
+
+#Conference round for AFC
+home.cof.afc <- c(max(results.div))
+away.cof.afc <- c(min(results.div))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[home.cof.afc]-mean.defe[away.cof.afc]+mean.hoad[home.cof.afc]))/(mean.offe[home.cof.afc]-mean.defe[away.cof.afc]+mean.hoad[home.cof.afc])
+    away.beta = (29.017+2.731*(mean.offe[away.cof.afc]-mean.defe[home.cof.afc]-mean.hoad[away.cof.afc]))/(mean.offe[away.cof.afc]-mean.defe[home.cof.afc]-mean.hoad[away.cof.afc])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[home.cof.afc]-mean.defe[away.cof.afc]+mean.hoad[home.cof.afc])/home.beta
+    away.alpha = (mean.offe[away.cof.afc]-mean.defe[home.cof.afc]-mean.hoad[away.cof.afc])/away.beta
+#Advancing teams
+results.cof.afc = ifelse(rgamma(1, shape=home.alpha, scale=home.beta)>rgamma(1, shape=away.alpha, scale=away.beta),max(results.div),min(results.div))
+sb.afc = which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==results.cof.afc)])
+
+#Now run the same procedures for NFC
+
+#Wild-card round for NFC
+home.wc.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==2)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==3)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==4)]))
+away.wc.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==7)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==6)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==5)]))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[home.wc.nfc]-mean.defe[away.wc.nfc]+mean.hoad[home.wc.nfc]))/(mean.offe[home.wc.nfc]-mean.defe[away.wc.nfc]+mean.hoad[home.wc.nfc])
+    away.beta = (29.017+2.731*(mean.offe[away.wc.nfc]-mean.defe[home.wc.nfc]-mean.hoad[away.wc.nfc]))/(mean.offe[away.wc.nfc]-mean.defe[home.wc.nfc]-mean.hoad[away.wc.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[home.wc.nfc]-mean.defe[away.wc.nfc]+mean.hoad[home.wc.nfc])/home.beta
+    away.alpha = (mean.offe[away.wc.nfc]-mean.defe[home.wc.nfc]-mean.hoad[away.wc.nfc])/away.beta
+#Advancing teams
+results = rgamma(3, shape=home.alpha, scale=home.beta)>rgamma(3, shape=away.alpha, scale=away.beta)
+results = c(c(2,3,4)[results],c(7,6,5)[!results])
+
+#Divisional round for NFC
+home.div.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==1)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==min(results))]))
+away.div.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==max(results))]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==results[rank(results)==2])]))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[home.div.nfc]-mean.defe[away.div.nfc]+mean.hoad[home.div.nfc]))/(mean.offe[home.div.nfc]-mean.defe[away.div.nfc]+mean.hoad[home.div.nfc])
+    away.beta = (29.017+2.731*(mean.offe[away.div.nfc]-mean.defe[home.div.nfc]-mean.hoad[away.div.nfc]))/(mean.offe[away.div.nfc]-mean.defe[home.div.nfc]-mean.hoad[away.div.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[home.div.nfc]-mean.defe[away.div.nfc]+mean.hoad[home.div.nfc])/home.beta
+    away.alpha = (mean.offe[away.div.nfc]-mean.defe[home.div.nfc]-mean.hoad[away.div.nfc])/away.beta
+#Advancing teams
+results.div = rgamma(2, shape=home.alpha, scale=home.beta)>rgamma(2, shape=away.alpha, scale=away.beta)
+results.div = c(c(1,min(results))[results.div],c(max(results),results[rank(results)==2])[!results.div])
+
+#Conference round for NFC
+home.cof.nfc <- c(max(results.div))
+away.cof.nfc <- c(min(results.div))
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[home.cof.nfc]-mean.defe[away.cof.nfc]+mean.hoad[home.cof.nfc]))/(mean.offe[home.cof.nfc]-mean.defe[away.cof.nfc]+mean.hoad[home.cof.nfc])
+    away.beta = (29.017+2.731*(mean.offe[away.cof.nfc]-mean.defe[home.cof.nfc]-mean.hoad[away.cof.nfc]))/(mean.offe[away.cof.nfc]-mean.defe[home.cof.nfc]-mean.hoad[away.cof.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[home.cof.nfc]-mean.defe[away.cof.nfc]+mean.hoad[home.cof.nfc])/home.beta
+    away.alpha = (mean.offe[away.cof.nfc]-mean.defe[home.cof.nfc]-mean.hoad[away.cof.nfc])/away.beta
+#Advancing teams
+results.cof.nfc = ifelse(rgamma(1, shape=home.alpha, scale=home.beta)>rgamma(1, shape=away.alpha, scale=away.beta),max(results.div),min(results.div))
+sb.nfc = which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==results.cof.nfc)])
+
+#SUPERBOWL
+    #Beta=Variance/Mean
+    home.beta = (29.017+2.731*(mean.offe[sb.afc]-mean.defe[sb.nfc]-mean.hoad[sb.afc]))/(mean.offe[sb.afc]-mean.defe[sb.nfc]-mean.hoad[sb.afc])
+    away.beta = (29.017+2.731*(mean.offe[sb.nfc]-mean.defe[sb.afc]-mean.hoad[sb.nfc]))/(mean.offe[sb.nfc]-mean.defe[sb.afc]-mean.hoad[sb.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (mean.offe[sb.afc]-mean.defe[sb.nfc]-mean.hoad[sb.afc])/home.beta
+    away.alpha = (mean.offe[sb.nfc]-mean.defe[sb.afc]-mean.hoad[sb.nfc])/away.beta
+#Champion
+results.sb = ifelse(rgamma(1, shape=home.alpha, scale=home.beta)>rgamma(1, shape=away.alpha, scale=away.beta),sb.afc,sb.nfc)
+sb.winning[results.sb] = sb.winning[results.sb]+1
+}
+Pct.sbwinning = round(sb.winning/runs, digits=3)
+champions <- cbind(teamlist$Name,sb.winning,Pct.sbwinning)
+View(NFL2020)
+```
+
+Explore development of offense/defense/home advantage over the period of 10 seasons 2010-2019, then use this to predict on 2020 season (using autoregression approach).
+
+```{r}
+NFL20102019 <- read_csv("C:/James Laptop/M.S. Applied Statistics/MAT 8410 Bayesian Statistics - Dr. Frey/Project/NFL20102019.csv")
+NFL20102019 %>% select(team_home, score_home) %>% 
+  rename(team=team_home, score=score_home) -> home
+NFL20102019 %>% select(team_away, score_away) %>% 
+  rename(team=team_away, score=score_away) -> away
+score1019 <- rbind(home, away)
+score1019 %>% group_by(team) %>% 
+  summarize(mean=round(mean(score), digits=3), variance=round(var(score), digits=3), stddev=round(sd(score), digits=3)) -> teamstat
+kable(teamstat)
+```
+
+Using the simple linear regression on all scores from 2010 to 2019 to adjust the correlation (intercept and coefficient) between variance and mean.
+
+```{r}
+fit <- lm(teamstat$variance~teamstat$mean)
+summary(fit)
+```
+
+Now I will run Metropolis-Hastings algorithm for each season and store the correspondingly obtained parameters.
+
+```{r}
+nsteps = 100000
+#Storage matrices for parameters, created for each season
+offe.mtrx10 <- matrix(0,nsteps,32)
+defe.mtrx10 <- matrix(0,nsteps,32)
+hoad.mtrx10 <- matrix(0,nsteps,32)
+offe.mtrx11 <- matrix(0,nsteps,32)
+defe.mtrx11 <- matrix(0,nsteps,32)
+hoad.mtrx11 <- matrix(0,nsteps,32)
+offe.mtrx12 <- matrix(0,nsteps,32)
+defe.mtrx12 <- matrix(0,nsteps,32)
+hoad.mtrx12 <- matrix(0,nsteps,32)
+offe.mtrx13 <- matrix(0,nsteps,32)
+defe.mtrx13 <- matrix(0,nsteps,32)
+hoad.mtrx13 <- matrix(0,nsteps,32)
+offe.mtrx14 <- matrix(0,nsteps,32)
+defe.mtrx14 <- matrix(0,nsteps,32)
+hoad.mtrx14 <- matrix(0,nsteps,32)
+offe.mtrx15 <- matrix(0,nsteps,32)
+defe.mtrx15 <- matrix(0,nsteps,32)
+hoad.mtrx15 <- matrix(0,nsteps,32)
+offe.mtrx16 <- matrix(0,nsteps,32)
+defe.mtrx16 <- matrix(0,nsteps,32)
+hoad.mtrx16 <- matrix(0,nsteps,32)
+offe.mtrx17 <- matrix(0,nsteps,32)
+defe.mtrx17 <- matrix(0,nsteps,32)
+hoad.mtrx17 <- matrix(0,nsteps,32)
+offe.mtrx18 <- matrix(0,nsteps,32)
+defe.mtrx18 <- matrix(0,nsteps,32)
+hoad.mtrx18 <- matrix(0,nsteps,32)
+offe.list <-list(offe.mtrx10,offe.mtrx11,offe.mtrx12,offe.mtrx13,offe.mtrx14,offe.mtrx15,offe.mtrx16,offe.mtrx17,offe.mtrx18)
+defe.list <-list(defe.mtrx10,defe.mtrx11,defe.mtrx12,defe.mtrx13,defe.mtrx14,defe.mtrx15,defe.mtrx16,defe.mtrx17,defe.mtrx18)
+hoad.list <-list(hoad.mtrx10,hoad.mtrx11,hoad.mtrx12,hoad.mtrx13,hoad.mtrx14,hoad.mtrx15,hoad.mtrx16,hoad.mtrx17,hoad.mtrx18)
+```
+
+```{r}
+#Run Metropolis-Hastings for each season, total 9 seasons to run
+#2019 season is already explored earlier
+for (k in 1:9){
+yr=k+2009
+NFL20102019 %>% filter(schedule_season==yr) -> NFLrun
+away.team <- double(length(NFLrun$team_home))
+home.team <- double(length(NFLrun$team_home))
+neutral.coef <- double(length(NFLrun$team_home))
+for (i in 1:length(NFLrun$team_home)){
+  away.team[i] = which(teamlist$Name==NFLrun$team_away[i])
+  home.team[i] = which(teamlist$Name==NFLrun$team_home[i])
+}
+neutral.coef <- ifelse(NFLrun$stadium_neutral=="FALSE",1,-1)
+#Number of steps
+nsteps = 100000
+
+#Three parameters, starting points quite different and arbitrary 
+#To avoid producing negative mean and standard deviation 
+#(quite tricky part here, may need advice)
+offe = rep(36, times=32) #Offense (omega)
+defe = rep(9, times=32) #Defense (delta)
+hoad = rep(4, times=32) #Home advantage (phi)
+
+#Markov chain + Metropolis-Hastings algorithm
+logprior = sum(
+            dgamma(offe,shape=6,scale=6, log=T),
+            dgamma(defe,shape=3,scale=3, log=T),
+            dgamma(hoad,shape=2,scale=2, log=T))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef))/(offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef)
+    away.beta = (56.9723+1.8107*(offe[away.team]-defe[home.team]-hoad[away.team]))/(offe[away.team]-defe[home.team]-hoad[away.team])
+    #Alpha=Mean/Beta
+    home.alpha = (offe[home.team]-defe[away.team]+hoad[home.team]*neutral.coef)/home.beta
+    away.alpha = (offe[away.team]-defe[home.team]-hoad[away.team])/away.beta
+loglikelihood = sum(
+                dgamma(NFLrun$score_home+1, 
+                       shape=home.alpha, scale=home.beta, log=T),
+                dgamma(NFLrun$score_away+1, 
+                       shape=away.alpha, scale=away.beta, log=T))
+logpost = logprior+loglikelihood
+
+  #Metropolis-Hastings algorithm
+  for (step in 1:nsteps){
+    eps.offe=0.3
+    eps.defe=0.3
+    eps.hoad=0.3
+    #Propose moves for 3 parameters
+    newoffe = offe+runif(32,-eps.offe,eps.offe)
+    newdefe = defe+runif(32,-eps.defe,eps.defe)
+    newhoad = hoad+runif(32,-eps.hoad,eps.hoad)
+  
+    #New prior, likelihood and posterior
+    newlogprior = sum(
+            dgamma(newoffe,shape=6,scale=6, log=T),
+            dgamma(newdefe,shape=3,scale=3, log=T),
+            dgamma(newhoad,shape=2,scale=2, log=T))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef))/(newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef)
+    away.beta = (56.9723+1.8107*(newoffe[away.team]-newdefe[home.team]-newhoad[away.team]))/(newoffe[away.team]-newdefe[home.team]-newhoad[away.team])
+    #Alpha=Mean/Beta
+    home.alpha = (newoffe[home.team]-newdefe[away.team]+newhoad[home.team]*neutral.coef)/home.beta
+    away.alpha = (newoffe[away.team]-newdefe[home.team]-newhoad[away.team])/away.beta
+    if (any(home.beta<=0) | any(away.beta<=0) | any(home.alpha<=0) | any(away.alpha<=0)){
+      acc = 0
+      offe.list[[k]][step,] = offe
+      defe.list[[k]][step,] = defe
+      hoad.list[[k]][step,] = hoad
+    } else {
+      newloglikelihood = sum(
+                dgamma(NFLrun$score_home+1, 
+                       shape=home.alpha, scale=home.beta, log=T),
+                dgamma(NFLrun$score_away+1, 
+                       shape=away.alpha, scale=away.beta, log=T))
+      newlogpost = newlogprior+newloglikelihood
+      acc = exp(min(0,newlogpost-logpost))
+      if (runif(1)<acc){
+        offe = newoffe
+        defe = newdefe
+        hoad = newhoad
+        logpost = newlogpost}
+        offe.list[[k]][step,] = offe
+        defe.list[[k]][step,] = defe
+        hoad.list[[k]][step,] = hoad
+    }
+  }
+}
+```
+
+Exploring seasonal changes in parameters of Eagles.
+
+```{r, fig.height=7, fig.width=6}
+#Extract Eagles parameters
+eagle.offe <- offe.list[[1]][,26]
+eagle.defe <- defe.list[[1]][,26]
+eagle.hoad <- hoad.list[[1]][,26]
+for (k in 2:9){
+  eagle.offe <- cbind(eagle.offe,offe.list[[k]][,26])
+  eagle.defe <- cbind(eagle.defe,defe.list[[k]][,26])
+  eagle.hoad <- cbind(eagle.hoad,hoad.list[[k]][,26])
+}
+eagle.offe <- cbind(eagle.offe,offe.mtrx[1:100000,26])
+eagle.defe <- cbind(eagle.defe,defe.mtrx[1:100000,26])
+eagle.hoad <- cbind(eagle.hoad,hoad.mtrx[1:100000,26])
+par(mfrow=c(3,1))
+boxplot(eagle.offe, names=c(2010:2019), main="Offense power of Eagles")
+boxplot(eagle.defe, names=c(2010:2019), main="Defense power of Eagles")
+boxplot(eagle.hoad, names=c(2010:2019), main="Home advantage of Eagles")
+```
+
+```{r}
+mean.offe.yrs <- matrix(0,10,32)
+mean.defe.yrs <- matrix(0,10,32)
+mean.hoad.yrs <- matrix(0,10,32)
+for (k in 1:9){
+mean.offe.yrs[k,] <- round(apply(offe.list[[k]],2,mean), digits=3)
+mean.defe.yrs[k,] <- round(apply(defe.list[[k]],2,mean), digits=3)
+mean.hoad.yrs[k,] <- round(apply(hoad.list[[k]],2,mean), digits=3)
+}
+mean.offe.yrs[10,] <- mean.offe
+mean.defe.yrs[10,] <- mean.defe
+mean.hoad.yrs[10,] <- mean.hoad
+```
+
+Perform autoregression on the parameters to predict their value in 2020.
+
+```{r}
+offe20 <- matrix(0,100000,32)
+defe20 <- matrix(0,100000,32)
+hoad20 <- matrix(0,100000,32)
+
+#Autoregression
+for (i in 1:32){
+AR <- ar.ols(mean.offe.yrs[,i], aic=F, order.max=1, demean=F, intercept=T)
+offe20[,i] = AR$x.intercept + mean.offe[i]*as.numeric(AR$ar) + rnorm(100000,mean=0,sd=sqrt(AR$var.pred))
+
+AR <- ar.ols(mean.defe.yrs[,i], aic=F, order.max=1, demean=F, intercept=T)
+defe20[,i] = AR$x.intercept + mean.defe[i]*as.numeric(AR$ar) + rnorm(100000,mean=0,sd=sqrt(AR$var.pred))
+
+AR <- ar.ols(mean.hoad.yrs[,i], aic=F, order.max=1, demean=F, intercept=T)
+hoad20[,i] = AR$x.intercept + mean.hoad[i]*as.numeric(AR$ar) + rnorm(100000,mean=0,sd=sqrt(AR$var.pred))
+}
+```
+
+Now check on Eagles' 2020 parameter prediction
+
+```{r, fig.height=7, fig.width=6}
+eagle.offe <- cbind(eagle.offe,offe20[,26])
+eagle.defe <- cbind(eagle.defe,defe20[,26])
+eagle.hoad <- cbind(eagle.hoad,hoad20[,26])
+par(mfrow=c(3,1))
+boxplot(eagle.offe, names=c(2010:2020), main="Offense power of Eagles")
+boxplot(eagle.defe, names=c(2010:2020), main="Defense power of Eagles")
+boxplot(eagle.hoad, names=c(2010:2020), main="Home advantage of Eagles")
+```
+
+Now predict 2020 season champion. Every run will start with picking a random value from the generated set from autoregression model to use for 2020 parameters and predictions, representing the existence of random white noise from the autoregression model.
+
+```{r}
+NFL2020b <- read_csv("C:/James Laptop/M.S. Applied Statistics/MAT 8410 Bayesian Statistics - Dr. Frey/Project/NFL2020.csv")
+away20 <- double(length(NFL2020b$team_home))
+home20 <- double(length(NFL2020b$team_home))
+neutral20 <- double(length(NFL2020b$team_home))
+for (i in 1:length(NFL2020b$team_home)){
+  away20[i] = which(teamlist$Name==NFL2020b$team_away[i])
+  home20[i] = which(teamlist$Name==NFL2020b$team_home[i])
+}
+neutral20 <- ifelse(NFL2020b$stadium_neutral=="FALSE",1,-1)
+sb.winningb=double(32)
+runs=10000
+
+for (i in 1:runs){
+para20.offe <- round(apply(offe20,2,function(x) sample(x,1)), digits=3)
+para20.defe <- round(apply(defe20,2,function(x) sample(x,1)), digits=3)
+para20.hoad <- round(apply(hoad20,2,function(x) sample(x,1)), digits=3)
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[home20]-para20.defe[away20]+para20.hoad[home20]*neutral20))/(para20.offe[home20]-para20.defe[away20]+para20.hoad[home20]*neutral20)
+    away.beta = (56.9723+1.8107*(para20.offe[away20]-para20.defe[home20]-para20.hoad[away20]))/(para20.offe[away20]-para20.defe[home20]-para20.hoad[away20])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[home20]-para20.defe[away20]+para20.hoad[home20]*neutral20)/home.beta
+    away.alpha = (para20.offe[away20]-para20.defe[home20]-para20.hoad[away20])/away.beta
+#Make score predictions
+NFL2020b$score_home = rgamma(length(NFL2020b$score_home), shape=home.alpha, scale=home.beta)
+NFL2020b$score_away = rgamma(length(NFL2020b$score_away), shape=away.alpha, scale=away.beta)
+#NFL2020b$score_home = floor(NFL2020b$score_home)
+#NFL2020b$score_away = floor(NFL2020b$score_away)
+
+#Standings for regular season
+Win_home=double(32)
+Win_away=double(32)
+Loss_home=double(32)
+Loss_away=double(32)
+Tie_home=double(32)
+Tie_away=double(32)
+for (y in 1:length(NFL2020b$score_home)){
+  Win_home[home20[y]]=Win_home[home20[y]]+ifelse(NFL2020b$score_home[y]>NFL2020b$score_away[y],1,0)
+  Loss_away[away20[y]]=Loss_away[away20[y]]+ifelse(NFL2020b$score_home[y]>NFL2020b$score_away[y],1,0)
+  Loss_home[home20[y]]=Loss_home[home20[y]]+ifelse(NFL2020b$score_home[y]<NFL2020b$score_away[y],1,0)
+  Win_away[away20[y]]=Win_away[away20[y]]+ifelse(NFL2020b$score_home[y]<NFL2020b$score_away[y],1,0)
+  Tie_home[home20[y]]=Tie_home[home20[y]]+ifelse(NFL2020b$score_home[y]==NFL2020b$score_away[y],1,0)
+  Tie_away[away20[y]]=Tie_away[away20[y]]+ifelse(NFL2020b$score_home[y]==NFL2020b$score_away[y],1,0)
+}
+Win=Win_home+Win_away
+Loss=Loss_home+Loss_away
+Tie=Tie_home+Tie_away
+Pct=round((Win*1+Loss*0+Tie*0.5)/16, digits=3)
+standing20b <- cbind(teamlist,Win,Loss,Tie,Pct)
+
+#Playoff season teams based on NFL rules
+standing20b %>% arrange(desc(Pct)) %>% select(-ID, -Abbreviation) %>%
+  group_by(Conference,Division) %>% slice(which.max(Pct)) %>% 
+  group_by(Conference) %>% 
+  mutate(Seed=rank(-Pct, ties.method="first")) -> topseed
+standing20b %>% arrange(desc(Pct)) %>% select(-ID, -Abbreviation) %>%
+  anti_join(topseed, by="Name") %>% group_by(Conference) %>% 
+  slice(1:3) %>%   
+  mutate(Seed=rank(-Pct, ties.method="first")+4) -> wildcard
+playoff.team <- rbind(topseed,wildcard)
+playoff.afc <- filter(playoff.team, Conference=="AFC")
+playoff.nfc <- filter(playoff.team, Conference=="NFC")
+
+#Wild-card round for AFC
+home.wc.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==2)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==3)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==4)]))
+away.wc.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==7)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==6)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==5)]))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[home.wc.afc]-para20.defe[away.wc.afc]+para20.hoad[home.wc.afc]))/(para20.offe[home.wc.afc]-para20.defe[away.wc.afc]+para20.hoad[home.wc.afc])
+    away.beta = (56.9723+1.8107*(para20.offe[away.wc.afc]-para20.defe[home.wc.afc]-para20.hoad[away.wc.afc]))/(para20.offe[away.wc.afc]-para20.defe[home.wc.afc]-para20.hoad[away.wc.afc])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[home.wc.afc]-para20.defe[away.wc.afc]+para20.hoad[home.wc.afc])/home.beta
+    away.alpha = (para20.offe[away.wc.afc]-para20.defe[home.wc.afc]-para20.hoad[away.wc.afc])/away.beta
+#Advancing teams
+results = rgamma(3, shape=home.alpha, scale=home.beta)>rgamma(3, shape=away.alpha, scale=away.beta)
+results = c(c(2,3,4)[results],c(7,6,5)[!results])
+
+#Divisional round for AFC
+home.div.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==1)]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==min(results))]))
+away.div.afc <- c(which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==max(results))]),which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==results[rank(results)==2])]))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[home.div.afc]-para20.defe[away.div.afc]+para20.hoad[home.div.afc]))/(para20.offe[home.div.afc]-para20.defe[away.div.afc]+para20.hoad[home.div.afc])
+    away.beta = (56.9723+1.8107*(para20.offe[away.div.afc]-para20.defe[home.div.afc]-para20.hoad[away.div.afc]))/(para20.offe[away.div.afc]-para20.defe[home.div.afc]-para20.hoad[away.div.afc])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[home.div.afc]-para20.defe[away.div.afc]+para20.hoad[home.div.afc])/home.beta
+    away.alpha = (para20.offe[away.div.afc]-para20.defe[home.div.afc]-para20.hoad[away.div.afc])/away.beta
+#Advancing teams
+results.div = rgamma(2, shape=home.alpha, scale=home.beta)>rgamma(2, shape=away.alpha, scale=away.beta)
+results.div = c(c(1,min(results))[results.div],c(max(results),results[rank(results)==2])[!results.div])
+
+#Conference round for AFC
+home.cof.afc <- c(max(results.div))
+away.cof.afc <- c(min(results.div))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[home.cof.afc]-para20.defe[away.cof.afc]+para20.hoad[home.cof.afc]))/(para20.offe[home.cof.afc]-para20.defe[away.cof.afc]+para20.hoad[home.cof.afc])
+    away.beta = (56.9723+1.8107*(para20.offe[away.cof.afc]-para20.defe[home.cof.afc]-para20.hoad[away.cof.afc]))/(para20.offe[away.cof.afc]-para20.defe[home.cof.afc]-para20.hoad[away.cof.afc])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[home.cof.afc]-para20.defe[away.cof.afc]+para20.hoad[home.cof.afc])/home.beta
+    away.alpha = (para20.offe[away.cof.afc]-para20.defe[home.cof.afc]-para20.hoad[away.cof.afc])/away.beta
+#Advancing teams
+results.cof.afc = ifelse(rgamma(1, shape=home.alpha, scale=home.beta)>rgamma(1, shape=away.alpha, scale=away.beta),max(results.div),min(results.div))
+sb.afc = which(teamlist$Name==playoff.afc$Name[which(playoff.afc$Seed==results.cof.afc)])
+
+#Now run the same procedures for NFC
+
+#Wild-card round for NFC
+home.wc.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==2)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==3)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==4)]))
+away.wc.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==7)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==6)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==5)]))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[home.wc.nfc]-para20.defe[away.wc.nfc]+para20.hoad[home.wc.nfc]))/(para20.offe[home.wc.nfc]-para20.defe[away.wc.nfc]+para20.hoad[home.wc.nfc])
+    away.beta = (56.9723+1.8107*(para20.offe[away.wc.nfc]-para20.defe[home.wc.nfc]-para20.hoad[away.wc.nfc]))/(para20.offe[away.wc.nfc]-para20.defe[home.wc.nfc]-para20.hoad[away.wc.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[home.wc.nfc]-para20.defe[away.wc.nfc]+para20.hoad[home.wc.nfc])/home.beta
+    away.alpha = (para20.offe[away.wc.nfc]-para20.defe[home.wc.nfc]-para20.hoad[away.wc.nfc])/away.beta
+#Advancing teams
+results = rgamma(3, shape=home.alpha, scale=home.beta)>rgamma(3, shape=away.alpha, scale=away.beta)
+results = c(c(2,3,4)[results],c(7,6,5)[!results])
+
+#Divisional round for NFC
+home.div.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==1)]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==min(results))]))
+away.div.nfc <- c(which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==max(results))]),which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==results[rank(results)==2])]))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[home.div.nfc]-para20.defe[away.div.nfc]+para20.hoad[home.div.nfc]))/(para20.offe[home.div.nfc]-para20.defe[away.div.nfc]+para20.hoad[home.div.nfc])
+    away.beta = (56.9723+1.8107*(para20.offe[away.div.nfc]-para20.defe[home.div.nfc]-para20.hoad[away.div.nfc]))/(para20.offe[away.div.nfc]-para20.defe[home.div.nfc]-para20.hoad[away.div.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[home.div.nfc]-para20.defe[away.div.nfc]+para20.hoad[home.div.nfc])/home.beta
+    away.alpha = (para20.offe[away.div.nfc]-para20.defe[home.div.nfc]-para20.hoad[away.div.nfc])/away.beta
+#Advancing teams
+results.div = rgamma(2, shape=home.alpha, scale=home.beta)>rgamma(2, shape=away.alpha, scale=away.beta)
+results.div = c(c(1,min(results))[results.div],c(max(results),results[rank(results)==2])[!results.div])
+
+#Conference round for NFC
+home.cof.nfc <- c(max(results.div))
+away.cof.nfc <- c(min(results.div))
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[home.cof.nfc]-para20.defe[away.cof.nfc]+para20.hoad[home.cof.nfc]))/(para20.offe[home.cof.nfc]-para20.defe[away.cof.nfc]+para20.hoad[home.cof.nfc])
+    away.beta = (56.9723+1.8107*(para20.offe[away.cof.nfc]-para20.defe[home.cof.nfc]-para20.hoad[away.cof.nfc]))/(para20.offe[away.cof.nfc]-para20.defe[home.cof.nfc]-para20.hoad[away.cof.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[home.cof.nfc]-para20.defe[away.cof.nfc]+para20.hoad[home.cof.nfc])/home.beta
+    away.alpha = (para20.offe[away.cof.nfc]-para20.defe[home.cof.nfc]-para20.hoad[away.cof.nfc])/away.beta
+#Advancing teams
+results.cof.nfc = ifelse(rgamma(1, shape=home.alpha, scale=home.beta)>rgamma(1, shape=away.alpha, scale=away.beta),max(results.div),min(results.div))
+sb.nfc = which(teamlist$Name==playoff.nfc$Name[which(playoff.nfc$Seed==results.cof.nfc)])
+
+#SUPERBOWL
+    #Beta=Variance/Mean
+    home.beta = (56.9723+1.8107*(para20.offe[sb.afc]-para20.defe[sb.nfc]-para20.hoad[sb.afc]))/(para20.offe[sb.afc]-para20.defe[sb.nfc]-para20.hoad[sb.afc])
+    away.beta = (56.9723+1.8107*(para20.offe[sb.nfc]-para20.defe[sb.afc]-para20.hoad[sb.nfc]))/(para20.offe[sb.nfc]-para20.defe[sb.afc]-para20.hoad[sb.nfc])
+    #Alpha=Mean/Beta
+    home.alpha = (para20.offe[sb.afc]-para20.defe[sb.nfc]-para20.hoad[sb.afc])/home.beta
+    away.alpha = (para20.offe[sb.nfc]-para20.defe[sb.afc]-para20.hoad[sb.nfc])/away.beta
+#Champion
+results.sb = ifelse(rgamma(1, shape=home.alpha, scale=home.beta)>rgamma(1, shape=away.alpha, scale=away.beta),sb.afc,sb.nfc)
+sb.winningb[results.sb] = sb.winningb[results.sb]+1
+}
+Pct.sbwinningb = round(sb.winningb/runs, digits=3)
+championsb <- cbind(teamlist$Name,sb.winningb,Pct.sbwinningb)
+View(championsb)
+```
+
+```{r, fig.height=7, fig.width=6}
+#Extract ravens parameters to compare with eagles, for presentation
+raven.offe <- offe.list[[1]][,3]
+raven.defe <- defe.list[[1]][,3]
+raven.hoad <- hoad.list[[1]][,3]
+for (k in 2:9){
+  raven.offe <- cbind(raven.offe,offe.list[[k]][,3])
+  raven.defe <- cbind(raven.defe,defe.list[[k]][,3])
+  raven.hoad <- cbind(raven.hoad,hoad.list[[k]][,3])
+}
+raven.offe <- cbind(raven.offe,offe.mtrx[1:100000,3])
+raven.defe <- cbind(raven.defe,defe.mtrx[1:100000,3])
+raven.hoad <- cbind(raven.hoad,hoad.mtrx[1:100000,3])
+par(mfrow=c(3,1))
+boxplot(raven.offe, names=c(2010:2019), main="Offense power of Ravens")
+boxplot(raven.defe, names=c(2010:2019), main="Defense power of Ravens")
+boxplot(raven.hoad, names=c(2010:2019), main="Home advantage of Ravens")
+```
